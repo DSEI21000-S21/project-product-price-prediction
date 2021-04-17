@@ -1,0 +1,1001 @@
+,train_id,name,upper_word_count,upper_char_count,bef_word_count,bef_char_count,stopword_count,punctuation_count,number_count,bef_avg_word_len,clean_name,aft_word_count,aft_char_count,aft_avg_word_len
+0,748447,Polaroid Camera,0,2,2,15,0,0,0,7.5,polaroid camera,2,15,7.5
+1,674932,Vintage Ashtray,0,2,2,15,0,0,0,7.5,vantage astray,2,14,7.0
+2,586672,Matilda Jane weekender nwt,0,2,4,26,0,0,0,6.5,manila jane weekend not,4,23,5.75
+3,846012,Red Full Lace Wig,0,4,4,17,0,0,0,4.25,red full lace wig,4,17,4.25
+4,1026408,EQUATE NICOTINE TRANSDERMAL SYSTEM,4,31,4,34,0,0,0,8.5,quite nicotine transdermal system,4,33,8.25
+5,752726,Scantrons 882-E Free Shipping,1,4,4,29,0,1,0,7.25,scantrons 882e free shipping,4,28,7.0
+6,1477709,Victoria's Secret Alabama sleep pants,0,3,5,37,0,1,0,7.4,victories secret alabama sleep parts,5,36,7.2
+7,20101,Puma toddler girls,0,1,3,18,0,0,0,6.0,pump toller girls,3,17,5.666666666666667
+8,711453,Black top,0,1,2,9,0,0,0,4.5,black top,2,9,4.5
+9,1240855,Gold & White Heart Mug,0,4,5,22,0,1,0,4.4,gold white heart mug,4,20,5.0
+10,834405,Express flip flops,0,1,3,18,0,0,0,6.0,express lip flaps,3,17,5.666666666666667
+11,961377,Headrest Mount for Tablets,0,3,4,26,1,0,0,6.5,nearest mount tablets,3,21,7.0
+12,653004,Bundle SciFi & Gizmo Lapel Pin for uges,0,6,8,39,1,1,0,4.875,bundle swift gizmo label pin ages,6,33,5.5
+13,85037,Sprint Htc one,0,2,3,14,0,0,0,4.666666666666667,spring etc one,3,14,4.666666666666667
+14,44256,Lularoe XS Irma Mickey Lularoe Logo Pink,1,8,7,40,0,0,0,5.714285714285714,lularoe is army picked lularoe log pink,7,39,5.571428571428571
+15,943804,Denver Broncos Origami Owl Like,0,5,5,31,0,0,0,6.2,denver bronzes origami owl like,5,31,6.2
+16,1265040,TARTE CURL BOSS,3,13,3,15,0,0,0,5.0,taste curl boss,3,15,5.0
+17,1284705,Eddie Bauer boys boots. Size 8.,0,3,6,31,0,2,0,5.166666666666667,eddies baker boys boots size 8,6,30,5.0
+18,1292898,VS PINK bling Zip up Hoodie,2,8,6,27,1,0,0,4.5,vs pink being zip hood,5,22,4.4
+19,1257768,Cute slip dress Halloween costume,0,2,5,33,0,0,0,6.6,cut slip dress halloween costume,5,32,6.4
+20,867901,Woman's clothing,0,1,2,16,0,1,0,8.0,woman clothing,2,14,7.0
+21,245064,NEW Victoria Secret Swimsuit Top sz L,2,8,7,37,0,0,0,5.285714285714286,new victoria secret swimsuit top s l,7,36,5.142857142857143
+22,900037,Pink Sherpa Pullover,0,3,3,20,0,0,0,6.666666666666667,pink sharp plover,3,17,5.666666666666667
+23,480518,Oshkosh size 5 brown toddler loafers,0,1,6,36,0,0,1,6.0,oshkosh size 5 brown toller loafer,6,34,5.666666666666667
+24,627503,Kate Spade cross body LIKE NEW,2,9,6,30,0,0,0,5.0,kate spade cross body like new,6,30,5.0
+25,804471,Fashion Nova Olive Set,0,4,4,22,0,0,0,5.5,fashion nova olive set,4,22,5.5
+26,963174,Guess Wide Calf Tall Boots Sz 9.5,0,6,7,33,0,1,0,4.714285714285714,guess wide calf tall boots s 95,7,31,4.428571428571429
+27,1268608,UGGS 6c,1,4,2,7,0,0,0,3.5,eggs c,2,6,3.0
+28,826580,Silver,0,1,1,6,0,0,0,6.0,silver,1,6,6.0
+29,448163,Katy Hearn Shirt,0,3,3,16,0,0,0,5.333333333333333,kate heard shirt,3,16,5.333333333333333
+30,514536,10 Womens Beige Tan Stacked Heels Shoes,0,6,7,39,0,0,1,5.571428571428571,10 women beige an stacked heels shoes,7,37,5.285714285714286
+31,93556,Lularoe TC,1,3,2,10,0,0,0,5.0,lularoe to,2,10,5.0
+32,709494,Vans Purple And Blue Ombre Shoes,0,6,6,32,1,0,0,5.333333333333333,van purple blue sombre shoes,5,28,5.6
+33,891499,Dermablend redness concealer,0,1,3,28,0,0,0,9.333333333333334,dermablend redness concealed,3,28,9.333333333333334
+34,1107436,Red Velvet 24hr Velvet Matte Lip Kit,0,6,7,36,0,0,0,5.142857142857143,red velvet 24hr velvet matter lip kit,7,37,5.285714285714286
+35,154727,Lego Series 13 Classic King Minifigure,0,5,6,38,0,0,1,6.333333333333333,leg series 13 classic king minifigure,6,37,6.166666666666667
+36,239817,Beauty Blender For Jesse1330,0,4,4,28,1,0,0,7.0,beauty slender jesse1330,3,24,8.0
+37,1261174,Blue and Green Chacos Size 8,0,4,6,28,1,0,1,4.666666666666667,blue green chaos size 8,5,23,4.6
+38,773081,Philadelphia Eagles Velcro Hat,0,4,4,30,0,0,0,7.5,philadelphia eagles velcro hat,4,30,7.5
+39,902498,Thirsties Hemp/Cotton Inserts,0,4,3,29,0,1,0,9.666666666666666,thirties hempcotton insects,3,27,9.0
+40,380003,Authentic Chanel scarf,0,2,3,22,0,0,0,7.333333333333333,authentic channel scarf,3,23,7.666666666666667
+41,1369883,H&M Gray Maternity Jeans,1,5,4,24,0,1,0,6.0,hm gray paternity jeans,4,23,5.75
+42,650392,(For Harley Quinn) Nautical bikini,0,4,5,34,0,2,0,6.8,harley quite nautical liking,4,28,7.0
+43,10729,Puppy/Kitty in my Pocket,0,3,4,24,2,1,0,6.0,puppykitty pocket,2,17,8.5
+44,235436,"BNWT LulaRoe OS leaf leggings, leaves",2,8,6,37,0,1,0,6.166666666666667,not lularoe os leaf leggings leaves,6,35,5.833333333333333
+45,280373,Bundle 2 x Xbox One Controller Battery,0,5,7,38,0,0,1,5.428571428571429,bundle 2 x box one controller battery,7,37,5.285714285714286
+46,176425,Japanese Vs Deck Mew 002,0,4,5,24,0,0,1,4.8,japanese vs deck me 002,5,23,4.6
+47,251857,Louis Vuitton wallet,0,2,3,20,0,0,0,6.666666666666667,louis button wallet,3,19,6.333333333333333
+48,1228755,Large LuLaRoe Classic T,1,6,4,23,1,0,0,5.75,large lularoe classic,3,21,7.0
+49,832268,Bride & groom shot glasses,0,1,5,26,0,1,0,5.2,bride groom shot glasses,4,24,6.0
+50,484407,Mommy and me leggings,0,1,4,21,2,0,0,5.25,mummy leggings,2,14,7.0
+51,932048,Fur Pom Pom keychain,0,3,4,20,0,0,0,5.0,fur pot pot keychain,4,20,5.0
+52,65167,NEAR-PERFECT! UGG Bailey Button boots,2,16,5,37,0,2,0,7.4,nearperfect ogg bailey button boots,5,35,7.0
+53,33437,BUNDLE for LETSHAVEFUN,2,17,3,22,1,0,0,7.333333333333333,bundle letshavefun,2,18,9.0
+54,186927,Velvet blazer,0,1,2,13,0,0,0,6.5,velvet blazed,2,13,6.5
+55,219953,iPhone 5S,1,2,2,9,0,0,0,4.5,phone is,2,8,4.0
+56,587597,Two belly button rings!,0,1,4,23,0,1,0,5.75,two belly button rings,4,22,5.5
+57,405493,Escada Perfume,0,2,2,14,0,0,0,7.0,escape perfume,2,14,7.0
+58,218156,Hat ecko for men,0,1,4,16,1,0,0,4.0,hat echo men,3,12,4.0
+59,65800,Ralph Lauren Mens long sleeve polo shirt,0,3,7,40,0,0,0,5.714285714285714,ralph laurel men long sleeve pool shirt,7,39,5.571428571428571
+60,1345491,Crimson Cherry #33 Lip Gloss,0,4,5,28,0,1,0,5.6,crimson cherry 33 lip gloss,5,27,5.4
+61,172441,PENDING PURCHASE (more in my listings),2,15,6,38,2,2,0,6.333333333333333,pending purchase listing,3,24,8.0
+62,350773,NWT nude mesh sequin tutu dress,1,3,6,31,0,0,0,5.166666666666667,not rude mesh sequel tut dress,6,30,5.0
+63,508930,Clam with pearl Alex & Ani,0,3,6,26,1,1,0,4.333333333333333,calm pearl flex and,4,19,4.75
+64,279402,Pink crowl sweater,0,1,3,18,0,0,0,6.0,pink crowd sweeter,3,18,6.0
+65,1436500,"4.25"" Donut Glass Pipe",0,3,4,22,0,2,0,5.5,425 dont glass pipe,4,19,4.75
+66,811061,Sequin Plus Blouse,0,3,3,18,0,0,0,6.0,sequel plus louse,3,17,5.666666666666667
+67,505710,Vintage Mom Jeans,0,3,3,17,0,0,0,5.666666666666667,vantage mon jeans,3,17,5.666666666666667
+68,274101,Gold Bracelet 10K *Interlocking Links*,1,5,5,38,0,2,0,7.6,gold bracelets ask interlocking links,5,37,7.4
+69,752224,Deluxe mystery slime bundle,0,1,4,27,0,0,0,6.75,deluge mystery slime bundle,4,27,6.75
+70,987515,SALE Michael Kors Satchel,1,7,4,25,0,0,0,6.25,sale michael hors satchels,4,26,6.5
+71,1419909,3 Nike pro short spandex compression,0,1,6,36,0,0,1,6.0,3 like pro short spade compression,6,34,5.666666666666667
+72,616259,(sm) Olive Floral midi dress w/ pockets,0,2,7,39,0,3,0,5.571428571428571,s olive flora mid dress w pockets,7,33,4.714285714285714
+73,957262,Fossil Watch,0,2,2,12,0,0,0,6.0,fossil watch,2,12,6.0
+74,784271,Amethist gemstone ring,0,1,3,22,0,0,0,7.333333333333333,amethyst redstone ring,3,22,7.333333333333333
+75,503980,4 pieces for Amanda,0,1,4,19,1,0,1,4.75,4 pieces mania,3,14,4.666666666666667
+76,929466,Chase spy gru Funko pop,0,2,5,23,0,0,0,4.6,chase spy grm funke pop,5,23,4.6
+77,1056566,Cynthia Rowley size 2T dress,1,3,5,28,0,0,0,5.6,scythia role size it dress,5,26,5.2
+78,838597,Left 4 Dead 2 Xbox 360 Game,0,4,7,27,0,0,3,3.857142857142857,left 4 dead 2 box 360 game,7,26,3.7142857142857144
+79,97563,Marc Jacobs Daisy Dream,0,4,4,23,0,0,0,5.75,mary jacob daisy dream,4,22,5.5
+80,1451668,MARILYN MONROE NECKLACE SET,4,24,4,27,0,0,0,6.75,marion monroe necklace set,4,26,6.5
+81,1317245,American Girl Hospital Gowns,0,4,4,28,0,0,0,7.0,american girl hospital gowns,4,28,7.0
+82,609291,Infant Jordan Booties,0,3,3,21,0,0,0,7.0,infant jordan dooties,3,21,7.0
+83,86459,Diaper bundle,0,1,2,13,0,0,0,6.5,dinner bundle,2,13,6.5
+84,820710,TOOFACED NWT BULLETPROOF BROWS,4,27,4,30,0,0,0,7.5,toofaced not bulletproof brows,4,30,7.5
+85,1125127,Bracelets,0,1,1,9,0,0,0,9.0,bracelet,1,8,8.0
+86,724265,PINK Sweatpants!,1,5,2,16,0,1,0,8.0,pink sweatpants,2,15,7.5
+87,63054,Bikini XS-Small,0,4,2,15,0,1,0,7.5,liking small,2,12,6.0
+88,59229,Younique Addiction Palette 1,0,3,4,28,0,0,1,7.0,unique addition palate 1,4,24,6.0
+89,972209,Kentucky shirts,0,1,2,15,0,0,0,7.5,kentucky shirts,2,15,7.5
+90,1025226,Blendercleanser Solid 1 oz. Solid,0,3,5,33,0,1,1,6.6,blendercleanser solid 1 oz solid,5,32,6.4
+91,102097,Black/red polka dot infant holiday dress,0,1,6,40,0,1,0,6.666666666666667,blocked polk dot infant holiday dress,6,37,6.166666666666667
+92,813672,NWT Nike Sportswear Rally hoodie sm,1,6,6,35,0,0,0,5.833333333333333,not like sportswear rally hood s,6,32,5.333333333333333
+93,294351,North face junior puffer jacket,0,1,5,31,0,0,0,6.2,north face junior suffer jacket,5,31,6.2
+94,85694,Secret Womens Perfume,0,3,3,21,0,0,0,7.0,secret women perfume,3,20,6.666666666666667
+95,1359726,J Crew Pullover,1,3,3,15,0,0,0,5.0,j crew plover,3,13,4.333333333333333
+96,522644,BNWT XS ACID WASH CARLY,5,19,5,23,0,0,0,4.6,not is acid wash early,5,22,4.4
+97,928092,Tortoise Gold Clear Rim Glasses,0,5,5,31,0,0,0,6.2,tortoise gold clear rim glasses,5,31,6.2
+98,935963,NEW Ratchet and Clank PS4 Game,2,8,6,30,1,0,0,5.0,new hatchet clank is game,5,25,5.0
+99,929451,Rayban Aviators,0,2,2,15,0,0,0,7.5,ryazan agitators,2,16,8.0
+100,73736,Iphone 4,0,1,2,8,0,0,1,4.0,phone 4,2,7,3.5
+101,746479,Red Heart Buttercup Yarn 4 Skeins,0,5,6,33,0,0,1,5.5,red heart buttercup yarn 4 skins,6,32,5.333333333333333
+102,680579,RARE COACH LEGACY GARCIA LEATHER BAG,6,31,6,36,0,0,0,6.0,rare coach legacy fascia leather bag,6,36,6.0
+103,635686,Foxy and Snuggles Jelly Bear Squishy Set,0,6,7,40,1,0,0,5.714285714285714,foxy struggles jelly bear squishy set,6,37,6.166666666666667
+104,1476664,Gears of war Xbox 360 and games,0,2,7,31,2,0,1,4.428571428571429,years war box 360 games,5,23,4.6
+105,3293,"The Very 1st Black Series Wave 1, 2013",0,5,8,38,2,1,1,4.75,st black series wave 1 2013,6,27,4.5
+106,784897,Pandora charm,0,1,2,13,0,0,0,6.5,candor charm,2,12,6.0
+107,268731,Wen cleansing conditioner/smoothing glos,0,1,4,40,0,1,0,10.0,wen cleansing conditionersmoothing glow,4,39,9.75
+108,539832,iPhone 7 plus glitter soft case,0,1,6,31,0,0,1,5.166666666666667,phone 7 plus glitter soft case,6,30,5.0
+109,1361741,Disney Pajamas,0,2,2,14,0,0,0,7.0,dinner panama,2,13,6.5
+110,709753,Sold to AmbeeMill,0,3,3,17,1,0,0,5.666666666666667,sold ambeemill,2,14,7.0
+111,1024904,"Melissa & Doug Flower Bead Set, NEW",1,8,7,35,0,2,0,5.0,melissa dog flower bead set new,6,31,5.166666666666667
+112,889235,150 YUGIOH CARDS BOX LOT,4,17,5,24,0,0,1,4.8,150 yugioh cards box lot,5,24,4.8
+113,24539,Ben Nye Powder + Beauty Blender,0,5,6,31,0,1,0,5.166666666666667,ben eye powder beauty slender,5,29,5.8
+114,1114942,⚡️Michael Kors⚡️NWT,0,5,2,19,0,0,0,9.5,⚡️michael hors⚡️not,2,19,9.5
+115,270553,Jordan R's For Malik,0,4,4,20,1,1,0,5.0,jordan is talk,3,14,4.666666666666667
+116,133592,Japanese Snacky Snacks Bundle WYSIWYG,1,11,5,37,0,0,0,7.4,japanese snacks snacks bundle wysiwyg,5,37,7.4
+117,93095,Jean leggings size 11,0,1,4,21,0,0,1,5.25,jean leggings size 11,4,21,5.25
+118,195271,Infant Jordan SC-1,1,4,3,18,0,1,0,6.0,infant jordan sca,3,17,5.666666666666667
+119,926015,Passion perfume,0,1,2,15,0,0,0,7.5,passion perfume,2,15,7.5
+120,133068,10k solid gold,0,0,3,14,0,0,0,4.666666666666667,ask solid gold,3,14,4.666666666666667
+121,781354,Bundle for Blessie!,0,2,3,19,1,1,0,6.333333333333333,bundle blessing,2,15,7.5
+122,1165336,New Era Fitted,0,3,3,14,0,0,0,4.666666666666667,new era fitted,3,14,4.666666666666667
+123,942286,Jordan Chicago bulls swingman jersey L,1,3,6,38,0,0,0,6.333333333333333,jordan chicago balls swingman jersey l,6,38,6.333333333333333
+124,280316,Color EYES,1,5,2,10,0,0,0,5.0,color eyes,2,10,5.0
+125,1305005,Pink Tulle Skirt,0,3,3,16,0,0,0,5.333333333333333,pink tell skirt,3,15,5.0
+126,685868,My charge portable charger,0,1,4,26,1,0,0,6.5,charge portable charge,3,22,7.333333333333333
+127,969207,"""Imperfectly perfect"" white shirt",0,1,4,33,0,2,0,8.25,imperfectly perfect white shirt,4,31,7.75
+128,1286405,Authentic Pandora love letter charm,0,2,5,35,0,0,0,7.0,authentic candor love letter charm,5,34,6.8
+129,436476,Rae Dunn BLOOM birdhouse,1,7,4,24,0,0,0,6.0,are dung bloom birdhouse,4,24,6.0
+130,1335430,iPhone 6 Plus Defender Case,0,4,5,27,0,0,1,5.4,phone 6 plus defender case,5,26,5.2
+131,1016907,Stampin Up Mini Mates Rubber Stamps,0,6,6,35,1,0,0,5.833333333333333,stamping mind mates rubber stamps,5,33,6.6
+132,315985,Tarte Blending Sponge,0,3,3,21,0,0,0,7.0,taste blending sponge,3,21,7.0
+133,1085617,Chin rest for Violin,0,2,4,20,1,0,0,5.0,chin rest violin,3,16,5.333333333333333
+134,1285229,ON HOLD Pink cheetah dog shirt pant,2,7,7,35,1,0,0,5.0,hold pink cheetah dog shirt part,6,32,5.333333333333333
+135,1084305,Live a balanced life bracelet,0,1,5,29,1,0,0,5.8,live balanced life bracelets,4,28,7.0
+136,1001252,Jessie James Decker Kittenish Waffle PJS,1,8,6,40,0,0,0,6.666666666666667,sessile james hecker kittenish wattle pus,6,41,6.833333333333333
+137,240784,NEW FIDGET HAND SPINNER DESK TOY CUBE,7,31,7,37,0,0,0,5.285714285714286,new finger hand sinner desk toy cure,7,36,5.142857142857143
+138,363307,AG doll hooded sweatshirt,1,2,4,25,0,0,0,6.25,a doll hooded sweatshirt,4,24,6.0
+139,1406077,Guitar Hero Bundle,0,3,3,18,0,0,0,6.0,guitar hero bundle,3,18,6.0
+140,853126,Pineapple decal,0,1,2,15,0,0,0,7.5,pineapple deal,2,14,7.0
+141,1250876,Mewtwo Base 2 Pokemon Card Holo Rare,0,6,7,36,0,0,1,5.142857142857143,mewtwo base 2 poleon card hold rare,7,35,5.0
+142,461077,Maurices XL lace up top,1,3,5,23,1,0,0,4.6,maurice ll lace top,4,19,4.75
+143,303045,25 Olay Regenerist Face Moisturizer NEW,1,7,6,39,0,0,1,6.5,25 lay regenerist face moisturizer new,6,38,6.333333333333333
+144,240320,ALCO INDUSTRIES Apple Garden ceramic NEW,3,19,6,40,0,0,0,6.666666666666667,also industries apple garden chromic new,6,40,6.666666666666667
+145,1062059,Lilly Pulitzer Starfish bangle,0,3,4,30,0,0,0,7.5,silly pulitzer starwise angle,4,29,7.25
+146,463234,Belly casting kit,0,1,3,17,0,0,0,5.666666666666667,belly casting kit,3,17,5.666666666666667
+147,109453,Disney cars blue Dinico truck hauler,0,2,6,36,0,0,0,6.0,dinner cars blue dining truck haulers,6,37,6.166666666666667
+148,1104125,Pyrex 473-B & 474-B Bowl Set,2,5,6,28,0,3,0,4.666666666666667,pure 473b 474b bowl set,5,23,4.6
+149,1073865,Ecko Jacket,0,2,2,11,0,0,0,5.5,echo jacket,2,11,5.5
+150,1368199,Minaregina's Bundle,0,2,2,19,0,1,0,9.5,minareginas bundle,2,18,9.0
+151,779070,Stride Rite Boys Brown Leather shoes S 6,1,6,8,40,1,0,1,5.0,stride rite boys brown leather shoes 6,7,38,5.428571428571429
+152,1373514,Lularoe Classic Tee,0,3,3,19,0,0,0,6.333333333333333,lularoe classic the,3,19,6.333333333333333
+153,1346245,Funko Pop Eleven Bundle,0,4,4,23,0,0,0,5.75,funke pop eleven bundle,4,23,5.75
+154,1272147,Polo Ralph Lauren men's wallet -hold,0,3,6,36,0,2,0,6.0,pool ralph laurel men wallet hold,6,33,5.5
+155,256530,Youth Under Armour Sweatpants,0,4,4,29,1,0,0,7.25,youth armour sweatpants,3,23,7.666666666666667
+156,1140870,VS Pink shirt,1,3,3,13,0,0,0,4.333333333333333,vs pink shirt,3,13,4.333333333333333
+157,969308,Womens Fur Slides Size 7/8/9/10/11/12/13,0,4,5,40,0,6,0,8.0,women fur sides size 78910111213,5,32,6.4
+158,323478,Vineyard vines swim trunks,0,1,4,26,0,0,0,6.5,vineyards vines swim trunks,4,27,6.75
+159,502434,New 6 pk Under Armour girls headbands,0,3,7,37,1,0,1,5.285714285714286,new 6 pp armour girls headbands,6,31,5.166666666666667
+160,951248,Rae Dunn Grandma,0,3,3,16,0,0,0,5.333333333333333,are dung grand,3,14,4.666666666666667
+161,1314451,FRYE burgundy leather dalia loafers,1,4,5,35,0,0,0,7.0,frye burgundy leather daily loafer,5,34,6.8
+162,242301,Oakland Raiders throwback Jersey XL,1,5,5,35,0,0,0,7.0,oakland riders throwback jersey ll,5,34,6.8
+163,661397,Computer Parts,0,2,2,14,0,0,0,7.0,computer parts,2,14,7.0
+164,62014,Tarte Pretty Paintbox Makeup Case,0,5,5,33,0,0,0,6.6,taste pretty paintbox make case,5,31,6.2
+165,525363,LARGE VS PINK BOYSHORTS,4,20,4,23,0,0,0,5.75,large vs pink boyshorts,4,23,5.75
+166,518891,Iphone apple dust plug,0,1,4,22,0,0,0,5.5,phone apple dust plug,4,21,5.25
+167,568395,VS PINK MAROON BURGUNDY BEANIE HAT,6,29,6,34,0,0,0,5.666666666666667,vs pink maroon burgundy blaine hat,6,34,5.666666666666667
+168,142242,Barbie Fashionista New in box,0,3,5,29,1,0,0,5.8,bare fashionista new box,4,24,6.0
+169,1472010,Reserved Herringbone Crop Size 10,0,4,5,33,0,0,1,6.6,reserved herringbone crop size 10,5,33,6.6
+170,116351,Authentic Kate spade purse/crosssbody,0,2,4,37,0,1,0,9.25,authentic kate spade pursecrosssbody,4,36,9.0
+171,680530,50 pairs Toddler girl socks age 2-3,0,1,7,35,0,1,1,5.0,50 pairs toller girl socks age 23,7,33,4.714285714285714
+172,119147,NEW Magic Perfecting Face Primer x 2,1,7,7,36,0,0,1,5.142857142857143,new magic perfecting face prime x 2,7,35,5.0
+173,669287,"10k white gold 16"" chain",0,0,5,24,0,1,0,4.8,ask white gold 16 chain,5,23,4.6
+174,1377240,Nike training flex supreme TR3,1,3,5,30,0,0,0,6.0,like training flex supreme try,5,30,6.0
+175,749047,"Baby girl overalls, zara leggings bundle",0,1,6,40,0,1,0,6.666666666666667,baby girl overalls vara leggings bundle,6,39,6.5
+176,287320,Vs pink bling yoga pants,0,1,5,24,0,0,0,4.8,vs pink being you parts,5,23,4.6
+177,157234,H&M Women's shoes,1,3,3,17,0,2,0,5.666666666666667,hm women shoes,3,14,4.666666666666667
+178,746487,Urban decay naked skin finishing powder,0,1,6,39,0,0,0,6.5,urban decay naked skin finishing powder,6,39,6.5
+179,1220953,Pink full zip hoodie L,1,2,5,22,0,0,0,4.4,pink full zip hood l,5,20,4.0
+180,1323944,***Bundle for Loveofbags***,0,2,3,27,1,6,0,9.0,bundle loveofbags,2,17,8.5
+181,569540,35 XL Assorted Polymailers,1,4,4,26,0,0,1,6.5,35 ll asserted polymailers,4,26,6.5
+182,893345,Funko Pop! Rubber Man!,0,4,4,22,0,2,0,5.5,funke pop rubber man,4,20,5.0
+183,241994,SUPREME UZI GUN NECKLACE WITH CHAIN,6,30,6,35,1,0,0,5.833333333333333,supreme i gun necklace chain,5,28,5.6
+184,1383188,Black holographic side tie rave shorts,0,1,6,38,0,0,0,6.333333333333333,black photographic side tie have short,6,38,6.333333333333333
+185,733384,New Smashbox BB water foundation-light,1,4,5,38,0,1,0,7.6,new cashbox by water foundationlight,5,36,7.2
+186,606199,charger,0,0,1,7,0,0,0,7.0,charge,1,6,6.0
+187,432512,Becca Highlighter Amethyst,0,3,3,26,0,0,0,8.666666666666666,bench highlight amethyst,3,24,8.0
+188,84136,Cricut tools & case,0,1,4,19,0,1,0,4.75,cricket tools case,3,18,6.0
+189,809385,Speechless FloralWatercolor Halter Dress,0,5,4,40,0,0,0,10.0,speechless floralwatercolor halted dress,4,40,10.0
+190,784667,Super cute watch ! FREE SHIPPING!,2,13,6,33,0,2,0,5.5,super cut watch free shipping,5,29,5.8
+191,242105,Fisher Price Think & Learn Codeapillar!,0,5,6,39,0,2,0,6.5,fishes price think learn codeapillar,5,36,7.2
+192,940147,Nails polish rack,0,1,3,17,0,0,0,5.666666666666667,nails polish rack,3,17,5.666666666666667
+193,901968,SALE Urban Decay Eyeshadow Purple Flash,1,9,6,39,0,0,0,6.5,sale urban decay eyeshadow purple flash,6,39,6.5
+194,321943,Michael Kors Shoulder Bags,0,4,4,26,0,0,0,6.5,michael hors shoulder bags,4,26,6.5
+195,152577,Baby Gap dress,0,2,3,14,0,0,0,4.666666666666667,baby gap dress,3,14,4.666666666666667
+196,453168,Frankies bikinis camilla one piece,0,1,5,34,0,0,0,6.8,francis bikinis axilla one piece,5,32,6.4
+197,829722,NWT PurpHaze Triangle Bikini Top,1,8,5,32,0,0,0,6.4,not purchase triangle liking top,5,32,6.4
+198,856866,"Under Armour Mens loose fit Pants, med.",0,4,7,39,1,2,0,5.571428571428571,armour men loose fit parts med,6,30,5.0
+199,957858,2 Apple Charger & 1 12w Cube,0,3,7,28,0,1,2,4.0,2 apple charge 1 now cure,6,25,4.166666666666667
+200,1450055,Hasbro Family Fun Pack - Xbox One,0,6,7,33,0,1,0,4.714285714285714,harbor family fun pack box one,6,30,5.0
+201,123989,Younique Touch Liquid Foundation,0,4,4,32,0,0,0,8.0,unique touch liquid foundation,4,30,7.5
+202,378578,Tarte Foundation,0,2,2,16,0,0,0,8.0,taste foundation,2,16,8.0
+203,1087346,Aaron RODGERS Shirt Jersey,1,10,4,26,0,0,0,6.5,aaron rogers shirt jersey,4,25,6.25
+204,946669,Jolyn Bottom (European Style),0,4,4,29,0,2,0,7.25,john bottom european style,4,26,6.5
+205,101203,Teal sheer blouse - L bundled,1,2,6,29,0,1,0,4.833333333333333,tell sheer louse l bundles,5,26,5.2
+206,609413,"Air jordan 6 ""infrared"" size 10",0,1,6,31,0,2,2,5.166666666666667,air jordan 6 inflamed size 10,6,29,4.833333333333333
+207,288893,SHOCK TOP BELGIAN WHITE TALL BEER GLASS,7,33,7,39,0,0,0,5.571428571428571,shock top belgian white tall beer glass,7,39,5.571428571428571
+208,36463,Rae Dunn Cookies,0,3,3,16,0,0,0,5.333333333333333,are dung colonies,3,17,5.666666666666667
+209,1076405,Lululemon Swiftly Tech SS Dark Forest 10,1,7,7,40,0,0,1,5.714285714285714,lululemon swiftly teach is dark forest 10,7,41,5.857142857142857
+210,177610,5/8g rose quartz stone tear drop plugs,0,0,7,38,0,1,0,5.428571428571429,fig rose quart stone tear drop plugs,7,36,5.142857142857143
+211,552644,big teddy bear!,0,0,3,15,0,1,0,5.0,big teddy bear,3,14,4.666666666666667
+212,695067,Superman px previews new 52 funko pop,0,1,7,37,0,0,1,5.285714285714286,sherman pp reviews new 52 funke pop,7,35,5.0
+213,707245,Light blue game boy with pokemon,0,1,6,32,1,0,0,5.333333333333333,light blue game boy poleon,5,26,5.2
+214,249670,Wig- Ash Blonde Straight Hair Extension,0,6,6,39,0,1,0,6.5,wig ash blonde straight hair extension,6,38,6.333333333333333
+215,637065,LuLaRoe Madison (XS),1,6,3,20,0,2,0,6.666666666666667,lularoe madison is,3,18,6.0
+216,918871,Lularoe OS Cactus Leggings on Black HTF,2,9,7,39,1,0,0,5.571428571428571,lularoe os cactus leggings black utf,6,36,6.0
+217,911268,Pink Fidget Spinner,0,3,3,19,0,0,0,6.333333333333333,pink finger sinner,3,18,6.0
+218,985514,Huge boys 3m sleeper bundle,0,1,5,27,0,0,0,5.4,huge boys am sleeper bundle,5,27,5.4
+219,218413,Antique Elgin Wristwatch 1912 size 5/0,0,3,6,38,0,1,1,6.333333333333333,antique plain wristwatch 1912 size 50,6,37,6.166666666666667
+220,976041,Disney monsters inc,0,1,3,19,0,0,0,6.333333333333333,dinner monsters in,3,18,6.0
+221,520831,Victoria Secret Bra Set,0,4,4,23,0,0,0,5.75,victoria secret bar set,4,23,5.75
+222,1135220,Jordan's 7 Hare size 6,0,2,5,22,0,1,2,4.4,jordan 7 hare size 6,5,20,4.0
+223,1378587,Red PowerBeats 2!!,0,3,3,18,0,2,0,6.0,red powerbeats 2,3,16,5.333333333333333
+224,1063616,14k Gold CZ Cross Stud Earrings,1,6,6,31,0,0,0,5.166666666666667,ask gold c cross stud earrings,6,30,5.0
+225,417608,Fashion nova jeans,0,1,3,18,0,0,0,6.0,fashion nova jeans,3,18,6.0
+226,235100,Dawson's Creek Complete DVD Series,1,7,5,34,0,1,0,6.8,dawson creek complete did series,5,32,6.4
+227,826068,Llama Alpaca flats,0,2,3,18,0,0,0,6.0,blame alpha flats,3,17,5.666666666666667
+228,91117,X2 6ft 2mm original apple chargers,1,1,6,34,0,0,0,5.666666666666667,x oft mmm original apple charges,6,32,5.333333333333333
+229,1208684,Black Ugg boots size 7 FREE SHIPPING,2,14,7,36,0,0,1,5.142857142857143,black ogg boots size 7 free shipping,7,36,5.142857142857143
+230,1392496,One Size NWOT LLR leggings,2,9,5,26,0,0,0,5.2,one size not ll leggings,5,24,4.8
+231,1166410,White shelves,0,1,2,13,0,0,0,6.5,white shelves,2,13,6.5
+232,1297509,VS Pink Yankees tee,1,4,4,19,0,0,0,4.75,vs pink yankees the,4,19,4.75
+233,967396,Mac cosmetics velvet teddy fragrance new,0,1,6,40,0,0,0,6.666666666666667,mac cosmetic velvet teddy fragrance new,6,39,6.5
+234,1225826,Samantha only,0,1,2,13,1,0,0,6.5,samantha,1,8,8.0
+235,808149,New Cricut Favorites Cartridge Free Ship,0,6,6,40,0,0,0,6.666666666666667,new cricket favorites cartridge free ship,6,41,6.833333333333333
+236,1346239,Salmon Hollister short sleeve hoodie,0,2,5,36,0,0,0,7.2,salmon hollister short sleeve hood,5,34,6.8
+237,1301202,PINK Cropped Workout Yoga Pants,1,8,5,31,0,0,0,6.2,pink cropped lookout you parts,5,30,6.0
+238,882810,Boys Size 3 6 months Rompers,0,3,6,28,0,0,2,4.666666666666667,boys size 3 6 months gompers,6,28,4.666666666666667
+239,823550,Victoria secret tote,0,1,3,20,0,0,0,6.666666666666667,victoria secret tone,3,20,6.666666666666667
+240,1358616,The Sims 4 Get To Work,0,5,6,22,2,0,1,3.6666666666666665,aims 4 get work,4,15,3.75
+241,392015,VS PINK tee,2,6,3,11,0,0,0,3.6666666666666665,vs pink the,3,11,3.6666666666666665
+242,125882,Aeries underwear,0,1,2,16,0,0,0,8.0,series underwear,2,16,8.0
+243,1022104,Milani Face Primer Bundle,0,4,4,25,0,0,0,6.25,milan face prime bundle,4,23,5.75
+244,328657,BBW 8 Piece Lot of Deep Cleansing Soap,1,8,8,38,1,0,1,4.75,bow 8 piece lot deep cleansing soap,7,35,5.0
+245,498408,25 Mixed Designs 10x13 Poly Mailers,0,4,6,35,0,0,1,5.833333333333333,25 mixed designs 10x13 poly matters,6,35,5.833333333333333
+246,55232,Fitbit Alta Gold,0,3,3,16,0,0,0,5.333333333333333,fitbit altar gold,3,17,5.666666666666667
+247,678313,Two white throw pillows,0,1,4,23,0,0,0,5.75,two white throw pillows,4,23,5.75
+248,135832,Penthouse two piece,0,1,3,19,0,0,0,6.333333333333333,penthouse two piece,3,19,6.333333333333333
+249,1227120,Diana,0,1,1,5,0,0,0,5.0,diana,1,5,5.0
+250,86816,Girld youth Adidas shoes,0,2,4,24,0,0,0,6.0,girl youth aides shoes,4,22,5.5
+251,379870,Jordans,0,1,1,7,0,0,0,7.0,jordan,1,6,6.0
+252,1069896,Pixie bundle,0,1,2,12,0,0,0,6.0,pirie bundle,2,12,6.0
+253,262477,Thirty-One Mini Zipper Pouch,0,5,4,28,0,1,0,7.0,thirtyone mind nipper pouch,4,27,6.75
+254,623592,New Electric Warmer Imagine Dream Believ,0,6,6,40,0,0,0,6.666666666666667,new electric warmer imagine dream believe,6,41,6.833333333333333
+255,1427753,Bundle of Pjs [Free Ship],0,4,5,25,1,2,0,5.0,bundle pus free ship,4,20,5.0
+256,836851,Bundle for Chloe,0,2,3,16,1,0,0,5.333333333333333,bundle whole,2,12,6.0
+257,965619,Hollister high waisted jean jeggings,0,1,5,36,0,0,0,7.2,hollister high waisted jean leggings,5,36,7.2
+258,852079,Eeyore Scrub Top,0,3,3,16,0,0,0,5.333333333333333,before scrub top,3,16,5.333333333333333
+259,225738,Lularoe S olive geeen joy,1,2,5,25,1,0,0,5.0,lularoe olive green joy,4,23,5.75
+260,711580,Jordache jeans,0,1,2,14,0,0,0,7.0,jordache jeans,2,14,7.0
+261,1237152,Brand New Pokémon B&W Game Art Folio,1,8,7,36,0,1,0,5.142857142857143,brand new pokémon by game art folio,7,35,5.0
+262,366774,Minnie Mouse big tsum tsum plushie,0,2,6,34,0,0,0,5.666666666666667,minute mouse big sum sum plush,6,30,5.0
+263,578657,REI sleep pad,1,3,3,13,0,0,0,4.333333333333333,red sleep pad,3,13,4.333333333333333
+264,59239,sunflower boho shorts,0,0,3,21,0,0,0,7.0,sunflower oho short,3,19,6.333333333333333
+265,1123024,Nyx jumbo eye pencil,0,1,4,20,0,0,0,5.0,ny lumbo eye pencil,4,19,4.75
+266,1081985,Emoji/colorful rain mobile phone grips,0,1,5,38,0,1,0,7.6,emojicolorful rain mobile phone grip,5,36,7.2
+267,319699,Iphone 5 FOR PARTS,2,9,4,18,1,0,1,4.5,phone 5 parts,3,13,4.333333333333333
+268,1368204,Carhartt Scrub top,0,2,3,18,0,0,0,6.0,carhartt scrub top,3,18,6.0
+269,184616,Honest company diapers,0,1,3,22,0,0,0,7.333333333333333,honest company papers,3,21,7.0
+270,216969,Beautiful tapestry,0,1,2,18,0,0,0,9.0,beautiful tapestry,2,18,9.0
+271,709451,GK leotards,1,2,2,11,0,0,0,5.5,go leopard,2,10,5.0
+272,824536,Tinkerbell DVD,1,4,2,14,0,0,0,7.0,tinkerbell did,2,14,7.0
+273,363265,Saints Row 2 Xbox 360,0,3,5,21,0,0,2,4.2,saints row 2 box 360,5,20,4.0
+274,186236,Kendra Scott Pink Flora Earrings,0,5,5,32,0,0,0,6.4,tendre scott pink flora earrings,5,32,6.4
+275,925886,Scentsy bars jade,0,1,3,17,0,0,0,5.666666666666667,scent bars made,3,15,5.0
+276,233943,Halloween Lularoe Leggings,0,3,3,26,0,0,0,8.666666666666666,halloween lularoe leggings,3,26,8.666666666666666
+277,520862,New Nintendo 3DS XL Animal Crossing,2,8,6,35,0,0,0,5.833333333333333,new intend was ll animal crossing,6,33,5.5
+278,292840,Authentic Michael Kors handbag,0,3,4,30,0,0,0,7.5,authentic michael hors sandbag,4,30,7.5
+279,117477,Bvlgari Au the blanc,0,2,4,20,1,0,0,5.0,bulgaria au bland,3,17,5.666666666666667
+280,1480533,Disturbia DVD,1,4,2,13,0,0,0,6.5,disturbed did,2,13,6.5
+281,425850,Shopkins carrying case,0,1,3,22,0,0,0,7.333333333333333,hopkins carrying case,3,21,7.0
+282,1202473,Silky PJs,0,3,2,9,0,0,0,4.5,silk pus,2,8,4.0
+283,1316608,Brand New Kids S/M Lularoe Leggings,1,7,6,35,0,1,0,5.833333333333333,brand new kiss s lularoe leggings,6,33,5.5
+284,264742,Deletta Braided Top,0,3,3,19,0,0,0,6.333333333333333,delete braided top,3,18,6.0
+285,1142581,Authentic LV- Pochette Croissant,1,5,4,32,0,1,0,8.0,authentic ll pashette croissant,4,31,7.75
+286,229223,Bisou Bisou Tank Top,0,4,4,20,0,0,0,5.0,bijou bijou tank top,4,20,5.0
+287,1405921,NWT white love culture body suit,1,3,6,32,0,0,0,5.333333333333333,not white love culture body suit,6,32,5.333333333333333
+288,571687,Toy Story Alien Building Block Set,0,6,6,34,0,0,0,5.666666666666667,toy story alien building block set,6,34,5.666666666666667
+289,283071,"Mountain Hardware - Women's Softshell, S",1,5,6,40,1,3,0,6.666666666666667,mountain hardware women softshell,4,33,8.25
+290,990679,Play condition Toms 4T,1,3,4,22,0,0,0,5.5,play condition toes it,4,22,5.5
+291,1031150,Aerie sweater,0,1,2,13,0,0,0,6.5,erie sweeter,2,12,6.0
+292,722791,Samsung S7 Edge clear/pink Otterbox,1,4,5,35,0,1,0,7.0,samson s edge clearing otterbox,5,31,6.2
+293,619857,Make Up Forever Primer,0,4,4,22,1,0,0,5.5,make forever prime,3,18,6.0
+294,817027,FREE SHIPPINGG BOYS TEARS IPHONE CASE,6,32,6,37,0,0,0,6.166666666666667,free shipping boys tears phone case,6,35,5.833333333333333
+295,1177669,Sweat pants,0,1,2,11,0,0,0,5.5,sweat parts,2,11,5.5
+296,349178,9 LA girl concealers,1,2,4,20,0,0,1,5.0,9 la girl concealed,4,19,4.75
+297,674029,Bunny assortment,0,1,2,16,0,0,0,8.0,funny assortment,2,16,8.0
+298,1355991,New Victoria secret pink leggings,0,2,5,33,0,0,0,6.6,new victoria secret pink leggings,5,33,6.6
+299,1093949,Bella breast and butt enhancer,0,1,5,30,1,0,0,6.0,bell breast butt enhanced,4,25,6.25
+300,956055,Golf wang tshirt freeship medium,0,1,5,32,0,0,0,6.4,golf want shirt freesoil medium,5,31,6.2
+301,1370408,NWOT Jordan Baby Romper Sz 12 Mo,1,9,7,32,0,0,1,4.571428571428571,not jordan baby romper s 12 mo,7,30,4.285714285714286
+302,811500,North Face 3-in-1,0,2,3,17,0,2,0,5.666666666666667,north face in,3,13,4.333333333333333
+303,856452,C Shape Toilet Paper Holder,1,5,5,27,0,0,0,5.4,c shape toilet paper holder,5,27,5.4
+304,1289678,Mac Studio Fix Foundation,0,4,4,25,0,0,0,6.25,mac studio fix foundation,4,25,6.25
+305,824812,BEAUTY BLENDER!,2,13,2,15,0,1,0,7.5,beauty slender,2,14,7.0
+306,438042,Puma Suede,0,2,2,10,0,0,0,5.0,pump swede,2,10,5.0
+307,920723,"Natural & expresso, color LA GIRL PRO HD",4,12,8,40,0,2,0,5.0,natural express color la girl pro he,7,36,5.142857142857143
+308,432858,Levi's high waisted shorts,0,1,4,26,0,1,0,6.5,lewis high waisted short,4,24,6.0
+309,953884,Mama and Little Teething Necklace,0,4,5,33,1,0,0,6.6,mamma little seething necklace,4,30,7.5
+310,297731,2 bottles of Blackhead Remover Gel Mask,0,4,7,39,1,0,1,5.571428571428571,2 bottles blockhead removed get mask,6,36,6.0
+311,909605,Nike oreo roshe run,0,1,4,19,0,0,0,4.75,like orel rose run,4,18,4.5
+312,1102677,Deb & Wet Seal Tube Dresses,0,5,6,27,0,1,0,4.5,de wet seal tube dresses,5,24,4.8
+313,1174990,Men's Rock Revival Shorts Size 34,0,5,6,33,0,1,1,5.5,men rock revival short size 34,6,30,5.0
+314,607941,AE Soft & Sexy Long Sleeve Henley T XXL,3,11,9,39,1,1,0,4.333333333333333,a soft sex long sleeve henry xx,7,31,4.428571428571429
+315,842983,Converse shoes,0,1,2,14,0,0,0,7.0,converse shoes,2,14,7.0
+316,66107,Thirty-One Tote/Gym Bag,0,5,3,23,0,2,0,7.666666666666667,thirtyone totegym bag,3,21,7.0
+317,420714,Guardians of the galaxy bundle,0,1,5,30,2,0,0,6.0,guardians galaxy bundle,3,23,7.666666666666667
+318,146944,Kylie Jenner Grey Hoodie,0,4,4,24,0,0,0,6.0,lie venner grey hood,4,20,5.0
+319,813009,Reclining Adjustable High Chair,0,4,4,31,0,0,0,7.75,reclining adjustable high chair,4,31,7.75
+320,889738,Nuna pipa car seat base,0,1,5,23,0,0,0,4.6,nun pipe car seat base,5,22,4.4
+321,627243,TC XL Soft Sueded Leggings,2,7,5,26,0,0,0,5.2,to ll soft seemed leggings,5,26,5.2
+322,877314,[rm] Chris 3-D whitening strips,1,2,5,31,0,3,0,6.2,am chris d whitening strips,5,27,5.4
+323,1439421,Gymboree NWT,1,4,2,12,0,0,0,6.0,gymboree not,2,12,6.0
+324,761279,Three 14g tongue rings,0,1,4,22,0,0,0,5.5,three fig tongue rings,4,22,5.5
+325,685610,Black Airmax,0,2,2,12,0,0,0,6.0,black airmax,2,12,6.0
+326,1436648,Ibd Gel Polish Bundle,0,4,4,21,0,0,0,5.25,bid get polish bundle,4,21,5.25
+327,1015977,Silver Ring,0,2,2,11,0,0,0,5.5,silver ring,2,11,5.5
+328,684029,2 Pack Self Adhesive Push-up Bra Cup C,1,7,8,38,0,1,1,4.75,2 pack self adhesive pushed bar cup c,8,37,4.625
+329,380384,Baby girl outfit,0,1,3,16,0,0,0,5.333333333333333,baby girl outfit,3,16,5.333333333333333
+330,410604,Ambient Lighting powder,0,2,3,23,0,0,0,7.666666666666667,absent lighting powder,3,22,7.333333333333333
+331,1258842,Flaming Hot Cheetos,0,3,3,19,0,0,0,6.333333333333333,flaming hot cheeks,3,18,6.0
+332,556463,2x Fidget Spinners,0,2,3,18,0,0,0,6.0,x finger spinners,3,17,5.666666666666667
+333,1150041,Vintage Jade Solid 14K gold bracelet old,1,4,7,40,0,0,0,5.714285714285714,vantage made solid ask gold bracelets old,7,41,5.857142857142857
+334,1247175,Men's Polo Ralph Lauren Crew Neck Shirt,0,7,7,39,0,1,0,5.571428571428571,men pool ralph laurel crew neck shirt,7,37,5.285714285714286
+335,1199532,Maurice's gaucho capris! Size 1,0,2,5,31,0,2,1,6.2,maurice gaucho carts size 1,5,27,5.4
+336,1017543,Flannel T-shirt Dress,0,3,3,21,0,1,0,7.0,flannel shirt dress,3,19,6.333333333333333
+337,95583,Too Faced Melted Matte Bundle,0,5,5,29,1,0,0,5.8,faced melted matter bundle,4,26,6.5
+338,1216883,Triple Bonus!!!! Soft leggings w 2 Lace,0,4,7,39,0,4,1,5.571428571428571,triple bonus soft leggings w 2 lace,7,35,5.0
+339,261159,Kay's Sterling Heart Silver Necklace,0,5,5,36,0,1,0,7.2,days sterling heart silver necklace,5,35,7.0
+340,840404,Peachy Keen (2 oz),0,2,4,18,0,2,0,4.5,pachy keen 2 oz,4,15,3.75
+341,734469,Grey LaFemme prom dress two piece,0,3,6,33,0,0,0,5.5,grey femme from dress two piece,6,31,5.166666666666667
+342,1048098,Free ship VS halter bra,1,3,5,23,0,0,0,4.6,free ship vs halted bar,5,23,4.6
+343,374426,Nail stick on strips,0,1,4,20,1,0,0,5.0,nail stick strips,3,17,5.666666666666667
+344,863442,Owlet Smart Sock 2,0,3,4,18,0,0,1,4.5,let smart sock 2,4,16,4.0
+345,258226,AMERICAN EAGLE skinny jeans 2,2,13,5,29,0,0,1,5.8,american eagle skinny jeans 2,5,29,5.8
+346,298980,2 Pairs of OS Lularoe Leggings,1,5,6,30,1,0,1,5.0,2 pairs os lularoe leggings,5,27,5.4
+347,500458,Michael Kors Heels size 8.5,0,3,5,27,0,1,0,5.4,michael hors heels size 85,5,26,5.2
+348,540462,New VS Pink Nation 2 Pairs Socks,1,7,7,32,0,0,1,4.571428571428571,new vs pink nation 2 pairs socks,7,32,4.571428571428571
+349,1283400,Proactiv Deep Cleaning Brush,0,4,4,28,0,0,0,7.0,proactiv deep cleaning brush,4,28,7.0
+350,999369,Benefit Hello flawless beige and honey,0,2,6,38,1,0,0,6.333333333333333,benefit hello lawless beige honey,5,33,6.6
+351,90470,LG Stylo 2 Hybrid Case Hot Pink,1,7,7,31,0,0,1,4.428571428571429,ll style 2 horrid case hot pink,7,31,4.428571428571429
+352,876118,Black KT tape,1,3,3,13,0,0,0,4.333333333333333,black it tape,3,13,4.333333333333333
+353,1338854,EUC Victoria Secret's bra size 36 C,2,6,7,35,0,1,1,5.0,etc victoria secrets bar size 36 c,7,34,4.857142857142857
+354,929932,American apparel ombre tennis skirt S,1,2,6,37,1,0,0,6.166666666666667,american apparel sombre tennis skirt,5,36,7.2
+355,572417,bibs and hats,0,0,3,13,1,0,0,4.333333333333333,ribs hats,2,9,4.5
+356,791964,Adidas tennis shoes 6.5,0,1,4,23,0,1,0,5.75,aides tennis shoes 65,4,21,5.25
+357,290977,Paws Patrol On The Go Trio Lip Keychain,0,8,8,39,2,0,0,4.875,paws patrol go trip lip keychain,6,32,5.333333333333333
+358,1328729,YETI 20 oz !!!! PURPLE,2,10,5,22,0,4,1,4.4,yet 20 oz purple,4,16,4.0
+359,811098,Black Suede Sorel Boots 9,0,4,5,25,0,0,1,5.0,black swede sore boots 9,5,24,4.8
+360,1064980,Hollister size 0 short shorts,0,1,5,29,0,0,1,5.8,hollister size 0 short short,5,28,5.6
+361,1289168,Lularoe TC leggings new,1,3,4,23,0,0,0,5.75,lularoe to leggings new,4,23,5.75
+362,202255,Converse,0,1,1,8,0,0,0,8.0,converse,1,8,8.0
+363,440883,Free ship Colorpop matte liquid lipstick,0,2,6,40,0,0,0,6.666666666666667,free ship colorpop matter liquid lipstick,6,41,6.833333333333333
+364,289052,LIPSENSE (BLU_RED),2,14,2,18,0,3,0,9.0,license lured,2,13,6.5
+365,376688,Old Navy Girls 4T Pants and shirt,1,5,7,33,1,0,0,4.714285714285714,old navy girls it parts shirt,6,29,4.833333333333333
+366,619799,GUC Under Armour tee shirt,1,5,5,26,1,0,0,5.2,gun armour the shirt,4,20,5.0
+367,301260,Rock revival boot cut size 26,0,1,6,29,0,0,1,4.833333333333333,rock revival boot cut size 26,6,29,4.833333333333333
+368,628565,ON SALE!! Bluetooth shower speaker,2,7,5,34,1,2,0,6.8,sale bluetooth shower speaker,4,29,7.25
+369,1098680,Oribe Wave And Shine Spray,0,5,5,26,1,0,0,5.2,tribe wave shine spray,4,22,5.5
+370,1410870,Black Duck Boots,0,3,3,16,0,0,0,5.333333333333333,black duck boots,3,16,5.333333333333333
+371,1171211,LuLaRoe small Madison skirt,0,4,4,27,0,0,0,6.75,lularoe small madison skirt,4,27,6.75
+372,119224,Huda Beauty,0,2,2,11,0,0,0,5.5,had beauty,2,10,5.0
+373,1454641,Reserved :) Lularoe Tall and Curvy Moon,0,5,7,39,1,2,0,5.571428571428571,reserved lularoe tall curly moon,5,32,6.4
+374,528155,Huge 31 Sesame Street Toys & Figures Lot,0,6,8,40,0,1,1,5.0,huge 31 sesame street toys figures lot,7,38,5.428571428571429
+375,1263169,Kidzshopz bundle,0,1,2,16,0,0,0,8.0,kidzshopz bundle,2,16,8.0
+376,92037,American fighter size m,0,1,4,23,1,0,0,5.75,american fighter size,3,21,7.0
+377,17756,ipod Touch (4th gen.),0,1,4,21,0,3,0,5.25,upon touch th gen,4,17,4.25
+378,805411,9 natural skin care mask nice,0,0,6,29,0,0,1,4.833333333333333,9 natural skin care mask nice,6,29,4.833333333333333
+379,948108,Captain America shield fidget Spinner,0,3,5,37,0,0,0,7.4,captain america shield finger sinner,5,36,7.2
+380,130917,Sharp Wall Clock,0,3,3,16,0,0,0,5.333333333333333,sharp wall clock,3,16,5.333333333333333
+381,685413,Rock revivals,0,1,2,13,0,0,0,6.5,rock revival,2,12,6.0
+382,1454948,PINK hoodie,1,4,2,11,0,0,0,5.5,pink hood,2,9,4.5
+383,1116119,Nike wemon Luna running,0,2,4,23,0,0,0,5.75,like lemon lung running,4,23,5.75
+384,708681,GAP black Moto boots. Size 5 toddler,1,5,7,36,0,1,1,5.142857142857143,gap black motor boots size 5 toller,7,35,5.0
+385,456316,Wwe British bulldog,0,2,3,19,0,0,0,6.333333333333333,we british bulldog,3,18,6.0
+386,747384,LARGE UA HOODIE MEN NWT,5,19,5,23,0,0,0,4.6,large a hood men not,5,20,4.0
+387,615816,Hand made sailor moon rave bra 34dd,0,1,7,35,0,0,0,5.0,hand made sailor moon have bar add,7,34,4.857142857142857
+388,468871,VS Pink Strappy Logo Thongs Set of 2,1,7,8,36,1,0,1,4.5,vs pink strap log things set 2,7,30,4.285714285714286
+389,1427336,Large - Peach Jersey Top,0,4,5,24,0,1,0,4.8,large each jersey top,4,21,5.25
+390,441713,GRID,1,4,1,4,0,0,0,4.0,grid,1,4,4.0
+391,637960,Vineyard Vines Polo,0,3,3,19,0,0,0,6.333333333333333,vineyards vines pool,3,20,6.666666666666667
+392,158796,NWOT Ralph Lauren Pencil Skirt,1,8,5,30,0,0,0,6.0,not ralph laurel pencil skirt,5,29,5.8
+393,440699,Hookah pen,0,1,2,10,0,0,0,5.0,hook pen,2,8,4.0
+394,1174243,STILA MATTE AND METAL/ACTLIKEALADY,4,30,4,34,1,1,0,8.5,still matter metalactlikealady,3,30,10.0
+395,498949,YOGA MAT,2,7,2,8,0,0,0,4.0,you mat,2,7,3.5
+396,218299,Jamberry Collection And Fan,0,4,4,27,1,0,0,6.75,jamberry collection fan,3,23,7.666666666666667
+397,1429526,Milwaukee Drill Set. Hammer And Impact,0,6,6,38,1,1,0,6.333333333333333,milwaukee drill set hammer impact,5,33,6.6
+398,1038069,Gray handbag,0,1,2,12,0,0,0,6.0,gray sandbag,2,12,6.0
+399,1317420,Indonesian Wood Hoop Earrings,0,4,4,29,0,0,0,7.25,indonesian wood hood earrings,4,29,7.25
+400,1385358,Daiso soft clay,0,1,3,15,0,0,0,5.0,daisy soft clay,3,15,5.0
+401,1296772,RadioShack Pink Aux Cord,0,5,4,24,0,0,0,6.0,radioshack pink aux cord,4,24,6.0
+402,730853,ChicWish Floral Maxi With Belt,0,6,5,30,1,0,0,6.0,childish flora maxim belt,4,25,6.25
+403,1448503,Authentic Pandora Charms,0,3,3,24,0,0,0,8.0,authentic candor charms,3,23,7.666666666666667
+404,579425,Ps2 Prince of Persia game,0,3,5,25,1,0,0,5.0,is prince persia game,4,21,5.25
+405,764705,Sparkly Case,0,2,2,12,0,0,0,6.0,sparkle case,2,12,6.0
+406,809171,Lilly putlizer shirt,0,1,3,20,0,0,0,6.666666666666667,silly putlizer shirt,3,20,6.666666666666667
+407,980266,Purple lululemon run inspire pants sz 4,0,1,7,39,0,0,1,5.571428571428571,purple lululemon run inspire parts s 4,7,38,5.428571428571429
+408,584542,A bugs life Disney Pixar,1,3,5,24,1,0,0,4.8,bags life dinner pair,4,21,5.25
+409,1199004,Brown & Red Toms Bundled,0,4,5,24,0,1,0,4.8,brown red toes bundles,4,22,5.5
+410,365468,****RESERVED FOR MEL****,3,14,3,24,1,8,0,8.0,reserved me,2,11,5.5
+411,327237,Girl shoe bundle,0,1,3,16,0,0,0,5.333333333333333,girl shoe bundle,3,16,5.333333333333333
+412,426479,VS PINK COWL ULTIMATE LEGGING SET NEW,7,31,7,37,0,0,0,5.285714285714286,vs pink coal ultimate begging set new,7,37,5.285714285714286
+413,1317554,Victoria's Secret Bikini tops,0,3,4,29,0,1,0,7.25,victories secret liking tops,4,28,7.0
+414,154655,Open cardigan woman size xl,0,1,5,27,0,0,0,5.4,open cardiac woman size ll,5,26,5.2
+415,590316,LULAROE Lindsay cardigans -lot of TWO- L,3,12,7,40,1,2,0,5.714285714285714,lularoe linsey cardigans lot two l,6,34,5.666666666666667
+416,990686,iPhone 6 Plus,0,2,3,13,0,0,1,4.333333333333333,phone 6 plus,3,12,4.0
+417,1380936,WWE 2K14 Game,2,5,3,13,0,0,0,4.333333333333333,we 2k14 game,3,12,4.0
+418,411259,Tshirt dress with pockets size medium,0,1,6,37,1,0,0,6.166666666666667,shirt dress pockets size medium,5,31,6.2
+419,577169,BARRON'S AP English Language Prep Book,2,13,6,38,0,1,0,6.333333333333333,barron a english language rep book,6,34,5.666666666666667
+420,321383,"Waossino ,women's swimwear",0,1,3,26,0,2,0,8.666666666666666,waossino women swimmer,3,22,7.333333333333333
+421,925762,Big soft power puff girls blanket,0,1,6,33,0,0,0,5.5,big soft power puff girls blanket,6,33,5.5
+422,829438,Room Essentials Queen Duvet Cover,0,5,5,33,0,0,0,6.6,room essentials queen due cover,5,31,6.2
+423,1248333,Contour Power Bundle,0,3,3,20,0,0,0,6.666666666666667,contour power bundle,3,20,6.666666666666667
+424,293198,Boho Backpack,0,2,2,13,0,0,0,6.5,oho backpack,2,12,6.0
+425,1200668,For Paola AJar,0,4,3,14,1,0,0,4.666666666666667,paula ajar,2,10,5.0
+426,1071319,Pink Baby Tutu,0,3,3,14,0,0,0,4.666666666666667,pink baby tut,3,13,4.333333333333333
+427,1236239,Brand New Rubik's Cube,0,4,4,22,0,1,0,5.5,brand new rubles cure,4,21,5.25
+428,730849,Kids' All Camo Hiker Hunting Boots,0,6,6,34,1,1,0,5.666666666666667,kiss came her hunting boots,5,27,5.4
+429,797785,Amethyst druzy cluster #3,0,1,4,25,0,1,0,6.25,amethyst duty cluster 3,4,23,5.75
+430,736828,PS4 Nadeshot Scuf Controller,1,5,4,28,0,0,0,7.0,is nadeshot scut controller,4,27,6.75
+431,7074,3 strawberry Shisha hooka pens,0,1,5,30,0,0,1,6.0,3 strawberry swish hook pens,5,28,5.6
+432,1173350,S/M Leggings Reserved Ashbender,1,5,4,31,0,1,0,7.75,s leggings reserved ashbender,4,29,7.25
+433,233681,Bath & Body Works Winter Candy Apple Set,0,7,8,40,0,1,0,5.0,bath body works winter candy apple set,7,38,5.428571428571429
+434,185385,Striped Hello/Goodbye Panda Top,0,5,4,31,0,1,0,7.75,striped hellogoodbye and top,4,28,7.0
+435,1091944,NWT Lularoe 3XL Floral Dipped Amelia,2,9,6,36,0,0,0,6.0,not lularoe all flora dipped camelia,6,36,6.0
+436,918419,✨LAST ONE✨Medium V-neckChiffonBlackDress,1,12,3,40,0,1,0,13.333333333333334,✨last one✨medium vneckchiffonblackdress,3,39,13.0
+437,490628,Micro foam balls/beads,0,1,3,22,0,1,0,7.333333333333333,micro foam ballsbeads,3,21,7.0
+438,781759,Champion Michael Jordan Jersey,0,4,4,30,0,0,0,7.5,champion michael jordan jersey,4,30,7.5
+439,1283947,BUNDLE 2 THONGS S NWT,4,16,5,21,1,0,1,4.2,bundle 2 things not,4,19,4.75
+440,835992,2 Form Fitting Zipper Dresses for [rm],0,4,7,38,1,2,1,5.428571428571429,2 form fitting nipper dresses am,6,32,5.333333333333333
+441,1169717,Bundle,0,1,1,6,0,0,0,6.0,bundle,1,6,6.0
+442,630745,Euc os lularoe unicorn Dalhia leggings,0,2,6,38,0,0,0,6.333333333333333,etc os lularoe unicorn delhi leggings,6,37,6.166666666666667
+443,1244917,"Stussy ""Skull Death"" Long Sleeve",0,5,5,32,0,2,0,6.4,study skull death long sleeve,5,29,5.8
+444,359423,Pretty Odd CD Panic! at the Disco,1,6,7,33,2,1,0,4.714285714285714,pretty odd d panic disco,5,24,4.8
+445,250683,Cubs Rizzo Tshirt XL,1,5,4,20,0,0,0,5.0,cubs rico shirt ll,4,18,4.5
+446,1288665,NEW blue dolman top/ dress,1,3,5,26,0,1,0,5.2,new blue woman top dress,5,24,4.8
+447,584300,Ahhh sugar sugar je'taime meringue,0,1,5,34,0,1,0,6.8,ah sugar sugar teatime meringue,5,31,6.2
+448,75478,Urban Decay: Eyeshadow,0,3,3,22,0,1,0,7.333333333333333,urban decay eyeshadow,3,21,7.0
+449,1157178,Lot of 4 shorts. 3 Nike & 1 champion L,1,3,10,38,1,2,3,3.8,lot 4 short 3 like 1 champion l,8,31,3.875
+450,800378,DELICIOUS DISNEY HOLIDAYS COOKBOOK RARE,5,35,5,39,0,0,0,7.8,delicious dinner holidays cookbook rare,5,39,7.8
+451,1001550,Loot crate bundle for dustin,0,1,5,28,1,0,0,5.6,loot crate bundle dusting,4,25,6.25
+452,98187,Men's Nike NY Yankee collared shirt sz L,2,6,8,40,0,1,0,5.0,men like ny yankee cleared shirt s l,8,36,4.5
+453,1430902,2 pairs: Black and grey,0,1,5,23,1,1,1,4.6,2 pairs black grey,4,18,4.5
+454,1183173,Hollister 0/24 Midrise Distressed Shorts,0,4,5,40,0,1,0,8.0,hollister 024 midwife distressed short,5,38,7.6
+455,83461,Gap fleece pants,0,1,3,16,0,0,0,5.333333333333333,gap fleecy parts,3,16,5.333333333333333
+456,1335885,Hollister Cold Shoulder Crop Top,0,5,5,32,0,0,0,6.4,hollister cold shoulder crop top,5,32,6.4
+457,416980,Wrangler cargo shorts,0,1,3,21,0,0,0,7.0,wrangled cargo short,3,20,6.666666666666667
+458,442760,WWE Authentic Replica Belt with Watch!,1,7,6,38,1,1,0,6.333333333333333,we authentic replied belt watch,5,31,6.2
+459,499988,Baby Girl Pajamas,0,3,3,17,0,0,0,5.666666666666667,baby girl panama,3,16,5.333333333333333
+460,975360,LULAROE ❤OS CAMO LEGGINGS❤HELD GIUSELLE,5,33,5,39,0,0,0,7.8,lularoe ❤os came leggings❤held giuselle,5,39,7.8
+461,693865,Thrasher/HUF Hoodie Mens Large,0,7,4,30,0,1,0,7.5,thrasherhuf hood men large,4,26,6.5
+462,312417,Yeti Tumbler,0,2,2,12,0,0,0,6.0,yet tumbler,2,11,5.5
+463,694121,Huge scrapbook lot for Melissa,0,2,5,30,1,0,0,6.0,huge scrapbook lot melissa,4,26,6.5
+464,889787,Urban decay vice,0,1,3,16,0,0,0,5.333333333333333,urban decay vice,3,16,5.333333333333333
+465,897044,Vs Mist Eau So Sexy,0,5,5,19,1,0,0,3.8,vs mist eau sex,4,15,3.75
+466,46471,Carlos Santana's Knee high brown boots,0,3,6,38,0,1,0,6.333333333333333,carlo santanas knee high brown boots,6,36,6.0
+467,383910,Bundle Of 3 University Of Hawaii Tees,0,6,7,37,2,0,1,5.285714285714286,bundle 3 university hawaii trees,5,32,6.4
+468,74163,Lululemon rare mesh inspire tight II,1,3,6,36,0,0,0,6.0,lululemon rare mesh inspire tight ii,6,36,6.0
+469,510468,Nike sweatshirt men's size XL,1,3,5,29,0,1,0,5.8,like sweatshirt men size ll,5,27,5.4
+470,1058790,Sundress,0,1,1,8,0,0,0,8.0,undress,1,7,7.0
+471,1435527,☆Model Co Highlighting Trio,0,4,4,27,0,0,0,6.75,☆model co highlighting trip,4,27,6.75
+472,779163,Jansport Full Size Backpack,0,4,4,27,0,0,0,6.75,transport full size backpack,4,28,7.0
+473,353617,64GB iPhone 6 Space Grey (No Screen),1,7,7,36,0,2,1,5.142857142857143,64gb phone 6 space grey screen,6,30,5.0
+474,276753,Tide pods X2,1,2,3,12,0,0,0,4.0,tide pads x,3,11,3.6666666666666665
+475,1077236,Set of 4 pieces- Carter's dragon pj's,0,2,7,37,1,3,1,5.285714285714286,set 4 pieces carters dragon pus,6,31,5.166666666666667
+476,1295996,#1 WATERPROOF Case iPhone 6/6s Authenti,1,13,6,39,0,2,0,6.5,1 waterproof case phone was authentic,6,37,6.166666666666667
+477,1251074,Ka-bar tdi law enforcement knife,0,1,5,32,0,1,0,6.4,labor ti law enforcement knife,5,30,6.0
+478,637659,Gold Oversized Circle Clear Glasses,0,5,5,35,0,0,0,7.0,gold oversized circle clear glasses,5,35,7.0
+479,1207428,Discounted Dream Matte powder,0,3,4,29,0,0,0,7.25,dismounted dream matter powder,4,30,7.5
+480,1451208,American horror story season 1-5,0,1,5,32,0,1,0,6.4,american horror story season 15,5,31,6.2
+481,386403,Pier 1 Picture Frames,0,3,4,21,0,0,1,5.25,pier 1 picture frames,4,21,5.25
+482,178845,Thrive level for women DFT,1,4,5,26,1,0,0,5.2,thrive level women oft,4,22,5.5
+483,1374267,LuLaRoe OS leggings NWT,2,8,4,23,0,0,0,5.75,lularoe os leggings not,4,23,5.75
+484,492055,Supreme new era red headband,0,1,5,28,0,0,0,5.6,supreme new era red headband,5,28,5.6
+485,577725,LC Lauren Conrad,1,4,3,16,0,0,0,5.333333333333333,ll laurel cord,3,14,4.666666666666667
+486,937331,"Samsung wireless charging pad for s6,s7",0,1,6,39,1,1,0,6.5,samson tireless charging pad sash,5,33,6.6
+487,712903,Hollister long sleeve,0,1,3,21,0,0,0,7.0,hollister long sleeve,3,21,7.0
+488,1223966,Ps3 UfC 2010,0,3,3,12,0,0,1,4.0,is of 2010,3,10,3.3333333333333335
+489,1007523,3 PC-Wall Decor Mirror Set,0,6,5,26,0,1,1,5.2,3 call door mirror set,5,22,4.4
+490,69594,Medium Scrub Pant And Shirt,0,5,5,27,1,0,0,5.4,medium scrub part shirt,4,23,5.75
+491,1267986,Brand New Morphe Brushes,0,4,4,24,0,0,0,6.0,brand new more brushes,4,22,5.5
+492,481723,Snoopy Pop Vinyl,0,3,3,16,0,0,0,5.333333333333333,snowy pop final,3,15,5.0
+493,825275,Limited Edition PINK Winter Hat,1,8,5,31,0,0,0,6.2,limited edition pink winter hat,5,31,6.2
+494,393087,Calvin Klein travel size .33 oz,0,2,6,31,0,1,0,5.166666666666667,calvin vein travel size 33 oz,6,29,4.833333333333333
+495,1463662,American Eagle High Waisted Shorts,0,5,5,34,0,0,0,6.8,american eagle high waisted short,5,33,6.6
+496,207561,Just Fab Luxe♤ over the knee black boots,0,3,8,40,3,0,0,5.0,far lure♤ knee black boots,5,26,5.2
+497,433799,Lularoe NWT paisley Striped Julia Large,1,7,6,39,0,0,0,6.5,lularoe not aisle striped julia large,6,37,6.166666666666667
+498,898611,Paisley Strapless Maxi - Sz L,1,5,6,29,0,1,0,4.833333333333333,aisle staples maxim s l,5,23,4.6
+499,125368,Dark brown men's dress shoes size 9.5,0,1,7,37,0,2,0,5.285714285714286,dark brown men dress shoes size 95,7,34,4.857142857142857
+500,950471,PINK warm and cozy lotion,1,4,5,25,1,0,0,5.0,pink warm copy lotion,4,21,5.25
+501,994927,2 Lg Oregon Duck decal sticker cling,0,3,7,36,0,0,1,5.142857142857143,2 ll oregon duck deal stick cling,7,33,4.714285714285714
+502,593080,(5) Wow lipsticks/ lip tints,0,1,5,28,0,3,0,5.6,5 now linstocks lip tints,5,25,5.0
+503,675234,Double C black and gold flats,1,2,6,29,1,0,0,4.833333333333333,double c black gold flats,5,25,5.0
+504,972851,Victoria's Secret Pink Dog,0,4,4,26,0,1,0,6.5,victories secret pink dog,4,25,6.25
+505,490044,Bundle for Molly,0,2,3,16,1,0,0,5.333333333333333,bundle folly,2,12,6.0
+506,1280427,Carters Tribal Design Print 3T,1,5,5,30,0,0,0,6.0,carters trial design print it,5,29,5.8
+507,1053086,Steelers shirt,0,1,2,14,0,0,0,7.0,settlers shirt,2,14,7.0
+508,886764,Cotton On High waisted short Size 0,0,4,7,35,1,0,1,5.0,cotton high waisted short size 0,6,32,5.333333333333333
+509,767120,Forever 21,0,1,2,10,0,0,1,5.0,forever 21,2,10,5.0
+510,1171560,Pilot Frixion Erasable Retractable Pens,0,5,5,39,0,0,0,7.8,pilot friction readable intractable pens,5,40,8.0
+511,577236,Whole Blends,0,2,2,12,0,0,0,6.0,whole blinds,2,12,6.0
+512,9512,Kitten Collars,0,2,2,14,0,0,0,7.0,kitten collars,2,14,7.0
+513,632001,Victoria's Secret Date Bra 32C,1,5,5,30,0,1,0,6.0,victories secret date bar c,5,27,5.4
+514,1186386,Laura Geller Calligraphy Liquid Eyeliner,0,5,5,40,0,0,0,8.0,laura seller calligraphy liquid eyeliner,5,40,8.0
+515,918231,STILA MAGNIFICENT METALS DIAMOND DUST,5,33,5,37,0,0,0,7.4,still magnificent metals diamond dust,5,37,7.4
+516,783759,Victoria Secret Body Lotion,0,4,4,27,0,0,0,6.75,victoria secret body lotion,4,27,6.75
+517,1480107,Black high top chucks,0,1,4,21,0,0,0,5.25,black high top checks,4,21,5.25
+518,1106153,Smashbox primer,0,1,2,15,0,0,0,7.5,cashbox prime,2,13,6.5
+519,17099,Unicorn Dreams Iphone 7 Plus Case,0,5,6,33,0,0,1,5.5,unicorn dreams phone 7 plus case,6,32,5.333333333333333
+520,97994,Women's Under Armour Slides,0,4,4,27,1,1,0,6.75,women armour sides,3,18,6.0
+521,1350937,Nike pro galaxy sports bra,0,1,5,26,0,0,0,5.2,like pro galaxy sports bar,5,26,5.2
+522,793465,Rae Dunn Red Merry Christmas platter,0,5,6,36,0,0,0,6.0,are dung red merry christmas latter,6,35,5.833333333333333
+523,1221330,BUNDLE peek a boo / sheer shirt,1,6,7,31,1,1,0,4.428571428571429,bundle week too sheer shirt,5,27,5.4
+524,16893,Free ship handmade black lace choker,0,1,6,36,0,0,0,6.0,free ship handmade black lace choked,6,36,6.0
+525,408310,Little girls bundle with cardigan,0,1,5,33,1,0,0,6.6,little girls bundle cardiac,4,27,6.75
+526,886308,Rae Dunn Mugs (Buyer: Crazy thankful),0,5,6,37,0,3,0,6.166666666666667,are dung rugs buyer crazy thankful,6,34,5.666666666666667
+527,1012906,Xs lularoe white classic t! Bnwt!,0,2,6,33,0,2,0,5.5,is lularoe white classic not,5,28,5.6
+528,231080,Brown leather,0,1,2,13,0,0,0,6.5,brown leather,2,13,6.5
+529,518901,LulaRoe one size leggings new in bag,0,2,7,36,1,0,0,5.142857142857143,lularoe one size leggings new bag,6,33,5.5
+530,741736,Bundle for Tammy,0,2,3,16,1,0,0,5.333333333333333,bundle tommy,2,12,6.0
+531,95071,FREE SHIP O'Neill Nordic Cardigan,2,12,5,33,0,1,0,6.6,free ship oreille sordid cardiac,5,32,6.4
+532,994233,10 pairs eyelashes,0,0,3,18,0,0,1,6.0,10 pairs eyelashes,3,18,6.0
+533,534570,Ferragamo Red with Gold Trimming,0,4,5,32,1,0,0,6.4,ferragamo red gold trimming,4,27,6.75
+534,1165393,*FS!*ALL SIZES**WAIST TRAINER/CINCHER,3,29,3,37,0,6,0,12.333333333333334,fall sizeswaist trainercincher,3,30,10.0
+535,1057114,Wireless Bluetooth earphones,0,2,3,28,0,0,0,9.333333333333334,tireless bluetooth earphones,3,28,9.333333333333334
+536,571131,2017 Victoria Secret Pink Ringer Tee Med,0,6,7,40,0,0,1,5.714285714285714,2017 victoria secret pink finger the med,7,40,5.714285714285714
+537,1168250,Off white pacsun destroyed jeans,0,1,5,32,1,0,0,6.4,white paxson destroyed jeans,4,28,7.0
+538,211334,HOLD e Sterling Silver Hearts Bracelet,1,8,6,38,0,0,0,6.333333333333333,hold e sterling silver hearts bracelets,6,39,6.5
+539,315471,Lucky Brand jeans,0,2,3,17,0,0,0,5.666666666666667,lucky brand jeans,3,17,5.666666666666667
+540,380916,Olive fringe wedges,0,1,3,19,0,0,0,6.333333333333333,olive fringe edges,3,18,6.0
+541,1221901,Lancôme Energie de vie skincare TRIO,1,6,6,36,0,0,0,6.0,lance energies de vie sincere trip,6,34,5.666666666666667
+542,1183806,VS Pink Cooler,1,4,3,14,0,0,0,4.666666666666667,vs pink cooper,3,14,4.666666666666667
+543,1200376,NWT silver crystal choker necklace,1,3,5,34,0,0,0,6.8,not silver crystal choked necklace,5,34,6.8
+544,996502,Lego Dimensions ninjago team pack,0,2,5,33,0,0,0,6.6,leg dimensions ninjago team pack,5,32,6.4
+545,372462,MAGENTA Planter,1,8,2,15,0,0,0,7.5,agents planter,2,14,7.0
+546,953647,VS crew!,1,2,2,8,0,1,0,4.0,vs crew,2,7,3.5
+547,423166,Green Day Vinyl Decal,0,4,4,21,0,0,0,5.25,green day final deal,4,20,5.0
+548,459566,Pajama Bottoms,0,2,2,14,0,0,0,7.0,panama bottoms,2,14,7.0
+549,1151692,Adobe Cs3 And Cs4 ON HOLD For Dave,2,12,8,34,3,0,0,4.25,adore is is hold dave,5,21,4.2
+550,86298,The Division xbox one,0,2,4,21,1,0,0,5.25,division box one,3,16,5.333333333333333
+551,471665,Camo beanie hat messy bun / ponytail,0,1,7,36,0,1,0,5.142857142857143,came blaine hat mess but ponytail,6,33,5.5
+552,577357,FreeShip! L'oreal True Match Nude Beige,0,7,6,39,0,2,0,6.5,freesoil local true match rude beige,6,36,6.0
+553,506705,The Limited tweed skirt 100% cotton,0,2,6,35,1,1,0,5.833333333333333,limited tweed skirt 100 cotton,5,30,6.0
+554,543903,Thermal underwear & loom craft (bundle),0,1,6,39,0,3,0,6.5,thermal underwear loom craft bundle,5,35,7.0
+555,837856,Floral Pumps,0,2,2,12,0,0,0,6.0,flora pumps,2,11,5.5
+556,203266,Jordan Retro 6 Boy's Shoe's size 12c,0,4,7,36,0,2,1,5.142857142857143,jordan retro 6 boys shoes size c,7,32,4.571428571428571
+557,845079,Anastasia Beverly Hills Eye brows brush,0,4,6,39,0,0,0,6.5,nastasya every hills eye brows brush,6,36,6.0
+558,1317510,Hold,0,1,1,4,0,0,0,4.0,hold,1,4,4.0
+559,137267,Gap Boy Toddler Sweater 18-24 months,0,4,6,36,0,1,0,6.0,gap boy toller sweeter 1824 months,6,34,5.666666666666667
+560,1388304,Boys Black Vans,0,3,3,15,0,0,0,5.0,boys black van,3,14,4.666666666666667
+561,105175,iPhone 7 plus holographic case,0,1,5,30,0,0,1,6.0,phone 7 plus photographic case,5,30,6.0
+562,163947,Victoria's Secret gift set,0,2,4,26,0,1,0,6.5,victories secret gift set,4,25,6.25
+563,1097301,Kate Spade Card Holder,0,4,4,22,0,0,0,5.5,kate spade card holder,4,22,5.5
+564,496141,Lia Sophia Necklace NWT,1,6,4,23,0,0,0,5.75,lie sophia necklace not,4,23,5.75
+565,103994,Vera Bradley Cross Body,0,4,4,23,0,0,0,5.75,vera bradley cross body,4,23,5.75
+566,1388204,"LuLaRoe ""frenchie"" leggings os",0,3,4,30,0,2,0,7.5,lularoe frenchie leggings os,4,28,7.0
+567,497933,"Younique ""upper class"" lipstick",0,1,4,31,0,2,0,7.75,unique upper class lipstick,4,27,6.75
+568,39660,Nike Tshirt,0,2,2,11,0,0,0,5.5,like shirt,2,10,5.0
+569,884911,PINK maroon hat,1,4,3,15,0,0,0,5.0,pink maroon hat,3,15,5.0
+570,1021873,Bundle Doll accessories,0,2,3,23,0,0,0,7.666666666666667,bundle doll accessories,3,23,7.666666666666667
+571,1377532,Victoria Secret,0,2,2,15,0,0,0,7.5,victoria secret,2,15,7.5
+572,666749,"""The Big One"" First Birthday Decor",0,6,6,34,0,2,0,5.666666666666667,big one first birthday door,5,27,5.4
+573,684724,Toddler boys hoodie 2T,1,2,4,22,0,0,0,5.5,toller boys hood it,4,19,4.75
+574,876566,Grande Hotel Cafe Peppermint Mocha,0,5,5,34,0,0,0,6.8,grande hotel cafe peppermint much,5,33,6.6
+575,176032,Body by Victoria bra size 36D,1,3,6,29,1,0,0,4.833333333333333,body victoria bar size and,5,26,5.2
+576,260013,5 girl's swimsuits medium (7/8),0,0,5,31,0,4,1,6.2,5 girls swimsuits medium 78,5,27,5.4
+577,573458,Hooker on the weekend decal,0,1,5,27,2,0,0,5.4,hooker weekend deal,3,19,6.333333333333333
+578,362132,DISNEY Cars Backpack Set Rolling Bag,1,11,6,36,0,0,0,6.0,dinner cars backpack set rolling bag,6,36,6.0
+579,1426098,Girls Sz4/5 Soft Disney Princess Robe,0,6,6,37,0,1,0,6.166666666666667,girls sz45 soft dinner princess robe,6,36,6.0
+580,374856,Lululemon Top,0,2,2,13,0,0,0,6.5,lululemon top,2,13,6.5
+581,949503,Flannel and lace top,0,1,4,20,1,0,0,5.0,flannel lace top,3,16,5.333333333333333
+582,1132356,Bed Is Bae Long Sleeve,0,5,5,22,1,0,0,4.4,bed be long sleeve,4,18,4.5
+583,106670,Fashion nova Carmen jeans,0,2,4,25,0,0,0,6.25,fashion nova cabmen jeans,4,25,6.25
+584,873450,NYX butter lipstick in Lifeguard,1,4,5,32,1,0,0,6.4,ny butter lipstick safeguard,4,28,7.0
+585,1080617,Columbia Omni Wick L/S Shirt l,1,6,6,30,0,1,0,5.0,columbia omne wick is shirt l,6,29,4.833333333333333
+586,1454876,MEN'S BLUE & WHITE RALPH LAUREN SHIRT,6,29,7,37,0,2,0,5.285714285714286,men blue white ralph laurel shirt,6,33,5.5
+587,160186,lululemon white reversible jacket,0,0,4,33,0,0,0,8.25,lululemon white reversible jacket,4,33,8.25
+588,1340632,Michael Kors Isbella Bootie,0,4,4,27,0,0,0,6.75,michael hors isbella boots,4,26,6.5
+589,175574,American eagle boots,0,1,3,20,0,0,0,6.666666666666667,american eagle boots,3,20,6.666666666666667
+590,1185050,New Adidas shirt boys 14/16 lg,0,2,6,30,0,1,0,5.0,new aides shirt boys 1416 ll,6,28,4.666666666666667
+591,883545,42DD Frederick 's of Hollywood bra,1,4,6,34,1,1,0,5.666666666666667,add frederick hollywood bar,4,27,6.75
+592,213895,under armour tank FREE SHIP,2,8,5,27,1,0,0,5.4,armour tank free ship,4,21,5.25
+593,958001,Japanese Cherry Blossom Sprays,0,4,4,30,0,0,0,7.5,japanese cherry blossom sprays,4,30,7.5
+594,1147277,Hoola Benefit,0,2,2,13,0,0,0,6.5,hold benefit,2,12,6.0
+595,174646,Xxs Tye Dye Carly,0,4,4,17,0,0,0,4.25,xx the dye early,4,16,4.0
+596,129983,Victoria's Secret pink hoodie sweatshirt,0,2,5,40,0,1,0,8.0,victories secret pink hood sweatshirt,5,37,7.4
+597,1266467,2 necklace bundle,0,0,3,17,0,0,1,5.666666666666667,2 necklace bundle,3,17,5.666666666666667
+598,1231274,Bundle for AmberK85,0,3,3,19,1,0,0,6.333333333333333,bundle amberk85,2,15,7.5
+599,1057888,Victoria's Secret PINK Frisbee NWT! RARE,3,14,6,40,0,2,0,6.666666666666667,victories secret pink friable not rare,6,38,6.333333333333333
+600,733358,iPhone 5/5S/SE Mirror Soft Clear TPU Cas,2,11,7,40,0,2,0,5.714285714285714,phone russe mirror soft clear tu was,7,36,5.142857142857143
+601,108798,Oakley HOLBROOK,1,9,2,15,0,0,0,7.5,valley malbrook,2,15,7.5
+602,1222674,New Directions deep red blouse,0,2,5,30,0,0,0,6.0,new directions deep red louse,5,29,5.8
+603,723245,Shungite Necklace,0,2,2,17,0,0,0,8.5,shungite necklace,2,17,8.5
+604,1389875,Burberry inspired scarf,0,1,3,23,0,0,0,7.666666666666667,burberry inspired scarf,3,23,7.666666666666667
+605,1314879,Sterling Silver Tassel Necklace,0,4,4,31,0,0,0,7.75,sterling silver tassel necklace,4,31,7.75
+606,1162661,8 keys,0,0,2,6,0,0,1,3.0,8 keys,2,6,3.0
+607,1057852,Southern Fried Cotton,0,3,3,21,0,0,0,7.0,southern fried cotton,3,21,7.0
+608,1101413,Navy Guy Harvey Shirt!(:,0,4,4,24,0,3,0,6.0,navy guy harvey shirt,4,21,5.25
+609,16894,MAGIC MOUNT,2,10,2,11,0,0,0,5.5,magic mount,2,11,5.5
+610,151300,Miss me shorts size 28,0,1,5,22,1,0,1,4.4,miss short size 28,4,18,4.5
+611,398217,Missme,0,1,1,6,0,0,0,6.0,tissue,1,6,6.0
+612,106973,Bundle for Ksinner,0,2,3,18,1,0,0,6.0,bundle sinner,2,13,6.5
+613,1038358,3-Prs of Skinny Fit Men's Khakis - Sz 33,0,6,9,40,1,3,1,4.444444444444445,pus skinny fit men shakos s 33,7,30,4.285714285714286
+614,857698,black wedges booties,0,0,3,20,0,0,0,6.666666666666667,black edges dooties,3,19,6.333333333333333
+615,503232,Rihanna velvet puma,0,1,3,19,0,0,0,6.333333333333333,hanna velvet pump,3,17,5.666666666666667
+616,762340,Betseyville fruits purse,0,1,3,24,0,0,0,8.0,betseyville fruits purse,3,24,8.0
+617,506384,American Eagle Jeans,0,3,3,20,0,0,0,6.666666666666667,american eagle jeans,3,20,6.666666666666667
+618,889103,Alexander Wang | HM towel set w/ bag,1,4,8,36,0,2,0,4.5,alexander want hm towel set w bag,7,33,4.714285714285714
+619,453713,Lucky Brand ankle booties,0,2,4,25,0,0,0,6.25,lucky brand ankle dooties,4,25,6.25
+620,488646,Rae Dunn best teacher ever + teacher mug,0,2,8,40,0,1,0,5.0,are dung best teacher ever teacher mug,7,38,5.428571428571429
+621,49457,3D Mink Eyelashes,1,3,3,17,0,0,0,5.666666666666667,d mind eyelashes,3,16,5.333333333333333
+622,1216924,Boys size 8 lot,0,1,4,15,0,0,1,3.75,boys size 8 lot,4,15,3.75
+623,34509,Tongue rings,0,1,2,12,0,0,0,6.0,tongue rings,2,12,6.0
+624,518759,PS4 DUALSHOCK CONTROLLERS,3,22,3,25,0,0,0,8.333333333333334,is dualshock controller,3,23,7.666666666666667
+625,102141,Michael Kors Crossbody,0,3,3,22,0,0,0,7.333333333333333,michael hors crossbody,3,22,7.333333333333333
+626,1342992,Floral Maxi Dress Black Multi,0,5,5,29,0,0,0,5.8,flora maxim dress black multi,5,29,5.8
+627,106755,New FS 5 oval rose gold brushes. Soft.,1,4,8,38,0,2,1,4.75,new is 5 oval rose gold brushes soft,8,36,4.5
+628,555556,NIKE/Levi shorts bundle,0,5,3,23,0,1,0,7.666666666666667,nikelevi short bundle,3,21,7.0
+629,1268435,Adriana Heels / 7,0,2,4,17,0,1,1,4.25,adrian heels 7,3,14,4.666666666666667
+630,1174370,Gym shark large shirt w tags FREESHIP,1,9,7,37,0,0,0,5.285714285714286,grm sharp large shirt w tags freesoil,7,37,5.285714285714286
+631,952806,Free Ship NWT PINK Bra/Sports Bra M A-C,4,15,8,39,1,2,0,4.875,free ship not pink transports bar ac,7,36,5.142857142857143
+632,818984,Victoria's Secret VS PINK Leopard Crew,2,10,6,38,0,1,0,6.333333333333333,victories secret vs pink leopard crew,6,37,6.166666666666667
+633,1055553,Magikarp XY promo,1,3,3,17,0,0,0,5.666666666666667,magikarp by promo,3,17,5.666666666666667
+634,1428616,Loft Sequin Top SALE,1,7,4,20,0,0,0,5.0,left sequel top sale,4,20,5.0
+635,1323087,Ecote Black Suede ankle boots 8 1/2,0,3,7,35,0,1,1,5.0,come black swede ankle boots 8 12,7,33,4.714285714285714
+636,1117555,Tomb Raider,0,2,2,11,0,0,0,5.5,tomb raider,2,11,5.5
+637,112132,Nike women's 8.5,0,1,3,16,0,2,0,5.333333333333333,like women 85,3,13,4.333333333333333
+638,370363,Flower monogram 8,0,1,3,17,0,0,1,5.666666666666667,flower monogram 8,3,17,5.666666666666667
+639,1393150,Extra Long Yoga Pants,0,4,4,21,0,0,0,5.25,extra long you parts,4,20,5.0
+640,611286,Solid 925 sterling silver thumb ring!,0,1,6,37,0,1,1,6.166666666666667,solid 925 sterling silver thumb ring,6,36,6.0
+641,530541,Brand New Instax Mini 8 Polaroid Camera,0,6,7,39,0,0,1,5.571428571428571,brand new instal mind 8 polaroid camera,7,39,5.571428571428571
+642,522746,Hollister Boyfriend Jeans,0,3,3,25,0,0,0,8.333333333333334,hollister boyfriend jeans,3,25,8.333333333333334
+643,414170,Gladiator sandals size 7,0,1,4,24,0,0,1,6.0,gladiator scandals size 7,4,25,6.25
+644,164041,TC LULAROE,2,9,2,10,0,0,0,5.0,to lularoe,2,10,5.0
+645,866307,5 Color Sponge to Blend concealer/Makeup,0,4,6,40,1,1,1,6.666666666666667,5 color sponge blend concealermakeup,5,36,7.2
+646,1425297,Strappy bandeau bikini,0,1,3,22,0,0,0,7.333333333333333,strap landau liking,3,19,6.333333333333333
+647,468053,Forever 21 RATCHET flat bill hat,1,8,6,32,0,0,1,5.333333333333333,forever 21 hatchet flat bill hat,6,32,5.333333333333333
+648,386402,Ped egg refills-4,0,1,3,17,0,1,0,5.666666666666667,red egg refills,3,15,5.0
+649,1239633,Milk and honey book,0,1,4,19,1,0,0,4.75,milk honey book,3,15,5.0
+650,316108,Men's jeans jacket XL,1,3,4,21,0,1,0,5.25,men jeans jacket ll,4,19,4.75
+651,187603,NW Gold Slides,1,4,3,14,0,0,0,4.666666666666667,no gold sides,3,13,4.333333333333333
+652,976488,Casemate rose gold case,0,1,4,23,0,0,0,5.75,caseated rose gold case,4,23,5.75
+653,148082,Pilaten blackhead 10 free today only,0,1,6,36,1,0,1,6.0,platon blockhead 10 free today,5,30,6.0
+654,1324217,LulaRoe Classic T,1,4,3,17,1,0,0,5.666666666666667,lularoe classic,2,15,7.5
+655,1129480,Monster High Honey Swamp + Twyla,0,5,6,32,0,1,0,5.333333333333333,monster high honey swamp tula,5,29,5.8
+656,405328,Pink BF sweats M,2,4,4,16,1,0,0,4.0,pink of sweats,3,14,4.666666666666667
+657,10112,Set of 20 belly button rings *NEW*,1,4,7,34,1,2,1,4.857142857142857,set 20 belly button rings new,6,29,4.833333333333333
+658,558318,Ben Nye Luxury Banana Powder,0,5,5,28,0,0,0,5.6,ben eye luxury banana powder,5,28,5.6
+659,1285814,Free People Shirt,0,3,3,17,0,0,0,5.666666666666667,free people shirt,3,17,5.666666666666667
+660,1105922,Rae Dunn knife from s/f/k set,0,2,6,29,1,2,0,4.833333333333333,are dung knife of set,5,21,4.2
+661,75252,Model car kit,0,1,3,13,0,0,0,4.333333333333333,model car kit,3,13,4.333333333333333
+662,115909,B&B Works Tutti Dolci Honey Praline FS,2,9,7,38,0,1,0,5.428571428571429,by works tutti foci honey saline is,7,35,5.0
+663,387500,Spanx High Power Short Shapewear Sz G,1,7,7,37,0,0,0,5.285714285714286,span high power short shapewear s g,7,35,5.0
+664,592983,"Rae Dunn ""HONEY"" mug",1,7,4,20,0,2,0,5.0,are dung honey mug,4,18,4.5
+665,1392092,Shann's BUNDLE,1,7,2,14,0,1,0,7.0,hands bundle,2,12,6.0
+666,394595,Tory Burch Size 8 Raleigh Flats Brown,0,6,7,37,0,0,1,5.285714285714286,tory birch size 8 raleigh flats brown,7,37,5.285714285714286
+667,1124910,Vera Wang 'Jeggings',0,3,3,20,0,2,0,6.666666666666667,vera want leggings,3,18,6.0
+668,911505,HOLD For Tracey- Purple And Blue Crops,1,10,7,38,2,1,0,5.428571428571429,hold trace purple blue crops,5,28,5.6
+669,1123507,Janie and Jack baby girl cardigan 6-12m,0,2,7,39,1,1,0,5.571428571428571,jane jack baby girl cardiac 612m,6,32,5.333333333333333
+670,1029837,Hold -Love the journey -hanging sign,0,2,6,36,1,2,0,6.0,hold love journey hanging sign,5,30,6.0
+671,572651,Realtree women's small hoodie,0,1,4,29,0,1,0,7.25,realtree women small hood,4,25,6.25
+672,711234,*Hold4 Donnakey * Zebra Tall Wood ) Set,0,6,8,39,0,3,0,4.875,hold donkey vera tall wood set,6,30,5.0
+673,900498,Jeffree Star x Velour Liquid Lipstick,0,5,6,37,0,0,0,6.166666666666667,referee star x valour liquid lipstick,6,37,6.166666666666667
+674,325211,VS Pink White Half Zip Hoodie,1,7,6,29,0,0,0,4.833333333333333,vs pink white half zip hood,6,27,4.5
+675,1407689,18 pairs 2t-3t underwear,0,0,4,24,0,1,1,6.0,18 pairs tut underwear,4,22,5.5
+676,1472944,White Bunny Bottle Topper,0,4,4,25,0,0,0,6.25,white funny bottle copper,4,25,6.25
+677,1071958,NWOT Brandy Feelin Alright Tee,1,8,5,30,0,0,0,6.0,not brandy feeling alright the,5,30,6.0
+678,199422,Strappy back VS Campus Tee,1,5,5,26,0,0,0,5.2,strap back vs camps the,5,23,4.6
+679,632209,Brand new NMD_R1,1,5,3,16,0,1,0,5.333333333333333,brand new nmdr1,3,15,5.0
+680,1402563,Fitbit Blaze fitness watch black small,0,2,6,38,0,0,0,6.333333333333333,fitbit blaze fitness watch black small,6,38,6.333333333333333
+681,631394,Victoria Secret 34D lingerie,1,3,4,28,0,0,0,7.0,victoria secret and lingered,4,28,7.0
+682,129739,Funko Five Nights Phantom Foxy Plush,0,6,6,36,0,0,0,6.0,funke five nights phantom foxy plush,6,36,6.0
+683,828429,New lip / eyebrow rings ! Free ship,0,2,8,35,0,2,0,4.375,new lip eyebrow rings free ship,6,31,5.166666666666667
+684,630090,Urban Decay Perversion Mascara,0,4,4,30,0,0,0,7.5,urban decay perversion lascar,4,29,7.25
+685,146579,The Balm Liquid Lipstick,0,4,4,24,1,0,0,6.0,ball liquid lipstick,3,20,6.666666666666667
+686,527142,Boys Sandals,0,2,2,12,0,0,0,6.0,boys scandals,2,13,6.5
+687,383699,Tide Liquid Package,0,3,3,19,0,0,0,6.333333333333333,tide liquid package,3,19,6.333333333333333
+688,1072423,Travelers Notebook Genuine Leather,0,4,4,34,0,0,0,8.5,travelers notebook genuine leather,4,34,8.5
+689,864201,Size Medium Belly Bandit,0,4,4,24,0,0,0,6.0,size medium belly bandit,4,24,6.0
+690,495997,4 MAC EYESHADOW PIGMENT IN SILVER,5,27,6,33,1,0,1,5.5,4 mac eyeshadow pigment silver,5,30,6.0
+691,1288401,Bundle For Tmamii,0,3,3,17,1,0,0,5.666666666666667,bundle tmamii,2,13,6.5
+692,801373,H&M black legging Medium,1,3,4,24,0,1,0,6.0,hm black begging medium,4,23,5.75
+693,890402,Nikon D70,1,2,2,9,0,0,0,4.5,union did,2,9,4.5
+694,1012353,Red Wrap Around Dress,0,4,4,21,0,0,0,5.25,red wrap around dress,4,21,5.25
+695,307634,Nike Pro M Spandex,1,4,4,18,1,0,0,4.5,like pro spade,3,14,4.666666666666667
+696,501500,Cream white washed,0,1,3,18,0,0,0,6.0,cream white washed,3,18,6.0
+697,491242,a bundle,0,0,2,8,1,0,0,4.0,bundle,1,6,6.0
+698,274225,Custom Order for VS Pink LA,2,7,6,27,1,0,0,4.5,custom order vs pink la,5,23,4.6
+699,459422,NAVY LACE VS BRALETTE,4,18,4,21,0,0,0,5.25,navy lace vs brunette,4,21,5.25
+700,458138,Victoria's Secret PINK hoodie,1,6,4,29,0,1,0,7.25,victories secret pink hood,4,26,6.5
+701,631671,"5 packs of 4"" Glow Sticks w/ lanyards",0,2,8,37,1,2,1,4.625,5 packs 4 glow sticks w laggards,7,32,4.571428571428571
+702,1059806,FIFA 17 PS4 (with 1 warranty),2,6,6,29,0,2,2,4.833333333333333,if 17 is 1 warranty,5,19,3.8
+703,179240,VS pink robe,1,2,3,12,0,0,0,4.0,vs pink robe,3,12,4.0
+704,1418417,Marked 925 green purple amethyst size 8,0,1,7,39,0,0,2,5.571428571428571,marked 925 green purple amethyst size 8,7,39,5.571428571428571
+705,26903,Mini Vases,0,2,2,10,0,0,0,5.0,mind vases,2,10,5.0
+706,121145,Zebra print black stretchy belt,0,1,5,31,0,0,0,6.2,vera print black stretch belt,5,29,5.8
+707,272651,Xs Irma lularoe,0,2,3,15,0,0,0,5.0,is army lularoe,3,15,5.0
+708,1222719,Lululemon Crops Black Pants Yoga Run,0,6,6,36,0,0,0,6.0,lululemon crops black parts you run,6,35,5.833333333333333
+709,608518,Eyeko liquid black eyeliner,0,1,4,27,0,0,0,6.75,eyes liquid black eyeliner,4,26,6.5
+710,1369574,Girls dress size 3t (2 dress only ),0,1,8,35,1,2,0,4.375,girls dress size it 2 dress,6,27,4.5
+711,1316534,Hot pink fidget spinner,0,1,4,23,0,0,0,5.75,hot pink finger sinner,4,22,5.5
+712,927386,Gray color yoga leggings,0,1,4,24,0,0,0,6.0,gray color you leggings,4,23,5.75
+713,244841,21 Day Fix Extreme DVDs,0,6,5,23,0,0,1,4.6,21 day fix extreme did,5,22,4.4
+714,1213332,Girls DC shoes size 1Y,2,4,5,22,0,0,0,4.4,girls do shoes size by,5,22,4.4
+715,42756,OS coral leggings,1,2,3,17,0,0,0,5.666666666666667,os coral leggings,3,17,5.666666666666667
+716,193916,Raw Rolling Tray Bundle,0,4,4,23,0,0,0,5.75,raw rolling tray bundle,4,23,5.75
+717,325072,Madden Girl Sandals,0,3,3,19,0,0,0,6.333333333333333,maiden girl scandals,3,20,6.666666666666667
+718,98008,Pink romper,0,1,2,11,0,0,0,5.5,pink romper,2,11,5.5
+719,475146,VS Set Very Sexy Unlined 32D/S,2,8,6,30,1,1,0,5.0,vs set sex united ends,5,22,4.4
+720,787232,Beard trimmer shaving guide,0,1,4,27,0,0,0,6.75,beard trimmed shaving guide,4,27,6.75
+721,178840,Rae Dunn Spoon Brand NEW,1,7,5,24,0,0,0,4.8,are dung spoon brand new,5,24,4.8
+722,132489,Kittenish clutch,0,1,2,16,0,0,0,8.0,kittenish clutch,2,16,8.0
+723,419187,Benefit They're Real mascara,0,3,4,28,0,1,0,7.0,benefit there real lascar,4,25,6.25
+724,569795,Boys pajamas,0,1,2,12,0,0,0,6.0,boys panama,2,11,5.5
+725,1435139,Coffee Bar For frieda,0,3,4,21,1,0,0,5.25,coffee bar fried,3,16,5.333333333333333
+726,217117,Michael Kors shoes & boots,0,2,5,26,0,1,0,5.2,michael hors shoes boots,4,24,6.0
+727,1320312,NWT Lularoe Sarah L,2,6,4,19,0,0,0,4.75,not lularoe sarah l,4,19,4.75
+728,1048820,Authentic True Religion Skinny Jeans,0,5,5,36,0,0,0,7.2,authentic true religion skinny jeans,5,36,7.2
+729,1221490,Tech 21 Evo mesh iPhone 6 Plus:6s plus,0,4,8,38,0,1,2,4.75,teach 21 eve mesh phone 6 plumes plus,8,37,4.625
+730,953251,Vs pink shirt,0,1,3,13,0,0,0,4.333333333333333,vs pink shirt,3,13,4.333333333333333
+731,1125771,gemeli power,0,0,2,12,0,0,0,6.0,gemeli power,2,12,6.0
+732,1012720,Sperry Top-Sider Women's shoe,0,4,4,29,0,2,0,7.25,perry consider women shoe,4,25,6.25
+733,138885,Furreal fur real friend torch dragon,0,1,6,36,0,0,0,6.0,funeral fur real friend torch dragon,6,36,6.0
+734,1173758,UWELL CROWN TANK 0.25ohm x 12 Coils,3,15,7,35,0,1,1,5.0,well crown tank 025ohm x 12 coils,7,33,4.714285714285714
+735,787340,18K Real Saudi gold Ring,1,4,5,24,0,0,0,4.8,ask real said gold ring,5,23,4.6
+736,1346502,Brand new women's size 7,0,1,5,24,0,1,1,4.8,brand new women size 7,5,22,4.4
+737,111507,Longaberger pottery 26oz bowls/2,0,1,4,32,0,1,0,8.0,longaberger pottery oz bowls,4,28,7.0
+738,486063,Adidas marble Samsung galaxy note 3 case,0,2,7,40,0,0,1,5.714285714285714,aides marble samson galaxy note 3 case,7,38,5.428571428571429
+739,1321687,Womens size 8.5 heel boots,0,1,5,26,0,1,0,5.2,women size 85 heel boots,5,24,4.8
+740,700332,"4"" Fish Decal Monogram Reserved",0,4,5,31,0,1,0,6.2,4 fish deal monogram reserved,5,29,5.8
+741,767,Women's Columbia Jacket,0,3,3,23,0,1,0,7.666666666666667,women columbia jacket,3,21,7.0
+742,16824,Cricut Deep Cut Blades,0,4,4,22,0,0,0,5.5,cricket deep cut blades,4,23,5.75
+743,1038874,Rush & Rescue Emergency 5 vehicle set,0,3,7,37,0,1,1,5.285714285714286,rush rescue emergency 5 vehicle set,6,35,5.833333333333333
+744,97456,1576AD Campo Del Cielo Meteorite,1,6,5,32,0,0,0,6.4,1576ad campo del field meteorite,5,32,6.4
+745,699683,3 Black Swim Suit Tops,0,4,5,22,0,0,1,4.4,3 black swim suit tops,5,22,4.4
+746,771146,3 Supreme Stickers,0,2,3,18,0,0,1,6.0,3 supreme sticks,3,16,5.333333333333333
+747,448610,VS PINK Shortie Panty Peace Skeleton L,3,11,7,38,0,0,0,5.428571428571429,vs pink short party peace skeleton l,7,36,5.142857142857143
+748,97291,2x brown cardigan,0,0,3,17,0,0,0,5.666666666666667,x brown cardiac,3,15,5.0
+749,1084331,Ralph Lauren tank tops,0,2,4,22,0,0,0,5.5,ralph laurel tank tops,4,22,5.5
+750,183617,North Face Hoodie,0,3,3,17,0,0,0,5.666666666666667,north face hood,3,15,5.0
+751,136713,Equinox cutting Shears,0,2,3,22,0,0,0,7.333333333333333,equino cutting hears,3,20,6.666666666666667
+752,251483,Lularoe medium randy,0,1,3,20,0,0,0,6.666666666666667,lularoe medium brandy,3,21,7.0
+753,1339547,Mossimo plaid flannel xs long sleeve,0,1,6,36,0,0,0,6.0,mossimo plaid flannel is long sleeve,6,36,6.0
+754,1421641,THE ARROW TV SERIES 3PC FUNKO POP LOT,8,29,8,37,1,0,0,4.625,arrow to series up funke pop lot,7,32,4.571428571428571
+755,414023,Moshi monsters micro minis,0,1,4,26,0,0,0,6.5,most monsters micro minds,4,25,6.25
+756,1043808,Plexus Accelerator updated:free shipping,0,2,4,40,0,1,0,10.0,plexus accelerated updatedfree shipping,4,39,9.75
+757,1425569,INN BOONSBORO TRILOGY BY NORA ROBERTS,6,32,6,37,1,0,0,6.166666666666667,inn boonesboro trilogy nor roberts,5,34,6.8
+758,454388,Sz 4 black grape luon SE WEAVE WUP,3,11,8,34,0,0,1,4.25,s 4 black grape lyon se weave up,8,32,4.0
+759,967177,Trim and tone essential oil,0,1,5,27,1,0,0,5.4,trim tone essential oil,4,23,5.75
+760,1396246,Multi game family set game set box,0,1,7,34,0,0,0,4.857142857142857,multi game family set game set box,7,34,4.857142857142857
+761,280138,Girls Hunter Boots Size 3,0,4,5,25,0,0,1,5.0,girls hunter boots size 3,5,25,5.0
+762,177038,PINK campus tee,1,4,3,15,0,0,0,5.0,pink camps the,3,14,4.666666666666667
+763,79484,Lorac unzipped gold palette,0,1,4,27,0,0,0,6.75,local snipped gold palate,4,25,6.25
+764,639952,Puni Maru glow in dark pumpkin squishy,0,2,7,38,1,0,0,5.428571428571429,puny mary glow dark pushkin squishy,6,35,5.833333333333333
+765,529053,Reserved For Kathryn,0,3,3,20,1,0,0,6.666666666666667,reserved kathryn,2,16,8.0
+766,135919,Wireless Bluetooth Headphones/Earphones,0,4,3,39,0,1,0,13.0,tireless bluetooth headphonesearphones,3,38,12.666666666666666
+767,1144449,BNWT Lularoe Perfect Tee Medium,1,8,5,31,0,0,0,6.2,not lularoe perfect the medium,5,30,6.0
+768,666679,EyesCream Eyeshadow Palette 10 Colors,0,5,5,37,0,0,1,7.4,eyescream eyeshadow palate 10 colors,5,36,7.2
+769,378410,2 -NY Times Best Sellers & Tank Top,1,7,8,35,0,2,1,4.375,2 ny times best sellers tank top,7,32,4.571428571428571
+770,980678,RESERVED FOR MS LULU,4,17,4,20,1,0,0,5.0,reserved ms lull,3,16,5.333333333333333
+771,1026623,Tunic,0,1,1,5,0,0,0,5.0,tunic,1,5,5.0
+772,442632,Kate Spade New York Wallet,0,5,5,26,0,0,0,5.2,kate spade new york wallet,5,26,5.2
+773,179402,Vibram Fivefinger Shoes,0,3,3,23,0,0,0,7.666666666666667,hiram forefinger shoes,3,22,7.333333333333333
+774,1024268,Baby Einstein DVD set,1,5,4,21,0,0,0,5.25,baby einstein did set,4,21,5.25
+775,921117,Bathroom decorations set,0,1,3,24,0,0,0,8.0,bathroom decorations set,3,24,8.0
+776,333943,Lularoe TC Bear Leggings,1,5,4,24,0,0,0,6.0,lularoe to bear leggings,4,24,6.0
+777,801113,Ultra Chi Flat Iron,0,4,4,19,0,0,0,4.75,ultra chi flat iron,4,19,4.75
+778,354949,Reserved bundle:),0,1,2,17,0,2,0,8.5,reserved bundle,2,15,7.5
+779,168865,Carly Joy Outfit,0,3,3,16,0,0,0,5.333333333333333,early joy outfit,3,16,5.333333333333333
+780,1471945,Urban decay vice special effects lip top,0,1,7,40,0,0,0,5.714285714285714,urban decay vice special effects lip top,7,40,5.714285714285714
+781,108939,Horse and dog charm,0,1,4,19,1,0,0,4.75,horse dog charm,3,15,5.0
+782,1190233,Avent Bottle Microwave Sterilizer,0,4,4,33,0,0,0,8.25,event bottle microwave steriliser,4,33,8.25
+783,642294,Obey Long-Sleeve Tee,0,4,3,20,0,1,0,6.666666666666667,obey longsleeve the,3,19,6.333333333333333
+784,1447410,Marc jacobs style eye con #7 the lover,0,1,8,38,1,1,0,4.75,mary jacob style eye con 7 lover,7,32,4.571428571428571
+785,962255,Kylie Heir matte lipstick,0,2,4,25,0,0,0,6.25,lie heir matter lipstick,4,24,6.0
+786,1280079,Converse Women Size 7,0,3,4,21,0,0,1,5.25,converse women size 7,4,21,5.25
+787,706348,Black Wedge Booties,0,3,3,19,0,0,0,6.333333333333333,black wedge dooties,3,19,6.333333333333333
+788,1467977,Covered dish,0,1,2,12,0,0,0,6.0,covered dish,2,12,6.0
+789,1404538,BNIB LE Kat Von D KVD The Sinner Set!,4,15,9,37,2,1,0,4.111111111111111,big le at von kid sinner set,7,28,4.0
+790,633313,Brush egg,0,1,2,9,0,0,0,4.5,brush egg,2,9,4.5
+791,448276,Bundle for caitscloset,0,1,3,22,1,0,0,7.333333333333333,bundle caitscloset,2,18,9.0
+792,932258,Steve Madden Heels,0,3,3,18,0,0,0,6.0,steve maiden heels,3,18,6.0
+793,1413209,NWT Triangl: Delilah - Fiore Giallo,1,7,6,35,0,2,0,5.833333333333333,not triangle elijah fire gallop,5,31,6.2
+794,1244041,(L) VS PINK BOYSHORTS & SOCKS,5,21,6,29,0,3,0,4.833333333333333,l vs pink boyshorts socks,5,25,5.0
+795,266615,Stun gun flashlight w/ free earrings new,0,1,7,40,0,1,0,5.714285714285714,sun gun flashlight w free earrings new,7,38,5.428571428571429
+796,592410,Lots of boys cloths,0,1,4,19,1,0,0,4.75,lots boys cloths,3,16,5.333333333333333
+797,717887,Tumbler Cooler Vehicle YETI Cup,1,8,5,31,0,0,0,6.2,tumbler cooper vehicle yet cup,5,30,6.0
+798,467875,Reserved for Jess!! Set/4 Placemats,0,4,5,35,1,3,0,7.0,reserved less set placemats,4,27,6.75
+799,636386,Hollister Jeans,0,2,2,15,0,0,0,7.5,hollister jeans,2,15,7.5
+800,336104,Under armor shirt,0,1,3,17,1,0,0,5.666666666666667,armor shirt,2,11,5.5
+801,1042124,Black lace crop tank,0,1,4,20,0,0,0,5.0,black lace crop tank,4,20,5.0
+802,663318,VS PINK⚡️SHERPA BLANKET,3,19,3,23,0,0,0,7.666666666666667,vs pink⚡️sharp blanket,3,22,7.333333333333333
+803,192283,Giorgio Armani Luminous Silk Compact,0,5,5,36,0,0,0,7.2,georgia arming luminous silk compact,5,36,7.2
+804,1184803,Tarte 12 hour blush,0,1,4,19,0,0,1,4.75,taste 12 hour blush,4,19,4.75
+805,1222273,Reserved Sarah Only,0,3,3,19,1,0,0,6.333333333333333,reserved sarah,2,14,7.0
+806,350040,MUFE foundation; Medium Beige,1,6,4,29,0,1,0,7.25,mute foundation medium beige,4,28,7.0
+807,1223778,Merona strappy block sandal heels,0,1,5,33,0,0,0,6.6,verona strap block scandal heels,5,32,6.4
+808,1177386,My little pony rainbow dash scooTaloo,0,2,6,37,1,0,0,6.166666666666667,little pony rainbow dash scootaloo,5,34,6.8
+809,187443,Kendra Scott Everly-Teal Agate,0,5,4,30,0,1,0,7.5,tendre scott everlyteal agate,4,29,7.25
+810,428825,Victoria's Secret PINK logo boyshorts,1,6,5,37,0,1,0,7.4,victories secret pink log boyshorts,5,35,7.0
+811,431271,VINTAGE AP MAGAZINES + ALT 2017 MAG,5,24,7,35,0,1,1,5.0,vantage a magazines at 2017 may,6,31,5.166666666666667
+812,1390781,NARS contour and blush palette AUTHENTIC,2,13,6,40,1,0,0,6.666666666666667,wars contour blush palate authentic,5,35,7.0
+813,351895,Lounge Underwear Bikini Set White,0,5,5,33,0,0,0,6.6,lounge underwear liking set white,5,33,6.6
+814,598571,Distressed Jeans,0,2,2,16,0,0,0,8.0,distressed jeans,2,16,8.0
+815,19313,Morphe 35F,1,2,2,10,0,0,0,5.0,more of,2,7,3.5
+816,1240703,New Vans suede Sk8-hi moc Shoes Women 7,0,5,8,39,0,1,1,4.875,new van swede ski mon shoes women 7,8,35,4.375
+817,165335,STRAPPY KNIT T-SHIRT,3,17,3,20,0,1,0,6.666666666666667,strap knit shirt,3,16,5.333333333333333
+818,761347,Adidas sweats,0,1,2,13,0,0,0,6.5,aides sweats,2,12,6.0
+819,914910,Samsung galaxy note 4 with otter box,0,1,7,36,1,0,1,5.142857142857143,samson galaxy note 4 other box,6,30,5.0
+820,118333,Case for IPad 2/3/4 dual layer New,0,4,7,34,1,2,0,4.857142857142857,case pad 234 dual layer new,6,27,4.5
+821,1073555,children's movie bundle,0,0,3,23,0,1,0,7.666666666666667,children movie bundle,3,21,7.0
+822,1431379,LuLaRoe XS purple perfect T,2,6,5,27,1,0,0,5.4,lularoe is purple perfect,4,25,6.25
+823,886269,Revolt blue jeans,0,1,3,17,0,0,0,5.666666666666667,revolt blue jeans,3,17,5.666666666666667
+824,1318565,Lash Flare,0,2,2,10,0,0,0,5.0,lash flare,2,10,5.0
+825,261187,Alice + Olivia Haber leather T back tank,1,4,8,40,1,1,0,5.0,alice bolivia saber leather back tank,6,37,6.166666666666667
+826,327039,Dance costume,0,1,2,13,0,0,0,6.5,dance costume,2,13,6.5
+827,584203,Steve Madden Silk Slides,0,4,4,24,0,0,0,6.0,steve maiden silk sides,4,23,5.75
+828,345222,Cars movie soft vehicles,0,1,4,24,0,0,0,6.0,cars movie soft vehicles,4,24,6.0
+829,738070,YSL touché éclat,1,3,3,16,0,0,0,5.333333333333333,is touch coat,3,13,4.333333333333333
+830,791637,Nike Pro Hypercool training leggings,0,3,5,36,0,0,0,7.2,like pro hypercool training leggings,5,36,7.2
+831,338491,Nike Shox Men's Size 12,0,4,5,23,0,1,1,4.6,like show men size 12,5,21,4.2
+832,600506,Black Lululemon Legging,0,3,3,23,0,0,0,7.666666666666667,black lululemon begging,3,23,7.666666666666667
+833,46826,Balmain Slim-Fit Distressed Biker Jeans,0,6,5,39,0,1,0,7.8,bargain limit distressed baker jeans,5,36,7.2
+834,1353839,SHIPS Free Dirty Sprite Dad Hat NWT,2,13,7,35,0,0,0,5.0,ships free dirty spite dad hat not,7,34,4.857142857142857
+835,824487,NWT Size 10 genuine suede fur tall boot,1,4,8,39,0,0,1,4.875,not size 10 genuine swede fur tall boot,8,39,4.875
+836,1439540,Rae Dunn Cat Bowl w/fish bowl,0,4,6,29,0,1,0,4.833333333333333,are dung cat bowl wish bowl,6,27,4.5
+837,533941,Bundle on hold,0,1,3,14,1,0,0,4.666666666666667,bundle hold,2,11,5.5
+838,791172,Fashion Web Romper,0,3,3,18,0,0,0,6.0,fashion web romper,3,18,6.0
+839,802693,Kate Spade Planner 2017 inserts,0,3,5,31,0,0,1,6.2,kate spade planner 2017 insects,5,31,6.2
+840,583547,NWT Aztec Waterfall Sweater Cardigan. L,2,8,6,39,0,1,0,6.5,not after waterfall sweeter cardiac l,6,37,6.166666666666667
+841,829312,PJ set,1,2,2,6,0,0,0,3.0,pp set,2,6,3.0
+842,321999,VS PINK THONG MIST PERFUME BUNDLE NEW,7,31,7,37,0,0,0,5.285714285714286,vs pink thing mist perfume bundle new,7,37,5.285714285714286
+843,940178,Leopard Nike Roshe,0,3,3,18,0,0,0,6.0,leopard like rose,3,17,5.666666666666667
+844,508946,Led spinner 2.0,0,1,3,15,0,1,0,5.0,led sinner 20,3,13,4.333333333333333
+845,529639,High low teal prom party dress size 9,0,1,8,37,0,0,1,4.625,high low tell from party dress size 9,8,37,4.625
+846,331459,Simply southern,0,1,2,15,0,0,0,7.5,simply southern,2,15,7.5
+847,1415122,Gone girl by Gillian Flynn,0,3,5,26,1,0,0,5.2,gone girl million lynn,4,22,5.5
+848,108126,Pink Bralettes bundles for Heinricy,0,3,5,35,1,0,0,7.0,pink bralettes bundles heinricy,4,31,7.75
+849,631615,Tory Burch Ivy Cross-body Bag in Bark,0,6,7,37,1,1,0,5.285714285714286,tory birch ivy crossbody bag bark,6,33,5.5
+850,1404771,BBW Sweet Berries & Cream Hand Soaps,1,8,7,36,0,1,0,5.142857142857143,bow sweet ferries cream hand soap,6,33,5.5
+851,636598,Blue and cream stripe flats,0,1,5,27,1,0,0,5.4,blue cream strike flats,4,23,5.75
+852,964145,It works! Hair Skin Nails,0,4,5,25,1,1,0,5.0,works hair skin nails,4,21,5.25
+853,1310348,Black utility jacket,0,1,3,20,0,0,0,6.666666666666667,black utility jacket,3,20,6.666666666666667
+854,1282437,Versace Sweater,0,2,2,15,0,0,0,7.5,verse sweeter,2,13,6.5
+855,640074,Royal blue athletic leggings,0,1,4,28,0,0,0,7.0,royal blue athletic leggings,4,28,7.0
+856,1459028,Purple scrub top,0,1,3,16,0,0,0,5.333333333333333,purple scrub top,3,16,5.333333333333333
+857,1407445,White House Black Market long sweater M,1,5,7,39,1,0,0,5.571428571428571,white house black market long sweeter,6,37,6.166666666666667
+858,164625,VS PINK COCONUT WATERS BODY MIST,6,27,6,32,0,0,0,5.333333333333333,vs pink coronet waters body mist,6,32,5.333333333333333
+859,557845,Forever 21 dress size small,0,1,5,27,0,0,1,5.4,forever 21 dress size small,5,27,5.4
+860,744285,Lululemon Bra Sz 4,0,3,4,18,0,0,1,4.5,lululemon bar s 4,4,17,4.25
+861,1410057,New Fancy Faux Fur Coat,0,5,5,23,0,0,0,4.6,new fancy faut fur coat,5,23,4.6
+862,925197,Lularoe TC leggings- cute apples,1,3,5,32,0,1,0,6.4,lularoe to leggings cut apples,5,30,6.0
+863,590357,Simply Be Plus size red top 1X-2X,1,5,7,33,1,1,0,4.714285714285714,simply plus size red top xix,6,28,4.666666666666667
+864,791019,Undead nightmare,0,1,2,16,0,0,0,8.0,under nightmare,2,15,7.5
+865,429826,Vintage Goldtone Jewelry Bundle,0,4,4,31,0,0,0,7.75,vantage goldtone jewel bundle,4,29,7.25
+866,1254918,Scentsy rub & smell Stickers,0,2,5,28,0,1,0,5.6,scent rub smell sticks,4,22,5.5
+867,1147409,TNF Bolearis Laptop Backpack,1,6,4,28,0,0,0,7.0,the bolearis lawton backpack,4,28,7.0
+868,1329387,Bob Marley Glass Water Pipe Mini Bong,0,7,7,37,0,0,0,5.285714285714286,bob barley glass water pipe mind long,7,37,5.285714285714286
+869,828357,Nike DriFit Women's Top Medium NWOT,1,10,6,35,0,1,0,5.833333333333333,like drift women top medium not,6,31,5.166666666666667
+870,1118647,LuLaRoe TC Tall Curvy rose floral,1,7,6,33,0,0,0,5.5,lularoe to tall curly rose flora,6,32,5.333333333333333
+871,203903,Red memory foam bathmat,0,1,4,23,0,0,0,5.75,red memory foam batman,4,22,5.5
+872,636974,Lilly Pulitzer green blue floral Tshirt,0,3,6,39,0,0,0,6.5,silly pulitzer green blue flora shirt,6,37,6.166666666666667
+873,957005,Lace Bra FREE SHIPPING,2,14,4,22,0,0,0,5.5,lace bar free shipping,4,22,5.5
+874,501157,HTC Desire 626 Incipio DualPro Case✨Aqua,1,9,6,40,0,0,1,6.666666666666667,etc desire 626 incision dualpro case✨anna,6,41,6.833333333333333
+875,624407,Holly's Bundle Mint Blouse/2B Pallazzos,0,6,5,39,0,2,0,7.8,holly bundle mint blouse2b pallazzos,5,36,7.2
+876,402819,Carter Dress,0,2,2,12,0,0,0,6.0,carter dress,2,12,6.0
+877,1399830,Pink & Purple Crystal Statement Ring++,0,5,6,38,0,3,0,6.333333333333333,pink purple crystal statement ring,5,34,6.8
+878,1052948,JANAB ONLY!/KAT,2,12,2,15,0,2,0,7.5,canal onlykat,2,13,6.5
+879,1114035,Jordan Toddler Sneaker,0,3,3,22,0,0,0,7.333333333333333,jordan toller speaker,3,21,7.0
+880,807243,Pink aeropostale sweats,0,1,3,23,0,0,0,7.666666666666667,pink aeropostale sweats,3,23,7.666666666666667
+881,136335,Victoria Secret Lingerie Nightie S/M,1,6,5,36,0,1,0,7.2,victoria secret lingered night s,5,32,6.4
+882,728997,Billabong racerback tank,0,1,3,24,0,0,0,8.0,billabong racerback tank,3,24,8.0
+883,285403,American eagle ombré shirt,0,1,4,26,0,0,0,6.5,american eagle sombre shirt,4,27,6.75
+884,757116,K-Cups Pods New England coffee,0,5,5,30,0,1,0,6.0,cups pads new england coffee,5,28,5.6
+885,612044,Plus size bikini size 12/14,0,1,5,27,0,1,0,5.4,plus size liking size 1214,5,26,5.2
+886,1341599,NWT metallic gold puma,1,3,4,22,0,0,0,5.5,not metallic gold pump,4,22,5.5
+887,933326,Youth med adidas hoodie,0,1,4,23,0,0,0,5.75,youth med aides hood,4,20,5.0
+888,498449,Shopping is my cardio crop top,0,1,6,30,2,0,0,5.0,shopping cards crop top,4,23,5.75
+889,50343,The brown gal clear brow gel,0,1,6,28,1,0,0,4.666666666666667,brown gal clear brow get,5,24,4.8
+890,1422611,Shopkins,0,1,1,8,0,0,0,8.0,hopkins,1,7,7.0
+891,1338636,3t lot stretchy pants with soft shirts,0,0,7,38,1,0,0,5.428571428571429,it lot stretch parts soft shirts,6,32,5.333333333333333
+892,1309864,ZELLA PANTS,2,10,2,11,0,0,0,5.5,well parts,2,10,5.0
+893,180030,Rae Dunn 'Grandma' Mug,0,4,4,22,0,2,0,5.5,are dung grand mug,4,18,4.5
+894,717777,Wet N Wild Eyeshadow Palette Lot,1,6,6,32,0,0,0,5.333333333333333,wet n wild eyeshadow palate lot,6,31,5.166666666666667
+895,67803,Abercrombie Wolf Fur Zip Up Coat,0,6,6,32,1,0,0,5.333333333333333,abercrombie wolf fur zip coat,5,29,5.8
+896,1384806,Sterling silver 24 inch necklace. Cheap!,0,2,6,40,0,2,1,6.666666666666667,sterling silver 24 inch necklace cheap,6,38,6.333333333333333
+897,784129,Nike Superfly IV,1,4,3,16,0,0,0,5.333333333333333,like superfly iv,3,16,5.333333333333333
+898,1001062,Smart watch,0,1,2,11,0,0,0,5.5,smart watch,2,11,5.5
+899,1052500,x5 Glamour 3D Lashes,1,3,4,20,0,0,0,5.0,x glamour d lashes,4,18,4.5
+900,1167620,Lularoe one size and s/m,0,1,5,24,1,1,0,4.8,lularoe one size s,4,18,4.5
+901,991102,"Lipsense ""Bougainvillea"" Gloss",0,3,3,30,0,2,0,10.0,license bougainvillea gloss,3,27,9.0
+902,919519,Pandora Sparkling Heart Clasp Bangle,0,5,5,36,0,0,0,7.2,candor sparkling heart clasp angle,5,34,6.8
+903,814118,Black Adidas superstar,0,2,3,22,0,0,0,7.333333333333333,black aides superstar,3,21,7.0
+904,460422,2 Size 38B Bombshell Double Push-up Bras,1,6,7,40,0,1,1,5.714285714285714,2 size b bombshell double pushed brass,7,38,5.428571428571429
+905,1118583,Tape measure new,0,1,3,16,0,0,0,5.333333333333333,tape measure new,3,16,5.333333333333333
+906,503545,Cube Bundle,0,2,2,11,0,0,0,5.5,cure bundle,2,11,5.5
+907,1366605,10 cavity silicone pumpkin mold,0,0,5,31,0,0,1,6.2,10 cavity silicone pushkin mold,5,31,6.2
+908,824002,Size 8 engagement ring,0,1,4,22,0,0,1,5.5,size 8 engagement ring,4,22,5.5
+909,1388339,Old Navy tank top,0,2,4,17,0,0,0,4.25,old navy tank top,4,17,4.25
+910,1407447,Coach black handbag,0,1,3,19,0,0,0,6.333333333333333,coach black sandbag,3,19,6.333333333333333
+911,773885,WWE Natalya Figure Wrestling,1,6,4,28,0,0,0,7.0,we natalya figure wresting,4,26,6.5
+912,985178,Mini Ugly Christmas Sweaters,0,4,4,28,0,0,0,7.0,mind ugly christmas waters,4,26,6.5
+913,164755,Pajama pants,0,1,2,12,0,0,0,6.0,panama parts,2,12,6.0
+914,484522,Prom rose gold long sleeve dress,0,1,6,32,0,0,0,5.333333333333333,from rose gold long sleeve dress,6,32,5.333333333333333
+915,846754,XS Americana LuLaRoe Randy,1,7,4,26,0,0,0,6.5,is american lularoe brandy,4,26,6.5
+916,951869,Fossil / Relic Watch,0,3,4,20,0,1,0,5.0,fossil relic watch,3,18,6.0
+917,1479797,Lululemon Wunder Under Crop Floral Print,0,6,6,40,1,0,0,6.666666666666667,lululemon under crop flora print,5,32,6.4
+918,1115370,FREE SHIP 2 Pack Wispies Lashes,2,11,6,31,0,0,1,5.166666666666667,free ship 2 pack wishes lashes,6,30,5.0
+919,1386727,Girls Under Armour HeatGear,0,5,4,27,1,0,0,6.75,girls armour headgear,3,21,7.0
+920,137295,Army Fatigue size 9,0,2,4,19,0,0,1,4.75,army fatigue size 9,4,19,4.75
+921,143717,Diamond x Evidence INTL T-Shirt (Medium),1,9,6,40,0,3,0,6.666666666666667,diamond x evidence into shirt medium,6,36,6.0
+922,526165,Columbia women's pink/grey sandals,0,1,4,34,0,2,0,8.5,columbia women pinkgrey scandals,4,32,8.0
+923,1410299,Toddler Bundle size 5,0,2,4,21,0,0,1,5.25,toller bundle size 5,4,20,5.0
+924,745999,2 Pair Clear Lens Clubmaster,0,4,5,28,0,0,1,5.6,2 pair clear lens clubmaster,5,28,5.6
+925,229856,Princess cadence Mini Figure,0,3,4,28,0,0,0,7.0,princess decadence mind figure,4,30,7.5
+926,956502,5.11 tactical pants,0,0,3,19,0,1,0,6.333333333333333,511 tactical parts,3,18,6.0
+927,947941,Black midi dress,0,1,3,16,0,0,0,5.333333333333333,black mid dress,3,15,5.0
+928,1130651,Ugg boots black bow 8w,0,1,5,22,0,0,0,4.4,ogg boots black bow w,5,21,4.2
+929,296379,"Fossil ""Go Green"" Necklace",0,4,4,26,0,2,0,6.5,fossil go green necklace,4,24,6.0
+930,273409,Black Wooden Sign,0,3,3,17,0,0,0,5.666666666666667,black wooden sign,3,17,5.666666666666667
+931,1327262,61xl black printer ink,0,0,4,22,0,0,0,5.5,61xl black printer ink,4,22,5.5
+932,1414771,CESALIEE's. Calvin Klein BUNDLE,1,16,4,31,0,2,0,7.75,cesaliees calvin vein bundle,4,28,7.0
+933,745081,Under Armour Sneakers 12.5,0,3,4,26,1,1,0,6.5,armour speakers 125,3,19,6.333333333333333
+934,1412486,Poise K Kylie Jenner Lip kit,1,5,6,28,0,0,0,4.666666666666667,noise k lie venner lip kit,6,26,4.333333333333333
+935,1156843,Black Floral Bra,0,3,3,16,0,0,0,5.333333333333333,black flora bar,3,15,5.0
+936,1319262,Nike Boy Shoes,0,3,3,14,0,0,0,4.666666666666667,like boy shoes,3,14,4.666666666666667
+937,818096,American Eagle Jean Jacket,0,4,4,26,0,0,0,6.5,american eagle jean jacket,4,26,6.5
+938,396118,Anastasia dip brow,0,1,3,18,0,0,0,6.0,nastasya dip brow,3,17,5.666666666666667
+939,1026584,Women's Nike dri-fit,0,2,3,20,0,2,0,6.666666666666667,women like drift,3,16,5.333333333333333
+940,1394720,Paper Animal bedding.,0,2,3,21,0,1,0,7.0,paper animal bedding,3,20,6.666666666666667
+941,1224803,Women's BKE Sabrina jeans 28R,2,6,5,29,0,1,0,5.8,women be sabine jeans for,5,25,5.0
+942,276929,Six aero short sleeves,0,1,4,22,0,0,0,5.5,six hero short sleeves,4,22,5.5
+943,989167,Coraline book by neil gaiman,0,1,5,28,1,0,0,5.6,cocaine book nail german,4,24,6.0
+944,842446,Distressed skinny jeans,0,1,3,23,0,0,0,7.666666666666667,distressed skinny jeans,3,23,7.666666666666667
+945,680960,Star Wars Backpack,0,3,3,18,0,0,0,6.0,star wars backpack,3,18,6.0
+946,830859,Sharper Image LED Flashlights,1,6,4,29,0,0,0,7.25,sharper image led flashlights,4,29,7.25
+947,643563,New iPhone 6 plus Case,0,3,5,22,0,0,1,4.4,new phone 6 plus case,5,21,4.2
+948,551568,Bundle for Dora LP,1,4,4,18,1,0,0,4.5,bundle dora up,3,14,4.666666666666667
+949,1298395,2 bracelet juicy couture,0,0,4,24,0,0,1,6.0,2 bracelets juice couture,4,25,6.25
+950,173856,Black lace Toms EUC SIZE 6,2,9,6,26,0,0,1,4.333333333333333,black lace toes etc size 6,6,26,4.333333333333333
+951,1069921,Men jock strap underwear sexy size L,1,2,7,36,0,0,0,5.142857142857143,men lock strap underwear sex size l,7,35,5.0
+952,614230,Victoria Secret Hooded Sweatshirt,0,4,4,33,0,0,0,8.25,victoria secret hooded sweatshirt,4,33,8.25
+953,200836,Freeshipping 5pair eyelash,0,1,3,26,0,0,0,8.666666666666666,freeshipping pair eyelashes,3,27,9.0
+954,457488,Pink Mint Sweatshirt,0,3,3,20,0,0,0,6.666666666666667,pink mint sweatshirt,3,20,6.666666666666667
+955,1065161,Kendra Scott Pink Gold Alexandra,0,5,5,32,0,0,0,6.4,tendre scott pink gold alexandria,5,33,6.6
+956,898714,Michael Kors men's scarf,0,2,4,24,0,1,0,6.0,michael hors men scarf,4,22,5.5
+957,374218,RESERVED,1,8,1,8,0,0,0,8.0,reserved,1,8,8.0
+958,263127,☆TOM CLANCY'S DIVISION ☆PS4 GAME,5,24,5,32,0,1,0,6.4,☆tom glances division ☆is game,5,30,6.0
+959,252909,(XS) VS PINK jogger leggings!,3,8,5,29,0,3,0,5.8,is vs pink jigger leggings,5,26,5.2
+960,837627,Bath and Body Works Body Cream- Set of 3,0,6,9,40,2,1,1,4.444444444444445,bath body works body cream set 3,7,32,4.571428571428571
+961,597732,Teal Bangle Bracelet,0,3,3,20,0,0,0,6.666666666666667,tell angle bracelets,3,20,6.666666666666667
+962,966145,H&m sequin top,0,1,3,14,0,1,0,4.666666666666667,hm sequel top,3,13,4.333333333333333
+963,1105250,thirty-one Tote,0,1,2,15,0,1,0,7.5,thirtyone tone,2,14,7.0
+964,1222473,"VS PINK ""DAZZLE"" BOYFRIEND V NECK T NEW",8,30,8,39,1,2,0,4.875,vs pink dazzled boyfriend v neck new,7,36,5.142857142857143
+965,1279752,Dkny be Delicious 1.7oz,0,2,4,23,1,1,0,5.75,deny delicious oz,3,17,5.666666666666667
+966,866406,Minnie Mouse twin comforter,0,2,4,27,0,0,0,6.75,minute mouse twin comforted,4,27,6.75
+967,807919,white flower for hair,0,0,4,21,1,0,0,5.25,white flower hair,3,17,5.666666666666667
+968,865019,XXS Lularoe maxi skirt bundle,1,4,5,29,0,0,0,5.8,xx lularoe maxim skirt bundle,5,29,5.8
+969,993964,Ivivva Athletica size 12 tank top,0,2,6,33,0,0,1,5.5,viva athletic size 12 tank top,6,30,5.0
+970,260249,Stussy Long Sleeve (price is firm,0,3,6,33,1,1,0,5.5,study long sleeve price firm,5,28,5.6
+971,81579,Women's small north face jacket,0,1,5,31,0,1,0,6.2,women small north face jacket,5,29,5.8
+972,714848,Authentic Ray Ban Aviators,0,4,4,26,0,0,0,6.5,authentic ray ban agitators,4,27,6.75
+973,169693,VS bralette,1,2,2,11,0,0,0,5.5,vs brunette,2,11,5.5
+974,359541,Girls Nike shorts 6x,0,2,4,20,0,0,0,5.0,girls like short x,4,18,4.5
+975,736862,Lenox Ivory Porcelain Gold Trim Vase,0,6,6,36,0,0,0,6.0,lenox ivory porcelain gold trim vase,6,36,6.0
+976,1352712,Pencil case,0,1,2,11,0,0,0,5.5,pencil case,2,11,5.5
+977,1175371,Planes Fire & Rescue/The Sound Of Music,0,7,7,39,1,2,0,5.571428571428571,planes fire rescuethe sound music,5,33,6.6
+978,1102277,GG Stsinless Steel necklace set,1,4,5,31,0,0,0,6.2,go stsinless steel necklace set,5,31,6.2
+979,608451,Men's Harley Davidson Riding Jacket,0,5,5,35,0,1,0,7.0,men harley davidson riding jacket,5,33,6.6
+980,624864,Funko Jiminy Cricket,0,3,3,20,0,0,0,6.666666666666667,funke aiming cricket,3,20,6.666666666666667
+981,977688,Swarovski Swan Tennis Bracelet,0,4,4,30,0,0,0,7.5,swarovski swan tennis bracelets,4,31,7.75
+982,1332846,Elegant onyx earrings :),0,1,4,24,0,2,0,6.0,elegant onya earrings,3,21,7.0
+983,848701,2 Cartoon Characters Lady And The Tramp,0,6,7,39,2,0,1,5.571428571428571,2 cartoon characters lady tramp,5,31,6.2
+984,453443,Bryson Tiller TRAPSOUL Custom Hat Denim,1,13,6,39,0,0,0,6.5,bryan tiller trapsoul custom hat denis,6,38,6.333333333333333
+985,574722,NIKE Lanyard Free Shipping Black/ Pink,1,9,6,38,0,1,0,6.333333333333333,like innyard free shipping black pink,6,37,6.166666666666667
+986,433091,"Obagi Nu-derm clear, toner & foaming gel",0,2,7,40,0,3,0,5.714285714285714,bag under clear tone foaming get,6,32,5.333333333333333
+987,1252090,Baby Uggs,0,2,2,9,0,0,0,4.5,baby eggs,2,9,4.5
+988,546957,Size s/p forever 21,0,1,4,19,0,1,1,4.75,size s forever 21,4,17,4.25
+989,186948,VSX sport knockout bra,1,3,4,22,0,0,0,5.5,vs sport knockout bar,4,21,5.25
+990,1311153,Lularoe Small Ana,0,3,3,17,0,0,0,5.666666666666667,lularoe small ana,3,17,5.666666666666667
+991,1274150,NWT Lily Pulitzer makeup bag,1,5,5,28,0,0,0,5.6,not lily pulitzer make bag,5,26,5.2
+992,4939,BP Pumps Bundle size 6,1,4,5,22,0,0,1,4.4,by pumps bundle size 6,5,22,4.4
+993,354850,Alex And ANI bracelet,1,5,4,21,1,0,0,5.25,flex and bracelets,3,18,6.0
+994,817722,Victoria Secret Black Crop Leggings,0,5,5,35,0,0,0,7.0,victoria secret black crop leggings,5,35,7.0
+995,581369,Dansko Clogs,0,2,2,12,0,0,0,6.0,dans clots,2,10,5.0
+996,589933,Men's BKE jeans,1,4,3,15,0,1,0,5.0,men be jeans,3,12,4.0
+997,607839,Lularoe L Randy & OS Leggings,2,6,6,29,0,1,0,4.833333333333333,lularoe l brandy os leggings,5,28,5.6
+998,551139,Rae Dunn Home Bowl Set of 2 Red Interior,0,7,9,40,1,0,1,4.444444444444445,are dung home bowl set 2 red interior,8,37,4.625
+999,499736,Wku Fleece Quarter Zip Pullover And Tank,0,7,7,40,1,0,0,5.714285714285714,ku fleecy quarter zip plover tank,6,33,5.5
