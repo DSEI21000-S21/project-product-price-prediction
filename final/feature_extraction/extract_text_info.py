@@ -1,5 +1,20 @@
 import string
 
+def extract_general_row_info(x, col_name, stop_words):
+    # extract_text_count
+    x['upper_word_count'] = len([x for x in x[col_name].split() if x.isupper()])
+    x['upper_char_count'] = len([x for x in x[col_name] if x.isupper()])
+    x['stopword_count'] = len([x for x in x[col_name].split() if x.lower() in stop_words])
+    x['punctuation_count'] = len([x for x in x[col_name] if x in string.punctuation])
+    x['number_count'] = len([x for x in x[col_name].split() if x.isdigit()])
+    return x
+
+def extract_row_word_counts(x, col_name, prefix):
+    x['%s_word_count' % prefix] = len(x[col_name].split())
+    x['%s_char_count' % prefix] = len(x[col_name])
+    x['%s_avg_word_len' % prefix] = x['%s_char_count' % prefix] / x['%s_word_count' % prefix]
+    return x
+
 def extract_general_text_info(df, col_name, stop_words):
     # extract_text_count
     df['upper_word_count'] = df[col_name].apply(lambda x: len([x for x in x.split() if x.isupper()]))
