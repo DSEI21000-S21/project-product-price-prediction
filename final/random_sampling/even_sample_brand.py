@@ -10,15 +10,21 @@ def stratified_sampling_by_brand(file_dir="../../data",number_samples = 10000, r
 
     # obtain item with brand that contain over 100 items
     brand_dist = df.brand_name.value_counts()
-    brand_w_over_100_item  = brand_dist[brand_dist>100].index.to_list()
+    limit = 10
+    brand_item_limit_dict = {15000: 50, 50000: 100}
+    for need_sample, item_limit in brand_item_limit_dict.items():
+        if number_samples >= need_sample:
+            limit = item_limit
+    brand_w_over_100_item  = brand_dist[brand_dist>limit].index.to_list()
     df = df.loc[df.brand_name.isin(brand_w_over_100_item), :] # result shape: (800066, 10)
 
     # random sampling
     number_sample_per_brand = math.ceil(number_samples / len(brand_w_over_100_item))
-
+    if number_samples > 55000:
+        number_sample_per_brand += 1
     # get sample
-    sampling_df = df.groupby('brand_name').apply(lambda s: s.sample(number_sample_per_brand,
-                                                                        replace = replace,random_state=random_num))
+    sampling_df = df.groupby('brand_name').apply(lambda s: s.sample(min(len(s),number_sample_per_brand),
+                                                                    replace = replace,random_state=random_num))
 
     # shuffle rows
     sampling_df = sampling_df.sample(frac=1)
@@ -27,7 +33,7 @@ def stratified_sampling_by_brand(file_dir="../../data",number_samples = 10000, r
     if len(sampling_df) >  number_samples:
         sampling_df = sampling_df[:number_samples]
 
-    # sampling_df.brand_name.value_counts()
+    print(sampling_df.brand_name.value_counts())
 
     if save_sample_df:
         sampling_df.to_csv("%s/random_samples/stratified_sampling_data_by_brand_name_sz%d_%d.csv"%(file_dir,len(sampling_df),random_num), index=False)
