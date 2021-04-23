@@ -6,14 +6,14 @@ from datetime import datetime
 def stratified_sampling_by_category(file_dir="../../data", category_name  = "c1", number_samples = 10000, replace = False, save_sample_df = True):
     random_num = int(datetime.now().timestamp())
     # read data
-    df = pd.read_csv("%s/data_wo_missing_values_split_category.csv"%file_dir) # result shape: (846982, 10)
+    df = pd.read_csv("%s/data_wo_missing_values_split_category.csv"%file_dir) # result shape: (844460, 10)
     limit = 50
     add_sample = 0
     #C1
     # the c1 with minimum item is `handmade` with 70 item - total 10  category
     # if number_samples > 7000, should not include handmade category
     if category_name  == "c1" and number_samples > 7000:
-        df = df.loc[df.c1 != "handmade", :] # (846912, 10)
+        df = df.loc[df.c1 != "handmade", :]
     elif category_name  == "c2":
         c2_dist = df.c2.value_counts()
 

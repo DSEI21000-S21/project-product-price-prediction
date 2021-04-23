@@ -6,9 +6,9 @@ from datetime import datetime
 def stratified_sampling_by_brand(file_dir="../../data",number_samples = 10000, replace = False, save_sample_df = True):
     random_num = int(datetime.now().timestamp())
     # read data
-    df = pd.read_csv("%s/data_wo_missing_values_split_category.csv"%file_dir) # result shape: (846982, 10)
+    df = pd.read_csv("%s/data_wo_missing_values_split_category.csv"%file_dir) # result shape: (844460, 10)
 
-    # obtain item with brand that contain over 100 items
+    # obtain item with brand that contain over sufficient items
     brand_dist = df.brand_name.value_counts()
     limit = 10
     brand_item_limit_dict = {15000: 50, 50000: 100}
@@ -16,7 +16,7 @@ def stratified_sampling_by_brand(file_dir="../../data",number_samples = 10000, r
         if number_samples >= need_sample:
             limit = item_limit
     brand_w_over_100_item  = brand_dist[brand_dist>limit].index.to_list()
-    df = df.loc[df.brand_name.isin(brand_w_over_100_item), :] # result shape: (800066, 10)
+    df = df.loc[df.brand_name.isin(brand_w_over_100_item), :]
 
     # random sampling
     number_sample_per_brand = math.ceil(number_samples / len(brand_w_over_100_item))
