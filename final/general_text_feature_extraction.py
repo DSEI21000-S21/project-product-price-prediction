@@ -3,10 +3,11 @@ from final.feature_extraction.clean_text import clean_text_with_extract_info
 
 # df = pd.read_csv("../data/sample_data.csv")
 df = pd.read_csv("../data/train.tsv",sep="\t")
-df = df[['train_id', 'name']]
 col_name = 'name'
+df = df[['train_id', col_name]]
 
-process_name_df = clean_text_with_extract_info(df, col_name="name")
+
+process_name_df = clean_text_with_extract_info(df, col_name=col_name)
 
 
 # save the result

@@ -12,7 +12,10 @@ def extract_general_row_info(x, col_name, stop_words):
 def extract_row_word_counts(x, col_name, prefix):
     x['%s_word_count' % prefix] = len(x[col_name].split())
     x['%s_char_count' % prefix] = len(x[col_name])
-    x['%s_avg_word_len' % prefix] = x['%s_char_count' % prefix] / x['%s_word_count' % prefix]
+    if x['%s_word_count' % prefix] == 0:
+        x['%s_avg_word_len' % prefix] = 0
+    else:
+        x['%s_avg_word_len' % prefix] = x['%s_char_count' % prefix] / x['%s_word_count' % prefix]
     return x
 
 def extract_general_text_info(df, col_name, stop_words):
@@ -26,9 +29,11 @@ def extract_general_text_info(df, col_name, stop_words):
     return df
 
 
-def extract_word_counts(df, col_name, is_before = False):
-    prefix = 'bef' if is_before else 'aft'
-    df['%s_word_count' % prefix] = df[col_name].apply(lambda x: len(x.split()))
-    df['%s_char_count' % prefix] = df[col_name].apply(lambda x: len(x))
-    df['%s_avg_word_len' % prefix] = df['%s_char_count' % prefix] / df['%s_word_count' % prefix]
-    return df
+# def extract_word_counts(df, col_name, is_before = False):
+#     prefix = 'bef' if is_before else 'aft'
+#     df['%s_word_count' % prefix] = df[col_name].apply(lambda x: len(x.split()))
+#     df['%s_char_count' % prefix] = df[col_name].apply(lambda x: len(x))
+#
+#
+#     df['%s_avg_word_len' % prefix] = df['%s_char_count' % prefix] / df['%s_word_count' % prefix]
+#     return df
