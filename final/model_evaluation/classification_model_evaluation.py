@@ -33,7 +33,7 @@ def train_classification_model(model, X_train, X_test, y_train, y_test, target_c
     else:
         print(train_matrix)
         print("Train accuracy for each class")
-        for i in train_class_acc_indices:
+        for i in train_class_acc_indices[::-1]:
             print("%-20s - %.5f" % (target_classname[i], train_class_acc[i]))
 
     print("-" * 50)
