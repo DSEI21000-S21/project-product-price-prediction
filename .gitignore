@@ -3,6 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 *.tsv
+*other/
+*general2.py
+*general3.py
+*data_wo_missing_values_split_category.csv
 
 # C extensions
 *.so
