@@ -7,7 +7,7 @@ __pycache__/
 *general2.py
 *general3.py
 *data_wo_missing_values_split_category.csv
-
+*all_clean_text_with_features_and_split_category.csv
 # C extensions
 *.so
 .DS_Store

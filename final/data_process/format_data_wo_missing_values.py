@@ -12,12 +12,12 @@ def create_new_categories(x):
         return pd.Series({'c1': None, 'c2':None, 'c3': None})
 
 
-df = pd.read_csv("../../data/train.tsv", sep="\t")
-df.dropna(inplace=True)
-
-df = pd.concat([df[['train_id', 'name', 'item_condition_id', 'brand_name','price', 'shipping', 'item_description']],
-                    df.category_name.apply(create_new_categories)], axis=1)
-df.dropna(inplace=True)
-df.to_csv("../../data/data_wo_missing_values_split_category.csv", index=False)
+# df = pd.read_csv("../../data/train.tsv", sep="\t")
+# df.dropna(inplace=True)
+#
+# df = pd.concat([df[['train_id', 'name', 'item_condition_id', 'brand_name','price', 'shipping', 'item_description']],
+#                     df.category_name.apply(create_new_categories)], axis=1)
+# df.dropna(inplace=True)
+# df.to_csv("../../data/data_wo_missing_values_split_category.csv", index=False)
 
 # df.shape  # (846982, 10)

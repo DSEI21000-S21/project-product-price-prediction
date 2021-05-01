@@ -70,8 +70,6 @@ def clean_text_with_extract_info(df, col_name, num_of_processes = 8):
     # clean text
     df = parallelize(df, partial(clean_text, col_name=col_name, stop_words=stop_words,
                                  clean_col_name=clean_col_name, lemmatizer=lemmatizer), num_of_processes)
-
-    df.to_csv("/home/jchen/Other/ml/data/inter_track.csv", index=False)
     # extract text info after clean text
     df = parallelize(df, partial(extract_counts, col_name=clean_col_name, prefix="after"), num_of_processes)
 
