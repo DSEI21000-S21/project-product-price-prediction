@@ -4,7 +4,7 @@ from sklearn.decomposition import TruncatedSVD
 from sklearn.decomposition import LatentDirichletAllocation
 from sklearn.cluster import MiniBatchKMeans
 from sklearn.manifold import Isomap
-
+import sys
 
 
 def dimension_reduction(data, method, n_comp):
@@ -23,5 +23,6 @@ def dimension_reduction(data, method, n_comp):
         model = techniques[method]
         return model.fit_transform(data)
     except:
-        print("Please select the method from: PCA, SVD, LatentDA, KMeans, Isomap ")
+        print("Unexpected error:", sys.exc_info()[0])
+        print("Please select the method from: PCA, SVD, LatentDA, KMeans, Isomap")
         return None
