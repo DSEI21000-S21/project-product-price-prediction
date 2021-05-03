@@ -31,7 +31,8 @@ The step for text cleaning including
 
 ### Feature Selection and Feature Extraction
 
-*Feature Extraction*
+**Feature Extraction**
+
 - Text Vectorization -> converting clean text into numerical representation
   - Try different techniques and compare the outcome and pick the best method   
     - Count Vectorizer
@@ -49,7 +50,8 @@ The step for text cleaning including
   - Number of stop words
 
 
-*Feature Selection*
+**Feature Selection**
+
 There will be a lot of raw features, where there will be many noisy with in the raw features. Therefore, we need to apply multiple tehniques to select the best features  before pass into the model  to predict the price.
 Some methods tried for feature  selection:
 - Logistical Regression Model -> coeff
