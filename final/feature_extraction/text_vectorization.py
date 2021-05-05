@@ -18,7 +18,7 @@ def encode_categories(df, columns = [], min_df = 10, print_progress=False):
         for index, column in enumerate(columns):
             print("Size of vectorization features of", column, "is", len(features_name[index]))
         print("Shape of total vectorization features of",columns, "is", features.shape)
-    return features, features_name
+    return features.toarray(), features_name
 
 
 def encode_string_column(df, columns=[], min_df=10, max_features=15000, print_progress=False):
@@ -39,4 +39,4 @@ def encode_string_column(df, columns=[], min_df=10, max_features=15000, print_pr
         for index, column in enumerate(columns):
             print("Size of vectorization features of", column, "is", len(features_name[index]))
         print("Shape of vectorization features of",columns, "is", features.shape)
-    return features, features_name
+    return features.toarray(), features_name
