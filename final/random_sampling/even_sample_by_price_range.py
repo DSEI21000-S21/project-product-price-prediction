@@ -16,16 +16,12 @@ def sampling_price(s,number_sample_per_price,replace,random_num, extract_num = 0
 
     return s.sample(number_sample_per_price,
                     replace = replace_item,random_state=random_num)
-def stratified_sampling_by_price(file_dir="../../data",number_samples = 10000, include_high_price = False, save_sample_df = True):
+def stratified_sampling_by_price(df,file_dir = "data", number_samples = 10000,
+                                 include_high_price = False, save_sample_df = True, file_name = "stratified_sampling_clean_text_data_by_price"):
     random_num = int(datetime.now().timestamp())
     replace = False
     extract_num = 0
-    # read data
-    # df = pd.read_csv("%s/data_wo_missing_values_split_category.csv"%file_dir) # result shape: (844460, 10)
 
-    df = pd.read_csv("%s/all_clean_text_with_features_and_split_category.csv" % file_dir)  # result shape: (844460, 10)
-    df.dropna(inplace=True)
-    print(df.shape)
     bins = [0,5, 10,15, 20, 25, 30, 40,50,60,70,80,90,100, 200,500, 2500] # 17  bins
     df['price_bin'] = pd.cut(df['price'], bins)
     print(df['price_bin'].value_counts())
@@ -51,6 +47,6 @@ def stratified_sampling_by_price(file_dir="../../data",number_samples = 10000, i
     print(sampling_df['price_bin'].value_counts())
 
     if save_sample_df:
-        file_name = '_w%shigh_sz%d_%d' % ('' if include_high_price else 'o',len(sampling_df),random_num)
-        sampling_df.to_csv("%s/random_samples/stratified_sampling_clean_text_data_by_price%s.csv"%(file_dir,file_name), index=False)
+        file_name = '%s_w%shigh_sz%d_%d' % (file_name,'' if include_high_price else 'o',len(sampling_df),random_num)
+        sampling_df.to_csv("%s/random_samples/%s.csv"%(file_dir,file_name), index=False)
     return sampling_df
