@@ -77,3 +77,24 @@ def plot_pair_plot(df, columns):
     sns.pairplot(df[columns])
     plt.show()
 
+def plot_price_distribution(df):
+    df['log_price'] = np.log(df['price'] + 1)
+
+    for column in df.select_dtypes(include= 'object' ):
+        columns = df[column].value_counts()
+        print(columns)
+        columns = columns.index.values.astype('str')
+        num_selected = min(15, len(columns))
+        select_values = columns[:num_selected]
+
+        select_df = df[df[column].isin(select_values)]
+        sns.boxplot(x=column, y='price', data= select_df)
+        plt.title("Distribution of price for top %d categories in %s" % (num_selected, column),
+                  fontdict={'fontsize': 20})
+        plt.show()
+
+
+        sns.boxplot(x=column, y='log_price', data=select_df)
+        plt.title("Distribution of log price for top %d categories in %s" % (num_selected, column),
+                  fontdict={'fontsize': 20})
+        plt.show()

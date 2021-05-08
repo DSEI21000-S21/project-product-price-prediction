@@ -2,7 +2,7 @@
 def separate_categories_replace_nan_w_missing(df):
     cat_columns = df.category_name.str.split('/')
     for i in range(3):
-        df['c%d'%(i+1)] = cat_columns.str.get(0)
+        df['c%d'%(i+1)] = cat_columns.str.get(i)
     df.drop('category_name', axis=1, inplace=True)
     return df
 

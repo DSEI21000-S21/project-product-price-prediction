@@ -17,7 +17,8 @@ def sampling_price(s,number_sample_per_price,replace,random_num, extract_num = 0
     return s.sample(number_sample_per_price,
                     replace = replace_item,random_state=random_num)
 def stratified_sampling_by_price(df,file_dir = "data", number_samples = 10000,
-                                 include_high_price = False, save_sample_df = True, file_name = "stratified_sampling_clean_text_data_by_price"):
+                                 include_high_price = False, save_sample_df = True,
+                                 file_name = "stratified_sampling_clean_text_data_by_price"):
     random_num = int(datetime.now().timestamp())
     replace = False
     extract_num = 0
