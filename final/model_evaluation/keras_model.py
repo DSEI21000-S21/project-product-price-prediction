@@ -11,6 +11,7 @@ class neural_network():
     def __init__(self, model_name = "", model_prefix="",lr = 0.001,
                  nodes=[256,64,16], dropouts = [0.1,0.1,0.1]):
         if os.path.exists(model_name):
+            print("loading model")
             self.model = load_model(model_name)
             self.model_name = model_name[:model_name.rindex('_')]
         else:
@@ -70,13 +71,13 @@ class neural_network():
     def predict(self, data):
         return self.model.predict(data)[:, 0]
 
-    def evaluation(self,y_train, train_pred, y_test, test_pred, price_split):
+    def evaluation(self,y_train, train_pred, y_test, test_pred, price_split, print_result= True):
         print("Result of using %s" %  self.model_name)
         ori_train_price, ori_test_price, pred_train_price, pred_test_price = get_ori_price(y_train, train_pred, y_test,
                                                                                            test_pred)
 
 
-        reg_evaluation(ori_train_price, ori_test_price, pred_train_price, pred_test_price,  # origin price
+        return reg_evaluation(ori_train_price, ori_test_price, pred_train_price, pred_test_price,  # origin price
                        y_train, train_pred, y_test, test_pred,
-                       price_split)
+                       price_split,print_result)
 

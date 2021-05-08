@@ -1,7 +1,7 @@
 
 from final.hyperparameter_tuning.search_cv import CV_Model
 from final.model_evaluation.regression_evaluation import reg_evaluation, get_ori_price
-def find_train_best_model(classifier, parameters, x_train, y_train, x_test, y_test, data_name, price_split,cv_split=4):
+def find_train_best_model(classifier, parameters, x_train, y_train, x_test, y_test, data_name, price_split,cv_split=4,print_result=True):
     SearchCV = CV_Model(GridSearch=False)
     SearchCV.train_model(classifier, parameters, x_train, y_train, cv_split=cv_split)
 
@@ -16,6 +16,6 @@ def find_train_best_model(classifier, parameters, x_train, y_train, x_test, y_te
     print("Result of using %s"%data_name)
     reg_evaluation(ori_train_price, ori_test_price, pred_train_price, pred_test_price,  # origin price
                    y_train, train_pred, y_test, test_pred,
-                   price_split)
+                   price_split,print_result)
 
-
+    return train_pred, test_pred
