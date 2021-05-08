@@ -15,11 +15,13 @@ def plot_prediction_price(origin, predict, title):
     plt.legend()
     plt.show()
 
-def plot_loss(loss, title):
-    plt.plot(loss)
+def plot_loss(loss, val_loss, title):
+    plt.plot(loss, label="loss")
+    plt.plot(val_loss, label="val_loss")
     plt.ylabel('msle')
     plt.xlabel('epoch')
     plt.title(title)
+    plt.legend()
     plt.show()
 #
 # def visualize_model_feature_importances(trained_model, feature_names, title = None):

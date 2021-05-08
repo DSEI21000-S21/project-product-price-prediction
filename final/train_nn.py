@@ -10,7 +10,8 @@ from sklearn.feature_selection import f_regression # F-value between label/featu
 from final.helper.save_data import save_np_file
 
 df = pd.read_csv("data/clean_data_with_text_features.csv")
-# df = stratified_sampling_by_brand(df, file_dir="data",number_samples = 10000,
+df = df.sample(frac=0.2, replace=True, random_state=1)
+# stratified_sampling_by_brand(df, file_dir="data",number_samples = 100000,
 #                                                replace = False, save_sample_df = False)
 
 
@@ -19,18 +20,19 @@ Y = np.log1p(df['price'])
 df.drop(['price'], axis=1, inplace=True)
 
 
-train_df, test_df , y_train, y_test = train_test_split(df, Y, test_size=0.2, random_state=12342)
+train_df, test_df , y_train, y_test = train_test_split(df, Y, test_size=0.3, random_state=12342)
 print('Train size: %s, Test size: %s'%(train_df.shape, test_df.shape))
 
 
 # feature extraction
+train_str_features, test_str_features, train_str_features_name = encode_string_column(train_df, test_df,
+                                                                   columns=['clean_name', 'clean_description'],
+                                                                   min_df=10, max_features={'clean_name': 100, 'clean_description':10000},
+                                                                   print_progress=True)
 train_cat_features, test_cat_features, train_cat_features_name = encode_categories(train_df, test_df,
                                                                 columns = ['c1','c2','c3','brand_name'],
                                                                 min_df = 10, print_progress=True)
-train_str_features, test_str_features, train_str_features_name = encode_string_column(train_df, test_df,
-                                                                   columns=['clean_name', 'clean_description'],
-                                                                   min_df=10, max_features=15000,
-                                                                   print_progress=True)
+
 other_columns = list(train_df.select_dtypes([np.number]).columns)
 other_columns.remove('train_id')
 train_other_features = train_df[other_columns].values
@@ -46,7 +48,7 @@ del test_cat_features, test_str_features, test_other_features
 del train_df, test_df
 
 # select k best
-skb = SelectKBest(f_regression, k=5000)
+skb = SelectKBest(f_regression, k=2000)
 x_skb_select_train = skb.fit_transform(all_train, y_train)
 x_skb_select_test = skb.transform(all_test)
 

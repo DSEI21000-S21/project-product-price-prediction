@@ -29,20 +29,39 @@ def encode_categories(train_df,test_df, columns = [], min_df = 10, print_progres
 def encode_string_column(train_df,test_df, columns=[], min_df=10, max_features=15000, print_progress=False):
     if len(columns) == 0:
         return None
-
-    vectorizer = TfidfVectorizer(min_df=min_df,
-                                 max_features=max_features,
-                                 ngram_range=(1, 3))
-
     features_name = []
-    train_features = vectorizer.fit_transform(train_df[columns[0]].values)
-    test_features = vectorizer.transform(test_df[columns[0]].values)
-    features_name.append(vectorizer.get_feature_names())
+    if type(max_features) is dict:
 
-    for column in columns[1:]:
-        train_features= hstack((train_features, vectorizer.fit_transform(train_df[column].values)))
-        test_features= hstack((test_features, vectorizer.transform(test_df[column].values)))
+        vectorizer = TfidfVectorizer(min_df=min_df,
+                                     max_features=max_features[columns[0]],
+                                     ngram_range=(1, 3))
+
+
+        train_features = vectorizer.fit_transform(train_df[columns[0]].values)
+        test_features = vectorizer.transform(test_df[columns[0]].values)
         features_name.append(vectorizer.get_feature_names())
+
+        for column in columns[1:]:
+            vectorizer = TfidfVectorizer(min_df=min_df,
+                                         max_features=max_features[column],
+                                         ngram_range=(1, 3))
+            train_features= hstack((train_features, vectorizer.fit_transform(train_df[column].values)))
+            test_features= hstack((test_features, vectorizer.transform(test_df[column].values)))
+            features_name.append(vectorizer.get_feature_names())
+
+    else:
+        vectorizer = TfidfVectorizer(min_df=min_df,
+                                     max_features=max_features,
+                                     ngram_range=(1, 3))
+        features_name = []
+        train_features = vectorizer.fit_transform(train_df[columns[0]].values)
+        test_features = vectorizer.transform(test_df[columns[0]].values)
+        features_name.append(vectorizer.get_feature_names())
+
+        for column in columns[1:]:
+            train_features = hstack((train_features, vectorizer.fit_transform(train_df[column].values)))
+            test_features = hstack((test_features, vectorizer.transform(test_df[column].values)))
+            features_name.append(vectorizer.get_feature_names())
 
     if print_progress:
         for index, column in enumerate(columns):
