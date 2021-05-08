@@ -8,7 +8,8 @@ import numpy as np
 from final.model_evaluation.regression_evaluation import reg_evaluation, get_ori_price
 
 class neural_network():
-    def __init__(self, model_name = "", model_prefix="",lr = 0.001, nodes=[256,64,16], dropouts = [0.1,0.1,0.1]):
+    def __init__(self, model_name = "", model_prefix="",lr = 0.001,
+                 nodes=[256,64,16], dropouts = [0.1,0.1,0.1]):
         if os.path.exists(model_name):
             self.model = load_model(model_name)
             self.model_name = model_name[:model_name.rindex('_')]
@@ -45,13 +46,22 @@ class neural_network():
                       batch_size=bs,
                       shuffle=True)
             loss.append([history.history['loss'],history.history['val_loss']])
-            if (i+1)%10 == 0:
-                self.model.save(self.model_name + "_ep%d.h5" % (i+1))
+            if (i+1)%5 == 0:
+                save_model(dir=self.model_name, filename=self.model_name + "_ep%d.h5" % (i+1),
+                           model=self.model)
 
-        save_model_structure(dir= self.model_name, filename=self.model_name + "_structure.txt", model = self.model)
+                save_np_file(dir=self.model_name,
+                             filename="select_k_best_y_train_ep%d.npy" % (i+1),
+                             data=self.predict(trainData))
+                save_np_file(dir=self.model_name,
+                             filename="select_k_best_y_test_ep%d.npy" % (i+1),
+                             data=self.predict(testData))
+        # save_model_structure(dir= self.model_name, filename=self.model_name + "_structure.txt", model = self.model)
 
         save_model(dir = self.model_name, filename=self.model_name + "_ep%d.h5" % (n_epoch),
                    model=self.model)
+
+
         save_np_file(dir = self.model_name, filename=self.model_name + "_loss.npy",data=np.array(loss))
 
 

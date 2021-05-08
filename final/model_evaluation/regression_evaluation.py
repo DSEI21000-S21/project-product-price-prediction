@@ -8,10 +8,13 @@ from sklearn.metrics import mean_squared_error as mse
 from sklearn.metrics import r2_score as r2
 
 def get_ori_price(y_train, train_pred,y_test,test_pred):
-    ori_train_price = np.expm1(y_train.values)
+    try:
+        ori_train_price = np.expm1(y_train.values)
+        ori_test_price = np.expm1(y_test.values)
+    except:
+        ori_train_price = np.expm1(y_train)
+        ori_test_price = np.expm1(y_test)
     pred_train_price = np.expm1(train_pred)
-
-    ori_test_price = np.expm1(y_test.values)
     pred_test_price = np.expm1(test_pred)
 
     return ori_train_price,ori_test_price,pred_train_price, pred_test_price
