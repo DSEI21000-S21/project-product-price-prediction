@@ -6,4 +6,4 @@ def save_np_file(dir, filename, data):
         os.makedirs(dir)
 
     with open('%s/%s'%(dir,filename), 'wb') as f:
-        np.save(f, dir)
+        np.save(f, data)
