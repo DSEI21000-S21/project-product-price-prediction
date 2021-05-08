@@ -28,7 +28,7 @@ class neural_network():
                 model.add(Dropout(dropout))
                 model_name += "_dr%.0e" % dropout
 
-        model.add(Dense(1)) # predict price
+        model.add(Dense(1,activation='linear')) # predict price
 
         model.compile(loss='mean_squared_error', optimizer=Adam(lr=lr))
         model_name += "_lr%.0e" % lr

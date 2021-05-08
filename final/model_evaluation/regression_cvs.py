@@ -14,8 +14,8 @@ def find_train_best_model(classifier, parameters, x_train, y_train, x_test, y_te
     ori_train_price, ori_test_price, pred_train_price, pred_test_price = get_ori_price(y_train, train_pred,y_test,test_pred)
 
     print("Result of using %s"%data_name)
-    reg_evaluation(ori_train_price, ori_test_price, pred_train_price, pred_test_price,  # origin price
+    return reg_evaluation(ori_train_price, ori_test_price, pred_train_price, pred_test_price,  # origin price
                    y_train, train_pred, y_test, test_pred,
                    price_split,print_result)
 
-    return train_pred, test_pred
+#     train_pred, test_pred

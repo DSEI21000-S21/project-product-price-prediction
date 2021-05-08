@@ -101,12 +101,13 @@ def reg_evaluation(ori_train_price,ori_test_price,pred_train_price, pred_test_pr
     for indexes in [None, under_train, above_train]:
         if indexes is None:
             oy,py = ori_train_price, pred_train_price
+            oly, ply = y_train, train_pred
         else:
             oy, py = ori_train_price[indexes], pred_train_price[indexes]
-        print(indexes)
+            oly, ply = y_train[indexes], train_pred[indexes]
         all_temp.append([*get_max_min_percentage_diff(oy, py),
-                     mse(oy, py, squared=False),
-                     r2(oy, py),
+                     mse(oly, ply, squared=False),
+                     r2(oly, ply),
                      mape(oy, py),
                      mae(oy, py)
                      ])
@@ -114,11 +115,13 @@ def reg_evaluation(ori_train_price,ori_test_price,pred_train_price, pred_test_pr
     for indexes in [None, under_test, above_test]:
         if indexes is None:
             oy, py = ori_test_price, pred_test_price
+            oly, ply = y_test, test_pred
         else:
             oy, py = ori_test_price[indexes], pred_test_price[indexes]
+            oly, ply = y_test[indexes], test_pred[indexes]
         all_temp.append([*get_max_min_percentage_diff(oy, py),
-                         mse(oy, py, squared=False),
-                         r2(oy, py),
+                         mse(oly, ply, squared=False),
+                         r2(oly, ply),
                          mape(oy, py),
                          mae(oy, py)
                          ])
