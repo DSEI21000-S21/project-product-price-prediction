@@ -47,7 +47,6 @@ df.drop(["name", "item_description"], axis=1, inplace=True)
 
 # normalize numeric data
 df, numeric_column = normalize_numeric_col(df,skip_cols=['train_id','item_condition_id','price','shipping'],print_process=True)
-
 df.to_csv("data/clean_data_with_text_features.csv", index=False)
 
 # --------
