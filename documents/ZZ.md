@@ -34,7 +34,7 @@ All of these extracted features will feed into the feature selection model as ad
 
 
 **B. Did you justify normalization or lack of checking which works better as part of your hyper-parameters?**
-`skip`
+For now, we only evaluate the model where we normalize all data before inputting to the training model. We will be conducting future analysis to look at whether removal of the data normalization step has any improvement on our model performance. 
 
 
 **C. Did you explore univariate and multivariate feature selection? (if not why not)**
