@@ -64,7 +64,8 @@ We try 5 different models, which include neural networks, KNN regression, ridge 
 
 
 **H. Did you exercise the data science models/problems we described in the lectures showing what was presented?**
-yes, we do train-test split before fitting the model. We tune the model hyperparameters to select the best hyperparameters for that specific model
+Closely following the lecture and study materials, we do train-test split before fitting the model. We tune the model hyperparameters to select the best hyperparameters for that specific model.
+
 
 **I. Are you using appropriate hyper-parameters? For example, if you are using a KNN regression are you investigating the choice of K and whether you use uniform or distance weighting? If you are using K-means do you explain why K? If you are using PCA do you explore how many dimensions such as by looking at the eigenvalues?**
 yes - for KNN regression, we use RandomizedSearchCV or GridSearchCV to look for the best n/-neightbors and weight. 
