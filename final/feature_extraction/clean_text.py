@@ -30,14 +30,11 @@ def parallelize(data, func, num_of_processes=8):
 
 def clean_row_text(x, col_name, clean_col_name, stop_words, lemmatizer):
     x[clean_col_name] = x[col_name].lower()
-    x[clean_col_name] = x[clean_col_name].translate(str.maketrans('', '', string.punctuation))
+    x[clean_col_name] = x[clean_col_name].translate(str.maketrans(' ', ' ', string.punctuation))
     x[clean_col_name] = " ".join(x for x in x[clean_col_name].split() if x not in stop_words)
     x[clean_col_name] = str(TextBlob(x[clean_col_name]).correct())
     x[clean_col_name] = lemmatizer.lemmatize(x[clean_col_name])
     return x
-
-
-
 
 def extract_info(data_subset,col_name,stop_words):
     return data_subset.progress_apply(extract_general_row_info, col_name=col_name, stop_words=stop_words, axis=1)

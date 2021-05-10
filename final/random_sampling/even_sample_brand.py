@@ -3,10 +3,8 @@ import pandas as pd
 from datetime import datetime
 
 
-def stratified_sampling_by_brand(file_dir="../../data",number_samples = 10000, replace = False, save_sample_df = True):
+def stratified_sampling_by_brand(df, file_dir="../../data",number_samples = 10000, replace = False, save_sample_df = True,file_name="stratified_sampling_clean_text_data_by"):
     random_num = int(datetime.now().timestamp())
-    # read data
-    df = pd.read_csv("%s/data_wo_missing_values_split_category.csv"%file_dir) # result shape: (844460, 10)
 
     # obtain item with brand that contain over sufficient items
     brand_dist = df.brand_name.value_counts()
@@ -36,5 +34,5 @@ def stratified_sampling_by_brand(file_dir="../../data",number_samples = 10000, r
     print(sampling_df.brand_name.value_counts())
 
     if save_sample_df:
-        sampling_df.to_csv("%s/random_samples/stratified_sampling_data_by_brand_name_sz%d_%d.csv"%(file_dir,len(sampling_df),random_num), index=False)
+        sampling_df.to_csv("%s/random_samples/%s_brand_name_sz%d_%d.csv"%(file_dir,file_name, len(sampling_df),random_num), index=False)
     return sampling_df

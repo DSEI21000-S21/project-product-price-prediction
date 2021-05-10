@@ -3,10 +3,8 @@ import pandas as pd
 from datetime import datetime
 
 
-def stratified_sampling_by_category(file_dir="../../data", category_name  = "c1", number_samples = 10000, replace = False, save_sample_df = True):
+def stratified_sampling_by_category(df, file_dir="data", category_name  = "c1", number_samples = 10000, replace = False, save_sample_df = True,file_name="stratified_sampling_clean_text_data_by"):
     random_num = int(datetime.now().timestamp())
-    # read data
-    df = pd.read_csv("%s/data_wo_missing_values_split_category.csv"%file_dir) # result shape: (844460, 10)
     limit = 50
     add_sample = 0
     #C1
@@ -58,6 +56,6 @@ def stratified_sampling_by_category(file_dir="../../data", category_name  = "c1"
         sampling_df = sampling_df[:number_samples]
     print(sampling_df[category_name].value_counts())
     if save_sample_df:
-        sampling_df.to_csv("%s/random_samples/stratified_sampling_data_by_%s_sz%d_%d.csv"%(file_dir,category_name,len(sampling_df),random_num),
+        sampling_df.to_csv("%s/random_samples/%s_%s_sz%d_%d.csv"%(file_dir,file_name,category_name,len(sampling_df),random_num),
                            index=False)
     return sampling_df
