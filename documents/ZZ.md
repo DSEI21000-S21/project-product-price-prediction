@@ -44,12 +44,7 @@ Yes, explore different feature selections models before feeding into our trainin
 
 
 **D. Did you try dimension reduction and which methods did you try? (if not why not)**
- yes :
- - PCA
- - t-SNE for visualization
- - SVD 
- - k-Means
- - Latent dirichlet Allocation
+Yes, after text feature extractions, we have over 18,000 features. As we face dimensionality problem, we try various dimension reduction methods to reduce the dimensions. For examaple, we try Principal Componenet Analaysi (PCA), t-SNE, singular value decomposition (SVD), k-means clustering or Latent Dirichlet Allocation (LDA) to reduce the dimensions. 
 
 
 **E. Did you include 1-2 simple models, for example with classification LDA, Logistic Regression or KNN?**
