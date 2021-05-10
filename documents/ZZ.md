@@ -48,9 +48,8 @@ Yes, after text feature extractions, we have over 18,000 features. As we face di
 
 
 **E. Did you include 1-2 simple models, for example with classification LDA, Logistic Regression or KNN?**
- yes, for basic models, we tried:
- - KNN regression
- - ridge regressor
+Yes, for the basic model, we try a non-parametric model called KNN regressior. We also try another linear parametric model called ridge regression on our dataset to predict our targeted variable. 
+
 
 **F. Did you pick an appropriate set of models to solve the problem? Did you justify why these models and not others?**
 For basic models, we tried 
