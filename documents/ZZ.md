@@ -67,7 +67,7 @@ yes - for KNN regression, we use RandomizedSearchCV or GridSearchCV to look for 
 yes- we first use the RandomizedSearchCV model which include cross-validation to select the best hyperparameter, then we use models with the best hyperparameter to fit train the training set. 
 
 **C. Did you make sure your training and validation process never used the training data?**
-
+- yes, we did a train-test split before text vectorization, feature selection, hyparameter tuning, and model training. Becuase we only feed the training data into the training model, we are sure that there is no information leak. 
 
 D. Do you estimate the uncertainty in your estimates using cross-validation?  
 
