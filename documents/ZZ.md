@@ -60,7 +60,8 @@ Of course, we also try some other models that are not listed here. We abandon th
 
 
 **G. Did you try at least 4 models including one Neural Network Model using Tensor-Flow or Pytorch?**
-yes, we tried 5 models, which include neural networks
+We try 5 different models, which include neural networks, KNN regression, ridge regression, lightBGM regression, and random forest regression.
+
 
 **H. Did you exercise the data science models/problems we described in the lectures showing what was presented?**
 yes, we do train-test split before fitting the model. We tune the model hyperparameters to select the best hyperparameters for that specific model
