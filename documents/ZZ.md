@@ -63,9 +63,11 @@ yes - for KNN regression, we use RandomizedSearchCV or GridSearchCV to look for 
 - yes, our main evaluation metrics is RMSLE which stands for Root Mean Squared Logarithmic Error. Because our price distribution is skewed and impacted by outliers. And RMSLE is very robust to eliminate the effect from outliers. Hence, RMSLE is our main evaluation metrics.
 - We also evaluated the model using other metrics, which include Mean Absolute Percentage Error (MAPE), Mean Absolute Error (MAE), R Square (R^2), and maximum percentage difference. 
 
-B. Do you validate your choices of hyperparameters? For example, if you use KNN or K-means do you use cross-validation to optimize your choice of parameters?
+**B. Do you validate your choices of hyperparameters? For example, if you use KNN or K-means do you use cross-validation to optimize your choice of parameters?**
+yes- we first use the RandomizedSearchCV model which include cross-validation to select the best hyperparameter, then we use models with the best hyperparameter to fit train the training set. 
 
-C. Did you make sure your training and validation process never used the training data?
+**C. Did you make sure your training and validation process never used the training data?**
+
 
 D. Do you estimate the uncertainty in your estimates using cross-validation?  
 
