@@ -87,7 +87,8 @@ For PCA, we also use eigenvalues and plotted the percent explained ratio graph t
 For our main evaluation metrics is RMSLE which stands for Root Mean Squared Logarithmic Error. Because our price distribution is skewed and impacted by outliers and RMSLE is very robust to eliminate the effect from outliers. Hence, RMSLE is our main evaluation metrics. We also evaluated the model using other metrics, which include Mean Absolute Percentage Error (MAPE), Mean Absolute Error (MAE), R Square (R^2), and maximum percentage difference. All metrics are being evaluated for the model at the end. 
 
 **B. Do you validate your choices of hyperparameters? For example, if you use KNN or K-means do you use cross-validation to optimize your choice of parameters?**
-yes- we first use the RandomizedSearchCV model which include cross-validation to select the best hyperparameter, then we use models with the best hyperparameter to fit train the training set. 
+
+To optmize our choice of parameter, we first use the RandomizedSearchCV model which include cross-validation to select the best hyperparameter, then we use models with the best hyperparameter to fit train the training set. 
 
 **C. Did you make sure your training and validation process never used the training data?**
 - yes, we did a train-test split before text vectorization, feature selection, hyparameter tuning, and model training. Becuase we only feed the training data into the training model, we are sure that there is no information leak. 
