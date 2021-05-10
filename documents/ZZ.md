@@ -38,10 +38,9 @@ For now, we only evaluate the model where we normalize all data before inputting
 
 
 **C. Did you explore univariate and multivariate feature selection? (if not why not)**
-
-Univaritate fature selection - Univariate feature selection works by selecting the best features based on univariate statistical tests. It can be seen as a preprocessing step to an estimator. Scikit-learn exposes feature selection routines as objects that implement the transform method. We tried We used sklearn library "SelectKBest" to select features according to the k highest scores. 
-
-Recursive feature elimination: we tried Recursive feature elimination to select features by recursively considering smaller and smaller sets of features. Recursive Feature Elimination first uses ALL my features, fits a Linear Regression model, and then kicks out the feature with the smallest absolute value coefficient.
+Yes, explore different feature selections models before feeding into our training model. 
+- For univaritate fature selection model, we use the Sklearn SelectKBest module. This model selects the best features based on univariate statistical tests and use the F-value between target and feature for ranking. 
+- For other feature selection models, we also try the Sklearn Recursive feature elimination (RFE) package. RFE selects features by recursively considering smaller and smaller groups of features by intiialy use all features to fit the model, and then sequentially kicks out features with the least weight. At each iteration, RFE removes 5% of the features. It also uses Ridge as the external estimator that assignes weights to features. 
 
 
 **D. Did you try dimension reduction and which methods did you try? (if not why not)**
