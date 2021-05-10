@@ -4,8 +4,10 @@ Zhiying
 
 **A. Did you transform, normalize, filter the data appropriately to solve your problem? Did you divide by max-min, or the sum, root-square-sum, or did you z-score the data? Did you justify what you did?**
 
-Price - select >0,
-text column - transform and vectorize
+We transform, normalize and filter the data appropriately during our Exploratory Data Analaysis (EDA) process before solving our problem. In our "price" attribute, we have data where prices were reported less than $0, which are being filtered out during our data cleaning process. We specifically select "price" where it's above 0 dollar. 
+In addtion, we also impute the missing value appropriately by replacing the missing values with either with "missing" for the brand and category_name attributes or "no description yet" for the item_description attribute. 
+For text data, we apply text  cleaning, text vecotorization, and text feature extraction as part of our EDA process. 
+
 both categorical and vectorized text - normalize using min-max as some model requires normalization
 
 
