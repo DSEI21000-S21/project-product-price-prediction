@@ -53,13 +53,15 @@ yes, we tried 5 models, which include neural networks
 yes, we do train-test split before fitting the model. We tune the model hyperparameters to select the best hyperparameters for that specific model
 
 **I. Are you using appropriate hyper-parameters? For example, if you are using a KNN regression are you investigating the choice of K and whether you use uniform or distance weighting? If you are using K-means do you explain why K? If you are using PCA do you explore how many dimensions such as by looking at the eigenvalues?**
-yes - for KNN regression, we use gridsearch to look for the best n/-neightbors and weight. 
+yes - for KNN regression, we use RandomizedSearchCV or GridSearchCV to look for the best n/-neightbors and weight. 
 - For PCA, we also use eigenvalues and plotted the percent explained ratio graph to look for the elbow position when selecting the number of principal componenents to use for the model
 
 
 # Metrics, Validation and Evaluation 20pts
 
-A. Are you using an appropriate choice of metrics? Are they well justified? If you are doing classification do you show a ROC curve? If you are doing regression are you justifying the metric least squares vs. mean absolute error? Do you show both?
+**A. Are you using an appropriate choice of metrics? Are they well justified? If you are doing classification do you show a ROC curve? If you are doing regression are you justifying the metric least squares vs. mean absolute error? Do you show both?**
+- yes, our main evaluation metrics is RMSLE which stands for Root Mean Squared Logarithmic Error. Because our price distribution is skewed and impacted by outliers. And RMSLE is very robust to eliminate the effect from outliers. Hence, RMSLE is our main evaluation metrics.
+- We also evaluated the model using other metrics, which include Mean Absolute Percentage Error (MAPE), Mean Absolute Error (MAE), R Square (R^2), and maximum percentage difference. 
 
 B. Do you validate your choices of hyperparameters? For example, if you use KNN or K-means do you use cross-validation to optimize your choice of parameters?
 
