@@ -4,9 +4,19 @@ Zhiying
 
 A. Did you transform, normalize, filter the data appropriately to solve your problem? Did you divide by max-min, or the sum, root-square-sum, or did you z-score the data? Did you justify what you did?
 
+Price - select >0,
+text column - transform and vectorize
+both categorical and vectorized text - normalize using min-max as some model requires normalization
+
+
 B. Did you justify normalization or lack of checking which works better as part of your hyper-parameters?
 
 C. Did you explore univariate and multivariate feature selection? (if not why not)
+
+Univaritate fature selection - Univariate feature selection works by selecting the best features based on univariate statistical tests. It can be seen as a preprocessing step to an estimator. Scikit-learn exposes feature selection routines as objects that implement the transform method. We tried We used sklearn library "SelectKBest" to select features according to the k highest scores. 
+
+Recursive feature elimination: we tried Recursive feature elimination to select features by recursively considering smaller and smaller sets of features. Recursive Feature Elimination first uses ALL my features, fits a Linear Regression model, and then kicks out the feature with the smallest absolute value coefficient.
+
 
 D. Did you try dimension reduction and which methods did you try? (if not why not)
 
