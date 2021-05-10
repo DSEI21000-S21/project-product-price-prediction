@@ -6,9 +6,31 @@ Zhiying
 
 We transform, normalize and filter the data appropriately during our Exploratory Data Analaysis (EDA) process before solving our problem. In our "price" attribute, we have data where prices were reported less than $0, which are being filtered out during our data cleaning process. We specifically select "price" where it's above 0 dollar. 
 In addtion, we also impute the missing value appropriately by replacing the missing values with either with "missing" for the brand and category_name attributes or "no description yet" for the item_description attribute. 
+
 For text data, we apply text  cleaning, text vecotorization, and text feature extraction as part of our EDA process. 
 
-both categorical and vectorized text - normalize using min-max as some model requires normalization
+- In our text cleaning stage, we built a function called cleaning_text which does the following steps in sequence:
+	1. Standardize all text to its lower case
+
+	2. Use the re package to extract only characters and numbers and remove any special characters and emoji
+
+	3. Use the NLTK stopwords package to remove stop word and non-alphabetical words
+
+	4. Use the WordNetLemmatizer package to reduce word to its root form
+
+	5. Use the string package to replace all punctuation by white space
+
+This function takes an input column of a dataframe, perform all the five steps mentioned above sequentially, and output a cleaner version of the input feature.
+
+- In the text-processing stage, we lower all uppercased text, remove all stop words, punctuation, and special characters for each of the input features. It's possible that any of these feature play a role in predicting price. For example, price may be higher or lower for records with more uppercased words or emoji. We do not want to lose any information from the processed text, hence before text preprocessing, we want to extract the uppercase counts, lowercase counts, percent of uppercase word in the corpus, percent of lowercase word in the corpus, average word length in a corpus, stop words counts, punctuation count, and special character count. We built a function called get_word_count and get_special_char_count which specifically extracted features mentions above.
+	1. The get_word_count is performed on the "name", "description", and "c1", "c2", "c3", and "brand_name" attributes of the data.
+
+	2. The get_special_char_count is performed on the "name", "item_description" attributes of the data
+All of these extracted features will feed into the feature selection model as additional distinct features.
+
+- In the text feature extraction stage, because the "brand_name" and the three item subcategories (c1,c2,c3) are encoded categorically. Before feeding them into our feature selection model, we performed CountVectorizer for feature extraction. The name and item_description attributes of our dataset contain a bulk of text strings. In order to extract salient features from these two columns, we use the TfidfVectorizer from the Sklearn package to perform text feature extraction. We limited the maximum features to be 15,000 for attribute with higher than 15,000 features. We remove the maximum feature limit for attributes with lower than 15,000 features and take however many features we are able to extract from that attribute.
+
+- In the data normalization is performed on both categorical and vectorized text - normalize using min-max as some model requires normalization
 
 
 **B. Did you justify normalization or lack of checking which works better as part of your hyper-parameters?**
