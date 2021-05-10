@@ -69,6 +69,6 @@ yes- we first use the RandomizedSearchCV model which include cross-validation to
 **C. Did you make sure your training and validation process never used the training data?**
 - yes, we did a train-test split before text vectorization, feature selection, hyparameter tuning, and model training. Becuase we only feed the training data into the training model, we are sure that there is no information leak. 
 
-D. Do you estimate the uncertainty in your estimates using cross-validation?  
+**D. Do you estimate the uncertainty in your estimates using cross-validation?**
 
-E. Can you say how much you are overfitting?
+**E. Can you say how much you are overfitting?**
