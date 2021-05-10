@@ -7,7 +7,7 @@ Zhiying
 We transform, normalize and filter the data appropriately during our Exploratory Data Analaysis (EDA) process before solving our problem. In our "price" attribute, we have data where prices were reported less than $0, which are being filtered out during our data cleaning process. We specifically select "price" where it's above 0 dollar. 
 In addtion, we also impute the missing value appropriately by replacing the missing values with either with "missing" for the brand and category_name attributes or "no description yet" for the item_description attribute. 
 
-For text data, we apply text  cleaning, text vecotorization, and text feature extraction as part of our EDA process. 
+For text data, we apply text cleaning, text vecotorization, and text feature extraction as part of our EDA process. 
 
 - In our text cleaning stage, we built a function called cleaning_text which does the following steps in sequence:
 	1. Standardize all text to its lower case
@@ -30,7 +30,7 @@ All of these extracted features will feed into the feature selection model as ad
 
 - In the text feature extraction stage, because the "brand_name" and the three item subcategories (c1,c2,c3) are encoded categorically. Before feeding them into our feature selection model, we performed CountVectorizer for feature extraction. The name and item_description attributes of our dataset contain a bulk of text strings. In order to extract salient features from these two columns, we use the TfidfVectorizer from the Sklearn package to perform text feature extraction. We limited the maximum features to be 15,000 for attribute with higher than 15,000 features. We remove the maximum feature limit for attributes with lower than 15,000 features and take however many features we are able to extract from that attribute.
 
-- In the data normalization is performed on both categorical and vectorized text - normalize using min-max as some model requires normalization
+- Data normalization is performed on both categorical and vectorized text columns. Min-Max normalization is performed on all original as well as extracted numerical attributes from the dataset except the train_id, item_condition_id, price, and shipping columns. If the difference of max and min is zero, then we drop that column.
 
 
 **B. Did you justify normalization or lack of checking which works better as part of your hyper-parameters?**
