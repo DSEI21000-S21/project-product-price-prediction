@@ -48,19 +48,15 @@ Yes, after text feature extractions, we have over 18,000 features. As we face di
 
 
 **E. Did you include 1-2 simple models, for example with classification LDA, Logistic Regression or KNN?**
-Yes, for the basic model, we try a non-parametric model called KNN regressior. We also try another linear parametric model called ridge regression on our dataset to predict our targeted variable. 
+Yes, for the basic model, we try a non-parametric model called KNN regressor. We also try another linear parametric model called ridge regression on our dataset to predict our targeted variable. 
 
 
 **F. Did you pick an appropriate set of models to solve the problem? Did you justify why these models and not others?**
-For basic models, we tried 
-- KNN regression
-- ridge regressor
-
-For ensemble models, we tried
-- lightBGM regressor
-- random forest regression
-
-In addition, we also tried neural networks. We also tried some other models, but obtained worse outcome
+Yes, we try various models where we see appropriate. 
+- For basic models,  we try a KNN regression and ridge regression.
+- For ensemble models, we try lightBGM regressor and random forest regression. LightBGM regressor is a gradient boosting algorithm where the previous model sets the target outcomes for the next model in order to minimize the error. Random forest regressor is a series of independent decision trees for predicting the target outcomes. 
+- We also built our own neural network models with customized layers to try to predict the target outcome.
+Of course, we also try some other models that are not listed here. We abandon those models because they obtained worse outcomes than the ones mentioned above. 
 
 
 **G. Did you try at least 4 models including one Neural Network Model using Tensor-Flow or Pytorch?**
