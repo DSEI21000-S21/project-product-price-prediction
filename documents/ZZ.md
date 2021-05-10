@@ -40,7 +40,7 @@ For now, we only evaluate the model where we normalize all data before inputting
 
 **C. Did you explore univariate and multivariate feature selection? (if not why not)**
 
-Yes, explore different feature selections models before feeding into our training model. 
+Yes, we explore different feature selections models before feeding into our training model. 
 - For univaritate fature selection model, we use the Sklearn SelectKBest module. This model selects the best features based on univariate statistical tests and use the F-value between target and feature for ranking. 
 - For other feature selection models, we also try the Sklearn Recursive feature elimination (RFE) package. RFE selects features by recursively considering smaller and smaller groups of features by intiialy use all features to fit the model, and then sequentially kicks out features with the least weight. At each iteration, RFE removes 5% of the features. It also uses Ridge as the external estimator that assignes weights to features. 
 
@@ -88,7 +88,7 @@ For our main evaluation metrics is RMSLE which stands for Root Mean Squared Loga
 
 **B. Do you validate your choices of hyperparameters? For example, if you use KNN or K-means do you use cross-validation to optimize your choice of parameters?**
 
-To optmize our choice of parameter, we first use the RandomizedSearchCV model which include cross-validation to select the best hyperparameter, then we use models with the best hyperparameter to fit train the training set. 
+To optmize our choice of parameter, we first use the RandomizedSearchCV model which include cross-validation to select the best hyperparameter, then we use the model with the best hyperparameter to fit train the training set. 
 
 **C. Did you make sure your training and validation process never used the training data?**
 
