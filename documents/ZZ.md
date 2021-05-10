@@ -96,6 +96,11 @@ We did a train-test split before text vectorization, feature selection, hyparame
 
 **D. Do you estimate the uncertainty in your estimates using cross-validation?**
 
+We performed cross-validation using RandomizedSearchCV during our hyperparameter tunning stage. 
+- For our KNN regressor model, we use RandomizedSearchCV to get the most optimal 'n_neighbors' and 'weights'. 
+- For our Ridge regressor model, we use  RandomizedSearchCV to get the best 'alpha'. 
+- For our LightGBM regressor model, we use  RandomizedSearchCV to get the best 'max_depth', 'learning_rate', and 'n_estimators'. 
+- For our Random Forest regressor model, we use  RandomizedSearchCV to get the best 'n_estimators' and 'max_features'. 
 
 **E. Can you say how much you are overfitting?**
 
