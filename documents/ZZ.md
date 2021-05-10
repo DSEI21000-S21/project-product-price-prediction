@@ -25,18 +25,34 @@ Recursive feature elimination: we tried Recursive feature elimination to select 
  - PCA
  - t-SNE for visualization
  - SVD 
+ - k-Means
  - Latent dirichlet Allocation
 
 
-E. Did you include 1-2 simple models, for example with classification LDA, Logistic Regression or KNN?
+**E. Did you include 1-2 simple models, for example with classification LDA, Logistic Regression or KNN?**
+ yes, for basic models, we tried:
+ - KNN regression
+ - ridge regressor
 
-F. Did you pick an appropriate set of models to solve the problem? Did you justify why these models and not others?
+**F. Did you pick an appropriate set of models to solve the problem? Did you justify why these models and not others?**
+For basic models, we tried 
+- KNN regression
+- ridge regressor
 
-G. Did you try at least 4 models including one Neural Network Model using Tensor-Flow or Pytorch?
+For ensemble models, we tried
+- lightBGM regressor
+- random forest regression
 
-H. Did you exercise the data science models/problems we described in the lectures showing what was presented?
+In addition, we also tried neural networks. We also tried some other models, but obtained worse outcome
 
-I. Are you using appropriate hyper-parameters? For example, if you are using a KNN regression are you investigating the choice of K and whether you use uniform or distance weighting? If you are using K-means do you explain why K? If you are using PCA do you explore how many dimensions such as by looking at the eigenvalues?
+
+**G. Did you try at least 4 models including one Neural Network Model using Tensor-Flow or Pytorch?**
+yes, we tried 5 models, which include neural networks
+
+**H. Did you exercise the data science models/problems we described in the lectures showing what was presented?**
+yes, we do train-test split before fitting the model. We tune the model hyperparameters to select the best hyperparameters for that specific model
+
+**I. Are you using appropriate hyper-parameters? For example, if you are using a KNN regression are you investigating the choice of K and whether you use uniform or distance **weighting? If you are using K-means do you explain why K? If you are using PCA do you explore how many dimensions such as by looking at the eigenvalues?
 
 
 # Metrics, Validation and Evaluation 20pts
