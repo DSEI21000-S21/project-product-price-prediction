@@ -91,7 +91,8 @@ For our main evaluation metrics is RMSLE which stands for Root Mean Squared Loga
 To optmize our choice of parameter, we first use the RandomizedSearchCV model which include cross-validation to select the best hyperparameter, then we use models with the best hyperparameter to fit train the training set. 
 
 **C. Did you make sure your training and validation process never used the training data?**
-- yes, we did a train-test split before text vectorization, feature selection, hyparameter tuning, and model training. Becuase we only feed the training data into the training model, we are sure that there is no information leak. 
+
+We did a train-test split before text vectorization, feature selection, hyparameter tuning, and model training. Becuase we only feed the training data into the training model, we are sure that there is no information leak in our model and that our model has not seen the test dataset before making the prediction on the test set. 
 
 **D. Do you estimate the uncertainty in your estimates using cross-validation?**
 
