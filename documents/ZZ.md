@@ -68,8 +68,8 @@ Closely following the lecture and study materials, we do train-test split before
 
 
 **I. Are you using appropriate hyper-parameters? For example, if you are using a KNN regression are you investigating the choice of K and whether you use uniform or distance weighting? If you are using K-means do you explain why K? If you are using PCA do you explore how many dimensions such as by looking at the eigenvalues?**
-yes - for KNN regression, we use RandomizedSearchCV or GridSearchCV to look for the best n/-neightbors and weight. 
-- For PCA, we also use eigenvalues and plotted the percent explained ratio graph to look for the elbow position when selecting the number of principal componenents to use for the model
+For KNN regression, we use RandomizedSearchCV or GridSearchCV to look for the best n_neightbors and weight. 
+For PCA, we also use eigenvalues and plotted the percent explained ratio graph to look for the elbow position when selecting the most optimal number of principal componenents to use for the model. 
 
 
 # Metrics, Validation and Evaluation 20pts
