@@ -93,7 +93,7 @@ All data and features are summarized in proper visualizations.
 **B. Do you use the correct visualization type, eg. bar graphs for categorical data, scatter plots for numerical data, etc?**
 
 The distributions are shown by histograms. The correlations are shown by heatmaps. The categrical groupings are shown by clustering plots. 
-The outliers are shown by box plots. 
+The outliers are shown by box plots. The rankings are shown with bar charts.  
 
 **C. Are your axes properly labeled?
 
