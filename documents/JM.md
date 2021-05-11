@@ -31,7 +31,10 @@ How much the description can influce the pricing? People can take a guess, but n
 
 # Data Cleaning/Checking/Data Exploration: 20pts
 
-**A. Did you perform a thorough EDA (points below included)?
+**A. Did you perform a thorough EDA (points below included)?**
+
+We performed EDA by doing Data Processing. We removed the invalid variables where the price is less or equal to 0.
+
 
 **B. Did you check for outliers?
 
