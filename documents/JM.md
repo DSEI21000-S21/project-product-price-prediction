@@ -71,8 +71,9 @@ There are density plots for showing the smoothed price distribution of points al
 
 We created visuals to show the correlations between variables. According to the visuals we can see the which varibles have the strongest replationship between each other.
 
+**J. Did you consider plot the data on the right scale? For example, on a log scale?**
 
-**J. Did you consider plot the data on the right scale? For example, on a log scale?
+For visualizing the price distribution, using the log price will show the distribution better and clearer.
 
 **K. Did you make sure that your target variables were not contaminating your input variables?
 
