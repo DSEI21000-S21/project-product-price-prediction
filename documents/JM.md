@@ -90,14 +90,15 @@ All results that we got were computed from the input variables where the price i
 
 All data and features are summarized in proper visualizations. 
 
-
 **B. Do you use the correct visualization type, eg. bar graphs for categorical data, scatter plots for numerical data, etc?
 
 **C. Are your axes properly labeled?
 
 All visuals containe proper labels for axes. 
-**D. Do you use color properly?
+**D. Do you use color properly?**
 
-**E. Do you use opacity and dot size so that scatterplots with lots of data points are not just a mass of interpretable dots?
+The colors of the visuals show clearly each group of data. 
+
+**E. Do you use opacity and dot size so that scatterplots with lots of data points are not just a mass of interpretable dots?**
 
 **F. Do you write captions explaining what a reader should conclude from each figure (not just saying what it is but what it tells you)?
