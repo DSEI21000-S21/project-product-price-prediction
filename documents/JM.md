@@ -102,6 +102,6 @@ The colors of the visuals show clearly each group of data.
 **E. Do you use opacity and dot size so that scatterplots with lots of data points are not just a mass of interpretable dots?**
 
 The dots are shown beautifully on the clustering plot. On the plot, each color represents a category. 
-By seeing the dot, we would know there a specific categoty belongs to. The dots are not messy on the plot. 
+By seeing the dot, we would know there a specific categoty belongs to. The dots do not cover each other 
 
 **F. Do you write captions explaining what a reader should conclude from each figure (not just saying what it is but what it tells you)?
