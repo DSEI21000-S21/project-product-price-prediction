@@ -1,6 +1,6 @@
 Juliana 
 
-# Machine Learning Question: 20 pts
+#Machine Learning Question: 20 pts
 
 **A. Is the background context for the question stated clearly (with references)?
 
