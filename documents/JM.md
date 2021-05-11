@@ -2,7 +2,7 @@ Juliana
 
 # Machine Learning Question: 20 pts
 
-** A. Is the background context for the question stated clearly (with references)?
+**A. Is the background context for the question stated clearly (with references)?**
 
 Mercari, Japan’s biggest community-powered shopping app, knows this problem deeply. They’d like to offer pricing suggestions to sellers, 
 but this is tough because their sellers are enabled to put just about anything, or any bundle of things, on Mercari's marketplace.
@@ -10,12 +10,14 @@ We need to build an algorithm that automatically suggests the right product pric
 
 The reference is from kaggle. 
 
-**B. Is the hypothesis/problem stated clearly ("The What")?
+**B. Is the hypothesis/problem stated clearly ("The What")?**
 
 The hypothesis is description is the factor to be considered for determining  the price for the product. 
 
 
-**C. Is it clear why the problems are important? Is it clear why anyone would care? ("The Why")
+**C. Is it clear why the problems are important? Is it clear why anyone would care? ("The Why")**
+
+Price prediciton is a tool to get the suggeted price automatically by using a good model or algorithm. It is very important for business owners to make business decisions.  
 
 
 **D. Is it clear why the data were chosen should be able to answer the question being asked?4
