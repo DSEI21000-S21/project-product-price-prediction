@@ -67,7 +67,10 @@ There are box plots for showing the price outliers in categories.
 There are histograms with regular price and log price to compare the clearity of showing the price distributions. 
 There are density plots for showing the smoothed price distribution of points along the numeric axix. 
 
-**I. Did you consider correlations between variables (scatterplots)?
+**I. Did you consider correlations between variables (scatterplots)?**
+
+We created visuals to show the correlations between variables. According to the visuals we can see the which varibles have the strongest replationship between each other.
+
 
 **J. Did you consider plot the data on the right scale? For example, on a log scale?
 
