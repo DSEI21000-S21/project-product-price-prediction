@@ -75,7 +75,9 @@ We created visuals to show the correlations between variables. According to the 
 
 For visualizing the price distribution, using the log price will show the distribution better and clearer.
 
-**K. Did you make sure that your target variables were not contaminating your input variables?
+**K. Did you make sure that your target variables were not contaminating your input variables?**
+
+All results that we got were computed from the input variables where the price is excluded. 
 
 **L. If you had to make synthetic data was it a useful representation of the problem you were trying to solve?
 
