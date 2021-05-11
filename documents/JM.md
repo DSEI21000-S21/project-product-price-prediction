@@ -79,17 +79,23 @@ For visualizing the price distribution, using the log price will show the distri
 
 All results that we got were computed from the input variables where the price is excluded. 
 
-**L. If you had to make synthetic data was it a useful representation of the problem you were trying to solve?
+**L. If you had to make synthetic data was it a useful representation of the problem you were trying to solve?**
+
+
 
 
 # Visualization 10pts
 
-**A. Do you provide visualization summaries for all your data and features?
+**A. Do you provide visualization summaries for all your data and features?**
+
+The 
+
 
 **B. Do you use the correct visualization type, eg. bar graphs for categorical data, scatter plots for numerical data, etc?
 
 **C. Are your axes properly labeled?
 
+All visuals containe proper labels for axes. 
 **D. Do you use color properly?
 
 **E. Do you use opacity and dot size so that scatterplots with lots of data points are not just a mass of interpretable dots?
