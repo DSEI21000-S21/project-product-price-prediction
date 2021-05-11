@@ -61,7 +61,11 @@ We tracked all parameters and units to make sure the results could be used for t
 
 There are no magic numbers. All the needed information and numbers are gotten from the provided dataset.
 
-**H. Did you plot univariate and multivariate summaries of the data including histograms, density plots, boxplots?
+**H. Did you plot univariate and multivariate summaries of the data including histograms, density plots, boxplots?**
+
+There are box plots for showing the price outliers in categories. 
+There are histograms with regular price and log price to compare the clearity of showing the price distributions. 
+There are density plots for showing the smoothed price distribution of points along the numeric axix. 
 
 **I. Did you consider correlations between variables (scatterplots)?
 
