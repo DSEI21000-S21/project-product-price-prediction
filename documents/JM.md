@@ -104,4 +104,6 @@ The colors of the visuals show clearly each group of data.
 The dots are shown beautifully on the clustering plot. On the plot, each color represents a category. 
 By seeing the dot, we would know there a specific categoty belongs to. The dots do not cover each other, so we can see a clear separation of groups of the categories.  
 
-**F. Do you write captions explaining what a reader should conclude from each figure (not just saying what it is but what it tells you)?
+**F. Do you write captions explaining what a reader should conclude from each figure (not just saying what it is but what it tells you)?**
+
+The visualizations can provide good insights of the information. 
