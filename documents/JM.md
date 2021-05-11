@@ -17,10 +17,13 @@ The hypothesis is description is the factor to be considered for determining  th
 
 **C. Is it clear why the problems are important? Is it clear why anyone would care? ("The Why")**
 
-Price prediciton is a tool to get the suggeted price automatically by using a good model or algorithm. It is very important for business owners to make business decisions.  
+Price prediciton is a tool to get the suggeted price automatically by using a good model or algorithm. 
+It is very important for business owners to make business decisions.  
 
 
-**D. Is it clear why the data were chosen should be able to answer the question being asked?4
+**D. Is it clear why the data were chosen should be able to answer the question being asked?**
+
+The dataset is provided by Kaggle. The dataset includes over 100 millions rows and 8 attributes. It is big enough to get a representative overview of the market. 
 
 **E. How new, non-obvious, significant are your problems? Do you go beyond checking the easy and obvious?
 
