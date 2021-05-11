@@ -1,8 +1,14 @@
 Juliana 
 
 # Machine Learning Question: 20 pts
+
 **A. Is the background context for the question stated clearly (with references)?
 
+Mercari, Japan’s biggest community-powered shopping app, knows this problem deeply. They’d like to offer pricing suggestions to sellers, 
+but this is tough because their sellers are enabled to put just about anything, or any bundle of things, on Mercari's marketplace.
+We need to build an algorithm that automatically suggests the right product prices with the provided user-inputted text descriptions of their products, including details like product category name, brand name, and item condition.    
+
+The reference is from kaggle. 
 
 **B. Is the hypothesis/problem stated clearly ("The What")?
 
@@ -44,6 +50,7 @@ The hypothesis is description is the factor to be considered for determining  th
 
 
 # Visualization 10pts
+
 **A. Do you provide visualization summaries for all your data and features?
 
 **B. Do you use the correct visualization type, eg. bar graphs for categorical data, scatter plots for numerical data, etc?
