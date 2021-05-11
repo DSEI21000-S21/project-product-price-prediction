@@ -25,7 +25,9 @@ It is very important for business owners to make business decisions.
 
 The dataset is provided by Kaggle. The dataset includes over 100 millions rows and 8 attributes. It is big enough to get a representative overview of the market. 
 
-**E. How new, non-obvious, significant are your problems? Do you go beyond checking the easy and obvious?
+**E. How new, non-obvious, significant are your problems? Do you go beyond checking the easy and obvious?**
+
+How much the description can influce the pricing? People can take a guess, but no one can tell a proven answer easily. 
 
 # Data Cleaning/Checking/Data Exploration: 20pts
 
