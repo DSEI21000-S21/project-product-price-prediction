@@ -35,8 +35,9 @@ How much the description can influce the pricing? People can take a guess, but n
 
 We performed EDA by doing Data Processing. We removed the invalid variables where the price is less or equal to 0.
 
+**B. Did you check for outliers?**
 
-**B. Did you check for outliers?
+We checked the outliers by visualizing the price distribution with box plots and histograms. In addition, we used the log price to handle the outliers better.
 
 **C. Did you check the units of all data points to make sure they are in the right range?
 
