@@ -90,7 +90,9 @@ All results that we got were computed from the input variables where the price i
 
 All data and features are summarized in proper visualizations. 
 
-**B. Do you use the correct visualization type, eg. bar graphs for categorical data, scatter plots for numerical data, etc?
+**B. Do you use the correct visualization type, eg. bar graphs for categorical data, scatter plots for numerical data, etc?**
+
+The distributions are shown by histograms. 
 
 **C. Are your axes properly labeled?
 
