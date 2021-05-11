@@ -53,9 +53,13 @@ We tried various ways to handle the missing data, such as replacing the missing 
 We kept the missing values and replaced them with the specific decriptions.
 "Missing" for brand name and "No description yet" for item description. 
 
-**F. Did you keep track of all parameters and units?
+**F. Did you keep track of all parameters and units?**
+
+
 
 **G. Do you have a specific code for formatting the data that does not require information not documented (eg. magic numbers)?
+
+There are no magic numbers. All the needed information and numbers are gotten from the provided dataset.
 
 **H. Did you plot univariate and multivariate summaries of the data including histograms, density plots, boxplots?
 
