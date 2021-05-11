@@ -45,10 +45,13 @@ We checked the units of all data points and provided the price ranges.
 
 **D. Did you identify the missing data code?**
 
-We tried various ways to handle the missing data, such as replacing the missing data with the most frequent used words and removing them from the dateset. However, there are over 600,000 missing data in brand name and over 80,000 in item decription. Therefore, we kept the missing values and replaced them with the specific decriptions.
-"Missing" for brand name and "No description yet" for item description. 
+There are over 600,000 missing data in brand name and over 80,000 in item decription. 
 
-**E. Did you reformat the data properly with each instance/observation in a row, and each variable in a column?
+**E. Did you reformat the data properly with each instance/observation in a row, and each variable in a column?**
+
+We tried various ways to handle the missing data, such as replacing the missing data with the most frequent used words and removing them from the dateset.
+We kept the missing values and replaced them with the specific decriptions.
+"Missing" for brand name and "No description yet" for item description. 
 
 **F. Did you keep track of all parameters and units?
 
