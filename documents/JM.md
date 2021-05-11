@@ -39,7 +39,9 @@ We performed EDA by doing Data Processing. We removed the invalid variables wher
 
 We checked the outliers by visualizing the price distribution with box plots and histograms. In addition, we used the log price to handle the outliers better.
 
-**C. Did you check the units of all data points to make sure they are in the right range?
+**C. Did you check the units of all data points to make sure they are in the right range?**
+
+We checked the units of all data points and provided the price ranges. 
 
 **D. Did you identify the missing data code?
 
