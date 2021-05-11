@@ -106,4 +106,4 @@ By seeing the dot, we would know there a specific categoty belongs to. The dots 
 
 **F. Do you write captions explaining what a reader should conclude from each figure (not just saying what it is but what it tells you)?**
 
-The visualizations can provide good insights of the information. 
+The visualizations can provide good insights of the information. By look at the visualizations, the reader can get a better idea on how should him/her determine the price.
