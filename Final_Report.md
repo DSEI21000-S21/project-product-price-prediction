@@ -89,11 +89,9 @@ check for any units, but we don't applied normalization for each numerical attri
 We also visualization the distribution of the price.
 
 
-#### Data Transformation - Text Cleaning and Feature Extraction
+### Data Transformation - Text Cleaning and Information Extraction
 
-For text data, we apply text cleaning, text feature extraction, and text vectorization as part of our EDA process. 
-
-Unclean text can bring a lot of trouble in nature language process, so text cleaning is an essential and important step
+For text data, we apply text cleaning and text information extraction as part of our EDA process. Unclean text can bring a lot of trouble in nature language process, so text cleaning is an essential and important step
 before doing any feature extraction or vectorization. We have tried several ways to clean the text, and below describe 
 the final process for our text cleaning. We built a function called `cleaning_text` which does the following steps in sequence:
 
@@ -122,26 +120,15 @@ which specifically extracted features mentions above.
 	
 All of these extracted features will feed into the feature selection model as additional distinct features.
 
-In the text feature extraction stage, because the "brand_name" and the three item subcategories (c1,c2,c3) 
-are encoded categorically. Before feeding them into our feature selection model, we performed CountVectorizer 
-for feature extraction. The name and item_description attributes of our dataset contain a bulk of text strings. 
-In order to extract salient features from these two columns, we use the TfidfVectorizer from the Sklearn package 
-to perform text feature extraction. We limited the maximum features to be 15,000 for attribute with higher than 
-15,000 features. We remove the maximum feature limit for attributes with lower than 15,000 features and take 
-however many features we are able to extract from that attribute.
-
-Note that, before we decide to use the `TfidfVectorizer` as our final method to process the string value to numerical value,
-we have tried [multiple methods](./experiment/feature_extraction/FeatureExtraction_ItemName_E3.ipynb), such as 
-`TfidfVectorizer`,`HashingVectorizer`, `Word2Vec`, `Doc2Vec` methods. You can view all
-the experiements in [experiment/feature_extraction](./experiment/feature_extraction) folders.
-
 Data normalization is performed on both categorical and vectorized text columns. 
 Min-Max normalization is performed on all original as well as extracted numerical attributes from the 
 dataset except the train_id, item_condition_id, price, and shipping columns. If the difference of max and min 
 is zero, then we drop that column, since that are fill with value of 0 which are meaningless.
+For now, we only evaluate the model where we normalize all data before inputting to the training model. 
+We will be conducting future analysis to look at whether removal of the data normalization step has any improvement on our model performance. 
 
 
-#### Visualization
+### Visualization
 
 As some of the figures that show before, there are box plots for detecting the outliers for each numerical attributes.
 As well as the histograms to show the distribution of each numerical attributes.
@@ -166,12 +153,111 @@ Here is the scatterplot of the attributes with top 10 correlation coefficient wi
 ![scatterplots](./image_assets/pairplot.png)
 
 
-##### Summary of EDA
+#### Summary of EDA
 In summary of the data pre-processing, we transform, normalize and filter the data appropriately during our 
-Exploratory Data Analaysis (EDA) process before solving our problem. In our "price" attribute, we have data where prices 
+Exploratory Data Analysis (EDA) process before solving our problem. In our "price" attribute, we have data where prices 
 were reported less than $0, which are being filtered out during our data cleaning process. 
 We specifically select "price" where it's above 0 dollar. In addition, we also impute the missing value appropriately 
 by replacing the missing values with either 
 with "missing" for the brand and category_name attributes or "no description yet" for the item_description attribute. 
-A series of steps are being applied to all string attributes to clean the text data, then cleaning text data are input
-into vectorizers to transform into appropriated numerical values.
+A series of steps are being applied to all string attributes to clean the text data. 
+
+
+## Transformation, Feature Selection, and Modeling
+
+### Text Vectorization
+In the text feature extraction stage, because the "brand_name" and the three item subcategories (c1,c2,c3) 
+are encoded categorically. Before feeding them into our feature selection model, we performed `CountVectorizer` 
+for feature extraction. Originally, we have try one-hot encoder, but it return over 6000 features for these four
+categories, which are too many for our model and hard for us to fit into the algorithm with large dataset due to 
+the memory limitation of our computer. Therefore, we used `CountVectorizer` for the feature extraction that only
+give us around 1200 features and preserve similar information. 
+
+The name and item_description attributes of our dataset contain a bulk of text strings. 
+In order to extract salient features from these two columns, we use the `TfidfVectorizer` from the Sklearn package 
+to perform text feature extraction. We limited the maximum features to be 15,000 for attribute with higher than 
+15,000 features. We remove the maximum feature limit for attributes with lower than 15,000 features and take 
+however many features we are able to extract from that attribute.
+
+Note that, before we decide to use the `TfidfVectorizer` as our final method to process the string value to numerical value,
+we have tried [multiple methods](./experiment/feature_extraction/FeatureExtraction_ItemName_E3.ipynb), such as 
+`TfidfVectorizer`,`HashingVectorizer`, `Word2Vec`, `Doc2Vec` methods. You can view all
+the experiments in [experiment/feature_extraction](./experiment/feature_extraction) folder.
+
+
+### Dimension Reduction vs Feature Selection
+After text feature extractions, we have a total of **18,980** features after combine all features as described below. 
+- Size of vectorization features of c1 is 12
+- Size of vectorization features of c2 is 106
+- Size of vectorization features of c3 is 379
+- Size of vectorization features of brand_name is 726
+- Size of vectorization features of clean_name is 3629
+- Size of vectorization features of clean_description is 15000
+- Size of other features is 38
+
+
+We are now face dimensionality problem, and we have two ways to reduce the dimension, one is using the dimension reduction
+techniques and another is using feature selection techniques; and we have try both of them.
+ 
+The various [dimension reduction methods](./experiment/feature_extraction/FeatureExtraction_ItemDescription_Jin_E2.ipynb) 
+we tried included Principal Component Analysis (PCA), singular value decomposition (SVD), k-means clustering and 
+Latent Dirichlet Allocation (LDA). Noted that for PCA, we also use eigenvalues and plotted the percent explained ratio 
+graph to look for the elbow position when selecting the most optimal number of principal componenents to use for the model. 
+We used t-SNE to reduce to 2 dimension and visualization it with color code for different attributes we want to see. 
+You can see more experiments we tried in the [experiment/feature_extraction](./experiment/feature_extraction) folder.
+
+We also tried two different feature selections models before feeding data into our training model. 
+First is the univaritate feature selection model, [SelectKBest](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.SelectKBest.html). 
+This model selects the best features based on univariate statistical tests and use the F-value between target and feature for ranking.
+We select the F-value as our scoring function, because we are doing the regression.
+ 
+We also try the [Recursive feature elimination (RFE)](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.RFE.html#sklearn.feature_selection.RFE) 
+RFE is a backward feature selection technique, that considering smaller and smaller groups of features by initial 
+use all features to fit the model, and then sequentially kicks out features with the least weight. 
+At each iteration, our RFE removes 5% of the features with lowest score. We choose to use Ridge as the external estimator 
+that assigns weights to each features. This is because, it is efficiency and simple, and also provide good results for small 
+dataset from our experiment.  
+
+
+### Model Selection
+We choose two simple models as our basic model, KNN regressor and Ridge.
+we selected KNN regressor as it is simple and is a non-parametric model. 
+Another reason, we selected KNN is because, we want to see if data with similar value will they tend to have similar price.
+We also selected ridge regression as it is linear parametric model and with regression parameters that we can tune. 
+Moreover, we discard the linear regression model, because from our experiment, it predict negative price for some of the 
+item, which is bad to use as a price prediction model.
+
+
+We also have two ensemble models as more complex model, lightGBM regressor and  Random forest regressor.
+LightBGM regressor is a gradient boosting algorithm where the previous model sets the target outcomes for 
+the next model in order to minimize the error. While random forest regressor is a series of independent decision trees 
+for predicting the target outcomes. It is great comparision to see if combination of independent models result or using correlated
+model result are better for the model prediction.
+
+Besides these traditional models, we also built our own [neural network models](./final/model_evaluation/keras_model.py) 
+using **keras** with customized layers to predict the price.
+
+Of course, there are other models we have tried but are not listed here. We abandon those models because they obtained 
+very bad outcomes in comparision with the ones mentioned above. 
+
+### Hyperparameter Tuning
+
+Hyperparameter has a large impact in the model prediction result, and it is critical for selecting appropriated value for 
+each hyperparameter in the model. To do that, we have create a class called [`CV_Model`](./final/hyperparameter_tuning/search_cv.py)
+to allow us to do either RandomizedSearchCV or GridSearchCV to look for the best hyperparameter values for each of our 
+experimented models.
+
+Again, we have a large dataset, so it is impossible for us to do the hyperparameter tuning with entire dataset. So
+instead, we do the hyperparameter tuning with sample dataset of 10,000 samples. In which, we did a 70%/30% train test
+split, you can see the result in the [Price Prediction](./experiment/PricePrediction) folder.
+
+Noted that, we selected RandomizedSearchCV for the hyperparameter tuning due to the limitation of
+the computer process power and time. We try the hyperparameter tuning on both the dimension reduction result,
+feature selection result, and all data before dimension reduction. Below figure show the experiment hyperparameters
+we selected for each model. 
+
+![Hyperparameter Tuning](./image_assets/HyperparameterTuning.png)
+
+
+
+## Metrics, Validation and Evaluation
