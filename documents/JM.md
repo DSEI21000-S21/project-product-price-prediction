@@ -111,7 +111,7 @@ The outliers are shown with box plots. The rankings are shown with bar charts.  
 
 **C. Are your axes properly labeled?**
 
-All visuals contain proper labels for each axis. 
+All visuals contain proper labels for each axis. We can clearly see what does the axis represent for. 
 
 **D. Do you use color properly?**
 
