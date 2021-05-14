@@ -12,13 +12,16 @@ The reference is from kaggle.
 
 **B. Is the hypothesis/problem stated clearly ("The What")?**
 
+How should you determine the price for your product?
 The hypothesis is description is the factor to be considered for determining  the price for the product. 
 
 
 **C. Is it clear why the problems are important? Is it clear why anyone would care? ("The Why")**
 
-Price prediciton is a tool to get the suggeted price automatically by using a good model or algorithm. 
-It is very important for business owners to make business decisions.  
+Price prediciton is a tool to get the suggeted price automatically by using a good model or algorithm.  
+For the business owners, price prediction is essential in the success of the operation as pricing defines the extent of profit.
+Price prediction is also a key factor for the clientele in their purchase decision because proper pricing is within their expectations.
+Furthermore, price prediction is the mission of the Data Scientists. Their quality of work is directly related to the price decision of the business executive.
 
 
 **D. Is it clear why the data were chosen should be able to answer the question being asked?**
@@ -28,16 +31,23 @@ The dataset is provided by Kaggle. The dataset includes over 100 millions rows a
 **E. How new, non-obvious, significant are your problems? Do you go beyond checking the easy and obvious?**
 
 How much the description can influce the pricing? People can take a guess, but no one can tell a proven answer easily. 
+Therefore, our problem is significant.
 
 # Data Cleaning/Checking/Data Exploration: 20pts
 
 **A. Did you perform a thorough EDA (points below included)?**
 
-We performed EDA by doing Data Processing. We removed the invalid variables where the price is less or equal to 0.
+We performed a thorough EDA with the following steps:
+1. Data Processing -- removed the invalid variables where the price is less or equal to 0.
+2. Visualize the distributions for each column
+3. Cleaned and formated the text 
+4. Extracted features
+5. Normalized the numeric data 
+6. Checked the correlations between each column
 
 **B. Did you check for outliers?**
 
-We checked the outliers by visualizing the price distribution with box plots and histograms. In addition, we used the log price to handle the outliers better.
+We checked the outliers by visualizing the price distribution with box plots and histograms. In addition, we used the log price to better handle the outliers.
 
 **C. Did you check the units of all data points to make sure they are in the right range?**
 
@@ -63,24 +73,28 @@ There are no magic numbers. All the needed information and numbers are gotten fr
 
 **H. Did you plot univariate and multivariate summaries of the data including histograms, density plots, boxplots?**
 
-There are box plots for showing the price outliers in categories. 
+There are box plots for showing the price outliers and distributions among categories with price. 
 There are histograms with regular price and log price to compare the clearity of showing the price distributions. 
-There are density plots for showing the smoothed price distribution of points along the numeric axix. 
+There are density plots for showing the smoothed price distribution of points along the numeric axis. 
 
 **I. Did you consider correlations between variables (scatterplots)?**
 
-We created visuals to show the correlations between variables. According to the visuals we can see the which varibles have the strongest replationship between each other.
+We considered correlations between variables.
+We created scatterplots to display the correlations between the actual price and predicted price with different price ranges. 
 
 **J. Did you consider plot the data on the right scale? For example, on a log scale?**
 
-For visualizing the price distribution, using the log price will show the distribution better and clearer.
+For visualizing the price distribution, we used the log price for both boxplots and histograms. 
+That makes the plots more limpid readable.
 
 **K. Did you make sure that your target variables were not contaminating your input variables?**
 
-All results that we got were computed from the input variables where the price is excluded. 
+All results that we got were computed from the input variables. We are sure that our target variables were not contaminating input variables.  
 
 **L. If you had to make synthetic data was it a useful representation of the problem you were trying to solve?**
 
+We made the synthetic data from the original dataset by using the sample function.
+The synthetic data is a random sample of items from the original dataset. Therefore, it was a useful representation of the problem.
 
 
 
@@ -88,24 +102,25 @@ All results that we got were computed from the input variables where the price i
 
 **A. Do you provide visualization summaries for all your data and features?**
 
-All data and features are summarized in proper visualizations. 
+We provided visualization summaries for all our data and features. 
 
 **B. Do you use the correct visualization type, eg. bar graphs for categorical data, scatter plots for numerical data, etc?**
 
-The distributions are shown by histograms. The correlations are shown by heatmaps. The categrical groupings are shown by clustering plots. 
-The outliers are shown by box plots. The rankings are shown with bar charts.  In addition, the relationships between the variables are shown by scattor plots. 
+The distributions are shown with histograms. The correlations are shown with heatmaps. The categrical groupings are shown with clustering plots. 
+The outliers are shown with box plots. The rankings are shown with bar charts.  In addition, the relationships between the variables are shown with scattor plots. 
 
-**C. Are your axes properly labeled?
+**C. Are your axes properly labeled?**
 
-All visuals containe proper labels for axes. 
+All visuals contain proper labels for each axis. 
+
 **D. Do you use color properly?**
 
-The colors of the visuals show clearly each group of data. 
+The colors are assigned to each group of data on the visuals. In another word, by seeing the colors, we are able to distinguish the groups.
 
 **E. Do you use opacity and dot size so that scatterplots with lots of data points are not just a mass of interpretable dots?**
 
-The dots are shown beautifully on the clustering plot. On the plot, each color represents a category. 
-By seeing the dot, we would know there a specific categoty belongs to. The dots do not cover each other, so we can see a clear separation of groups of the categories.  
+The dots are beautifully shown on the clustering plot. On the plot, each color represents a category. 
+By seeing the dot, we would know where the specific categoty belongs to. The dots do not cover each other, so we can see a clear separation of groups of the categories.  
 
 **F. Do you write captions explaining what a reader should conclude from each figure (not just saying what it is but what it tells you)?**
 
