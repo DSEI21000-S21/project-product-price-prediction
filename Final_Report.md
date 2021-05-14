@@ -242,22 +242,124 @@ very bad outcomes in comparision with the ones mentioned above.
 
 ### Hyperparameter Tuning
 
-Hyperparameter has a large impact in the model prediction result, and it is critical for selecting appropriated value for 
+hyperparameter has a large impact in the model prediction result, and it is critical for selecting appropriated value for 
 each hyperparameter in the model. To do that, we have create a class called [`CV_Model`](./final/hyperparameter_tuning/search_cv.py)
 to allow us to do either RandomizedSearchCV or GridSearchCV to look for the best hyperparameter values for each of our 
 experimented models.
 
 Again, we have a large dataset, so it is impossible for us to do the hyperparameter tuning with entire dataset. So
-instead, we do the hyperparameter tuning with sample dataset of 10,000 samples. In which, we did a 70%/30% train test
-split, you can see the result in the [Price Prediction](./experiment/PricePrediction) folder.
+instead, we do the hyperparameter tuning with sample dataset of 10,000 samples. The detail of the sampling process will be
+describe in later section. We did a 70%/30% train test split for the sample data, 
+you can see the result in the [Price Prediction](./experiment/PricePrediction) folder.
 
 Noted that, we selected RandomizedSearchCV for the hyperparameter tuning due to the limitation of
 the computer process power and time. We try the hyperparameter tuning on both the dimension reduction result,
 feature selection result, and all data before dimension reduction. Below figure show the experiment hyperparameters
 we selected for each model. 
 
-![Hyperparameter Tuning](./image_assets/HyperparameterTuning.png)
+![hyperparameter Tuning](./image_assets/hyperparameterTuning.png)
 
+
+
+We performed cross-validation and optimize our choice of parameter using RandomizedSearchCV during our hyperparameter tuning stage.
+Then we use the result best hyperparameter to train the larger training set.
+
+- For our KNN regressor model, we use RandomizedSearchCV to get the most optimal `n_neighbors` and `weights`. 
+- For our Ridge regressor model, we use  RandomizedSearchCV to get the best `alpha`. 
+- For our LightGBM regressor model, we use  RandomizedSearchCV to get the best `max_depth`, `learning_rate`, and `n_estimators`. 
+- For our Random Forest regressor model, we use  RandomizedSearchCV to get the best `n_estimators` and `max_features`. 
 
 
 ## Metrics, Validation and Evaluation
+
+In a classification task to determine if the input information is true or false, if 98% of the information is true, 
+then if the model always predict the data as true then it will have 98% accuracy but it is not a good model, 
+but it can never detect for the wrong information. Also accuracy is not a good metric in this case to evaluate the model. 
+This kind of model usually cause by the highly imbalance data. Therefore, it is important to have evenly distributed 
+dataset, as well as good evaluation metric for the model.
+
+### Data Sampling
+
+We have 5 different data sampling methods generated based on evenly distribution for brand name, 
+item category (3 different level), price (separate into bins), and have replacement of the samples if needed.
+Noted that the price is our target and is a continuous variable, so to allow evenly distribution of price,
+we separate price into uniform size bins, as price has a skewed distribution. The detail of the sampling steps
+you can see in [random sampling](./final/random_sampling) folder.
+
+We also have classification experiment for the data samples show in the [classification](./experiment/classification)
+folder for each category we select for the sampling techniques.
+
+
+### Evaluation Metrics
+
+For our main evaluation metrics is **RMSLE** which stands for Root Mean Squared Logarithmic Error. 
+Because our price distribution is skewed and impacted by outliers and RMSLE is very robust to eliminate the effect from outliers. 
+Hence, RMSLE is our main evaluation metrics. We also evaluated the model using other metrics, but since this metrics highly
+impact by the outliers, it will not used as the metric for the hyperparameter tuning. 
+This metrics include 
+1. Mean Absolute Percentage Error (MAPE) for analyze the percentage off for the prediction price and original price
+2. Mean Absolute Error (MAE) for analyze how much the predict price is off from the original price
+3. R Square (R^2) for analyze how model fits the input dependent variables
+4. Maximum percentage difference between predict  price  and original price 
+All metrics are being evaluated for the model at the end. 
+
+
+### Result
+We did a train-test split before text vectorization, feature selection, hyperparameter tuning, and model training. 
+Because we only feed the training data into the training model, we are sure that there is no information leak in 
+our model and that our model has not seen the test dataset before making the prediction on the test set. 
+
+Here are results of model using best hyperparameter from the hyperparameter tuning result.
+![PCA result](./image_assets/pca_result.png)
+![Select K Best result](./image_assets/selectk_result.png)
+
+What we learn from the experiment is that the feature selection is better than dimension reduction for our features, 
+based on the above two result table, we can see that feature selection (Select 500 Best features) having better
+performance in all model and metrics than dimension reduction (PCA) result. 
+
+Within feature selection methods, [SelectKBest](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.SelectKBest.html) 
+method also outperformed the [Recursive feature elimination (RFE)](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.RFE.html#sklearn.feature_selection.RFE),
+you can see the result in [Price Prediction](./experiment/PricePrediction) experiment folder.
+
+Moreover, train model with all Features better than train with select features in all experiment model. 
+Also the Ridge model is the best model for the small sampling dataset with train using all features, it has
+RMSLE of `0.4788`, however, even the neural network has higher RMSLE, but it has lower MAPE than the Ridge, so
+the percentage off is smaller than Ridge.
+
+But in the larger sampling dataset, Ridge is the worse model in compare with other models. This is because, it cannot 
+capture the generalization pattern of the large sample with the simplicity of its model. But without doubt,
+larger sample dataset lower the MAE. 
+
+Random forest regressor are the best model from the traditional models for predicting the price of the item and it has
+the same RMSLE as the larger neural network. But larger neural network has lower MAE. You may also see the 
+Maximum percentage difference (MPD) between predict  price  and original price, in which is the outlier that 
+really has huge impact on the MAPE value, and so again MAPE cannot used as our main evaluation metric for the model
+as it highly affect by outliers.  
+
+![Large Sample result](./image_assets/large_result.png)
+
+We also explore the evaluation for different price range, you can see more result from the [Price_Prediction_Large_Sample.ipynb](./Price_Prediction_Large_Sample.ipynb)
+
+## Conclusion
+There are several findings we had throughout our project
+1. Transform the price to log scale can reduce the effect on the price outlier thus provide better prediction result.
+2. SelectKBest is better than RFE in price prediction and more efficiency 
+3. Feature selection techniques are more suitable for our dataset for eliminate number of input features to the model 
+than the dimension reduction techniques. 
+4. Train model with all Features better than train with select features
+5. Ridge can dealing with smaller dataset but not large dataset
+6. More training sample with more features will allow model to predict better price for the item
+
+In conclusion, our pipeline was able to provide a suggested price range within error of $10 for similar items in the 
+Mercari Marketplace give the item information. In which the item information can be missing the brand name, limited word 
+for item description or limited information for item categories. However, our final model is not the best model and 
+there are huge area for improvement. One possibility for improvement is to combine the category name and brand name into
+the item name, and then extract the feature that remove more unnecessary features and maintain more meaningful features 
+for the model. Another possibility is to try different word embedding techniques. 
+
+Definitely there are also a lot of limitation we are facing that prevent us from getting the better model.
+These limitation included
+1. Limited computer memory and process power, so cannot train for large data or more features
+2. Few data information provide for the item and with many missing values. It will be interest if we have other data, such as the item rating and number of item views, see how it affect the price
+3. Large time consuming for model training, so cannot performing all the experiment we want as the data are easily get 
+loss due to the requirement of reload in jupyter notebook.

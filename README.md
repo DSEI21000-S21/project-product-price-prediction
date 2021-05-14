@@ -2,7 +2,9 @@
 **Team Member:** Jin Chen, Zhi Li, Juliana Ma, Zhiying Zhu
 **Project Categorical:** Financial and Commerce
 
-
+#### Final Report in [here](./Final_Report.md)
+#### EDA Process Pipeline in [here](./EDA_Process.ipynb)
+#### Final Large Sample Experiment in [here](./Price_Prediction_Large_Sample.ipynb)
 
 ## **Motivation and Problem Description:** 
 
