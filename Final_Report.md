@@ -214,7 +214,7 @@ you can see the result in the [Price Prediction](./experiment/PricePrediction) f
 Noted that, we selected RandomizedSearchCV for the hyperparameter tuning due to the limitation of computer process power and time. We try the hyperparameter tuning on both the dimension reduction result, feature selection result, and all data before dimension reduction. Below figure show the experiment hyperparameters
 we selected for each model. 
 
-![hyperparameter Tuning](./image_assets/hyperparameterTuning.png)
+![hyperparameter Tuning](./image_assets/HyperparameterTuning.png)
 
 
 
