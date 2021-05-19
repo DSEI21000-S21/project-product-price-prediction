@@ -198,13 +198,15 @@ We choose two simple models as our basic model, KNN regressor and Ridge. We sele
 
 
 We also have two ensemble models as more complex model, lightGBM regressor and  Random forest regressor. LightBGM regressor is a gradient boosting algorithm where the previous model sets the target outcomes for the next model in order to minimize the error. While random forest regressor is a series of independent decision trees for predicting the target outcomes. It would be a great comparison to see whether the combination of independent models or the correlated
-model results in better predictions. The following figure shows the comparison of [selected models](./experiment/Feature_Selection_Regression_Model_for_Predict_Price/different_models.png).
+model results in better predictions. For example, the following figure shows the comparison of [selected models](./experiment/Feature_Selection_Regression_Model_for_Predict_Price/different_models.png).
 
-Besides these traditional models, we also built our own [neural network models](./final/model_evaluation/keras_model.py) using **keras** with customized layers to predict the price. As shown in the below figure, the results are relatively good compared to most models, and are almost as good as Random Forest (as also shown below). However, it is hard to fine tune the neural network model and get meaningful and reasonable parameters at this phase.
-![Random Forest](./experiment/Feature_Selection_Regression_Model_for_Predict_Price/Random Forest.png)
+In addition to these traditional models, we also built our own [neural network models](./final/model_evaluation/keras_model.py) using **keras** with customized layers to predict the price. As shown in the below figure, the results are relatively good compared to most models, and are almost as good as Random Forest (as also shown below). However, it is hard to fine tune the neural network model and get meaningful and reasonable parameters at this phase.
+
+![Random_Forest](./experiment/Feature_Selection_Regression_Model_for_Predict_Price/Random_Forest.png)
+
 ![NNs](./experiment/Feature_Selection_Regression_Model_for_Predict_Price/NNs.png)
 
-Of course, there are [other models](./experiment/Feature_Selection_Regression_Model_for_Predict_Price) we have tried but are not listed here. We abandon those models because they obtained very bad outcomes in comparision with the ones mentioned above. 
+There are [other models](./experiment/Feature_Selection_Regression_Model_for_Predict_Price) we have tried as experiments but are not listed here.  
 
 ### Hyperparameter Tuning
 
@@ -276,20 +278,21 @@ Random forest regressor is the best model than the traditional models we use for
 
 We also explore and evaluate on different price range, you can see more result from the [Price_Prediction_Large_Sample.ipynb](./Price_Prediction_Large_Sample.ipynb)
 
-## Conclusion
-There are several findings we discover in our project:
-1. Transform the price to log scale can reduce the effect on the price outlier thus provide better prediction result.
+## Conclusion and Future Work
+There are several conclusions can be drawn in our project:
+1. Transforming the price to log scale can reduce the effect on the price outlier thus provide better prediction result.
 2. SelectKBest is better than RFE in price prediction and more efficient.
 3. Feature selection technique is more suitable than the dimension reduction technique for our dataset in terms of eliminating the number of input features for the model.
 4. Models with all Features perform better than those trained with select features.
 5. Ridge is optimal for dealing with smaller dataset but not for large dataset.
 6. More training samples and more training features allow model to perform better in price prediction for an item. 
+7. Ensembele learning such as Random Forest generally performs as well as Neural Network. However, Random Forest is more likely to be overfitting but with higher goodness of fit in testing set. Rather, Neural Network requires more in-depth expertise knowledge so as to reach its full potential. 
 
 In conclusion, our pipeline is able to suggest a price range within $10 error for any item in the Mercari Marketplace with any given item information. The item information can have missing or limited information on its brand name, item description, or item categories. 
 
 However, our final model is not the best model and there are many areas for improvement. One possibility for such improvements is to combine the category name, brand name with the item name before feature extraction to remove some unnecessary features while maintaining the more meaningful features for the model. Another possibility is to try different word embedding techniques. 
 
-Definitely there are also a lot of limitations in project which prevents us from getting better results. These limitation include:
+Definitely there are also some limitations in project which prevents us from getting better and more meaningful results. These limitation include:
 1. Limited computer memory and process power, which makes training models on a large data with a lot of features difficult.
 2. A few of data attributes that comes with the collected data contain many missing values. It will be interesting if we have other complementary data, such as the item rating and number of item views, and so together we can see how they all affect pricing. 
 3. A long computation time for model trainings, so it's difficult or almost impossible to perform all the experiments that we want given our project time constraints, as Jupyter notebook constantly asks to reload the data and the data easily get lost in this way. 
