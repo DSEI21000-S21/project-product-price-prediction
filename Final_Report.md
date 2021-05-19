@@ -201,7 +201,7 @@ We also have two ensemble models as more complex model, lightGBM regressor and  
 model results in better predictions. The following figure shows the comparison of [selected models](./experiment/Feature_Selection_Regression_Model_for_Predict_Price/different_models.png).
 
 Besides these traditional models, we also built our own [neural network models](./final/model_evaluation/keras_model.py) using **keras** with customized layers to predict the price. As shown in the below figure, the results are relatively good compared to most models, and are almost as good as Random Forest (as also shown below). However, it is hard to fine tune the neural network model and get meaningful and reasonable parameters at this phase.
-![RF](./experiment/Feature_Selection_Regression_Model_for_Predict_Price/Random Forest.png)
+![Random Forest](./experiment/Feature_Selection_Regression_Model_for_Predict_Price/Random Forest.png)
 ![NNs](./experiment/Feature_Selection_Regression_Model_for_Predict_Price/NNs.png)
 
 Of course, there are [other models](./experiment/Feature_Selection_Regression_Model_for_Predict_Price) we have tried but are not listed here. We abandon those models because they obtained very bad outcomes in comparision with the ones mentioned above. 
