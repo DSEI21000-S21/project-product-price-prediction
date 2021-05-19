@@ -202,7 +202,7 @@ model results in better predictions.
 
 Besides these traditional models, we also built our own [neural network models](./final/model_evaluation/keras_model.py) using **keras** with customized layers to predict the price.
 
-Of course, there are [other models](./tree/main/experiment/Feature%20Selection%20%26%20%20Regression%20Model%20for%20Predict%20Price) we have tried but are not listed here. We abandon those models because they obtained very bad outcomes in comparision with the ones mentioned above. 
+Of course, there are [other models](./experiment/Feature_Selection_Regression_Model_for_Predict_Price) we have tried but are not listed here. We abandon those models because they obtained very bad outcomes in comparision with the ones mentioned above. 
 
 ### Hyperparameter Tuning
 
