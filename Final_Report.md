@@ -12,21 +12,20 @@ Therefore, there are two questions that we should ask before pricing. What would
 
 There are some common knowledge about what could affect the price, such as season and brand. Moreover, the description of a product can also cause price fluctuation. 
 To better understand these questions and explore the answers, we shall look into the dataset that is provided by [Mercari](https://www.mercari.com),  
-Japan’s biggest community-powered shopping app. The dataset contains over 1.4 millions of product records, where each records 
-consists the seller inputted information of the product they are selling, including the item name, item conditions, 
-brand name, item categories, shipping status, and item descriptions. 
-It is a great dataset for us to explore the potential answers to our question, for many reasons. 
-First, online selling is more demand in today's world and sellers not only sell the new product but also 
-the remanufactured product or second-hand product, and this dataset could the product from a large diverse range. 
-Second, the sellers from the Mercari, range from individuals just enter the retail field to experience business, 
-so we can have a more general analysis of the market.
-Third, the dataset contained large number of records that can provide a great representative overview of the market. 
+Japan’s biggest community-powered shopping app. The dataset contains over 1.4 millions of product records, where each record
+consists the seller inputted information of the product they are selling, including the item names, item conditions, 
+brand names, item categories, shipping status, and item descriptions. 
+There are many reasons that we can say that the dataset is great for us to explore the potential answers to our questions. 
+First, online selling is more in demand nowadays and sellers not only sell the new product but also 
+the remanufactured product or second-hand product online, and this dataset could see the products from a larger diverse range. 
+Second, the range of sellers on Mercari could be from newcomers to experienced sellers, so we can have a more general analysis of the market.
+Third, the dataset contains larger number of records that can provide a great significantly overview of the market. 
 
-Based on the dataset, we would like to know if the item desciption and other fields that dataset provided can really 
+Based on the dataset, we would like to discover if item desciption or other fields that the dataset provides can really 
 help people determine the price range of the product, and if so, how accurate that predict price range will be. 
-To find the answer for our problem, we explore different data process and analysis algorithm and machine learning models 
-to build the pipeline for our price prediction. The general pipeline of our process is show in the below figure, where the
-color of each components reflect on the works of each team member. 
+To find the answer for our problem, we explored on different data processing, analysis algorithms and machine learning models 
+to build the pipeline for our price prediction. The general pipeline of our process is shown below. The
+color of each component reflects the work that was done by which team member. 
 
 ![Product Prediction Pipeline](./image_assets/Pipeline.png)
 
