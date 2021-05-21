@@ -10,9 +10,8 @@ Besides the retailer, price prediction is also essential for business owner in u
 competitors' pricing decisons can help he/she to plan his/her business strategy. 
 Therefore, there are two questions that we should ask before pricing. What would affect the price and how can the best price range be determined. 
 
-There are many common senses on the things that could affect the price, such as clothes price can vary by seasons and 
-the brand, even the descriptions of the products can also cause fluctuating prices. 
-To better understand these question and explore the answer, we look into the dataset provide by [Mercari](https://www.mercari.com),  
+There are some common knowledge about what could affect the price, such as season and brand. Moreover, the description of a product can also cause price fluctuation. 
+To better understand these questions and explore the answers, we shall look into the dataset that is provided by [Mercari](https://www.mercari.com),  
 Japan’s biggest community-powered shopping app. The dataset contains over 1.4 millions of product records, where each records 
 consists the seller inputted information of the product they are selling, including the item name, item conditions, 
 brand name, item categories, shipping status, and item descriptions. 
