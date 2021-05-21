@@ -32,7 +32,7 @@ color of each component reflects the work that was done by which team member.
 
 ## Data Exploration and Preprocessing
 
-None of the raw data is clean and in order to get meaningful insight from the dataset, we need perform a series of steps 
+None of the raw data is clean. In order to get meaningful insight from the dataset, we need perform a series of steps 
 for data cleaning and pre-processing. The full process for our EDA process is shown in the [EDA_Process.ipynb](./EDA_Process.ipynb).  
 
 As the data that we collected are from sellers' manual input, they are prone to error. We applied
