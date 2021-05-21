@@ -3,13 +3,12 @@
 
 ## **Motivation and Problem Description** 
 
-As a person just entering the retail industry, how can they quickly learn about the market? 
-How could they scale a good price for their product? If they price too high, people will not pay for it, 
-but if they price too low, people could either question about their product or they will not have enough profit. 
-Beside the retail person, the business owner also have the need for understanding the market, to know how their 
-competitors pricing the similar product, and use that information to do their business strategies planning. 
-So the main question here is what affect the product price and how could we determine the best price range for a product 
-so it will not off from the exist market. 
+Once an individual entering the retail industry, how can he/she quickly gain knowledge of the market? 
+How could he/she scale a good price for his/her product? If he/she prices the products too high, customers will not be willing to purchase. 
+If the prices are too low, the retailer will not make enough profit, customers will also doubt about the quality of the product. 
+Besides the retailer, price prediction is also essential for business owner in understanding the market. Learning the
+competitors' pricing decisons can help he/she to plan his/her business strategy. 
+Therefore, there are two questions that we should ask before pricing. What would affect the price and how can the best price range be determined. 
 
 There are many common senses on the things that could affect the price, such as clothes price can vary by seasons and 
 the brand, even the descriptions of the products can also cause fluctuating prices. 
