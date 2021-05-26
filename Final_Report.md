@@ -293,3 +293,10 @@ Definitely there are also some limitations in project which prevents us from get
 1. Limited computer memory and process power, which makes training models on a large data with a lot of features difficult.
 2. A few of data attributes that comes with the collected data contain many missing values. It will be interesting if we have other complementary data, such as the item rating and number of item views, and so together we can see how they all affect pricing. 
 3. A long computation time for model trainings, so it's difficult or almost impossible to perform all the experiments that we want given our project time constraints, as Jupyter notebook constantly asks to reload the data and the data easily get lost in this way. 
+
+## Contribution
+
+Each person's work is show in the first figure of the report, where the task box is reflect on the work done by the related person. The mix color box represent that the work is done by two people collaboration. The detail statstice of people's work is show in below figure, which inculding the number of commits each person did, as well as the number of lines contributed. 
+
+![Team Contribution](./image_assets/contribution.png)
+
