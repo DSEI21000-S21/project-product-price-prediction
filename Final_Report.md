@@ -296,7 +296,7 @@ Definitely there are also some limitations in project which prevents us from get
 
 ## Contribution
 
-Each person's work is show in the first figure of the report, where the task box is reflect on the work done by the related person. The mix color box represent that the work is done by two people collaboration. The detail statstice of people's work is show in below figure, which inculding the number of commits each person did, as well as the number of lines contributed. 
+Each person's work is show in the first figure of the report, where the task box is reflect on the work done by the different person. The mix color box represent that the work is done by two people collaboration. The detail statstics each individual's work is shown in the figure below. This includes which the number of commits each person did, as well as the number of lines contributed. 
 
 ![Team Contribution](./image_assets/contribution.png)
 
